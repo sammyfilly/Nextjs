@@ -371,16 +371,16 @@ dependencies = [
 
 [[package]]
 name = "async-tungstenite"
-version = "0.19.0"
+version = "0.22.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "8e6acf7e4a267eecbb127ed696bb2d50572c22ba7f586a646321e1798d8336a1"
+checksum = "ce01ac37fdc85f10a43c43bc582cbd566720357011578a935761075f898baf58"
 dependencies = [
  "futures-io",
  "futures-util",
  "log",
  "pin-project-lite",
  "tokio",
- "tungstenite",
+ "tungstenite 0.19.0",
 ]
 
 [[package]]
@@ -796,9 +796,9 @@ checksum = "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd"
 
 [[package]]
 name = "chromiumoxide"
-version = "0.5.0"
+version = "0.5.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "1fbef58698a487c253c55c3d17bb1efbe268d2961a2c8278e3f86fff721355fc"
+checksum = "9f4d033a44aa99305af8e3a4c7280463555fe56e03c5ca4bb8d0f9f227ec8d0d"
 dependencies = [
  "async-tungstenite",
  "base64 0.21.0",
@@ -817,7 +817,7 @@ dependencies = [
  "tracing",
  "url",
  "which",
- "winreg",
+ "winreg 0.50.0",
 ]
 
 [[package]]
@@ -2457,7 +2457,7 @@ dependencies = [
  "pin-project",
  "tokio",
  "tokio-tungstenite",
- "tungstenite",
+ "tungstenite 0.18.0",
 ]
 
 [[package]]
@@ -3496,7 +3496,7 @@ dependencies = [
  "tokio",
  "tracing",
  "tracing-subscriber",
- "tungstenite",
+ "tungstenite 0.18.0",
  "turbo-tasks",
  "turbopack-binding",
  "url",
@@ -3527,7 +3527,7 @@ dependencies = [
  "tempdir",
  "testing",
  "tokio",
- "tungstenite",
+ "tungstenite 0.18.0",
  "turbo-tasks",
  "turbopack-binding",
  "url",
@@ -4681,7 +4681,7 @@ dependencies = [
  "wasm-bindgen-futures",
  "web-sys",
  "webpki-roots",
- "winreg",
+ "winreg 0.10.1",
 ]
 
 [[package]]
@@ -7077,7 +7077,7 @@ dependencies = [
  "futures-util",
  "log",
  "tokio",
- "tungstenite",
+ "tungstenite 0.18.0",
 ]
 
 [[package]]
@@ -7306,6 +7306,25 @@ dependencies = [
  "base64 0.13.1",
  "byteorder",
  "bytes",
+ "http",
+ "httparse",
+ "log",
+ "rand 0.8.5",
+ "sha1 0.10.5",
+ "thiserror",
+ "url",
+ "utf-8",
+]
+
+[[package]]
+name = "tungstenite"
+version = "0.19.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "15fba1a6d6bb030745759a9a2a588bfe8490fc8b4751a277db3a0be1c9ebbf67"
+dependencies = [
+ "byteorder",
+ "bytes",
+ "data-encoding",
  "http",
  "httparse",
  "log",
@@ -7569,7 +7588,7 @@ dependencies = [
  "serde_json",
  "tempfile",
  "tokio",
- "tungstenite",
+ "tungstenite 0.18.0",
  "turbo-tasks",
  "turbo-tasks-testing",
  "turbopack-create-test-app",
@@ -9187,6 +9206,16 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "80d0f4e272c85def139476380b12f9ac60926689dd2e01d4923222f40580869d"
 dependencies = [
  "winapi 0.3.9",
+]
+
+[[package]]
+name = "winreg"
+version = "0.50.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "524e57b2c537c0f9b1e69f1965311ec12182b4122e45035b1508cd24d2adadb1"
+dependencies = [
+ "cfg-if 1.0.0",
+ "windows-sys 0.48.0",
 ]
 
 [[package]]
