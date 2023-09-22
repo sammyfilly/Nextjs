@@ -95,7 +95,7 @@ dunce = "1.0.4"
 futures = "0.3.28"
 futures-retry = "0.6.0"
 httpmock = { version = "0.6.8", default-features = false }
-indexmap = "1.9.2"
+indexmap = "1.9.3"
 indicatif = "0.17.3"
 indoc = "2.0.0"
 itertools = "0.10.5"
