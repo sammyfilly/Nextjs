@@ -854,8 +854,8 @@ importers:
         specifier: 1.1.0
         version: 1.1.0
       '@types/amphtml-validator':
-        specifier: 1.0.0
-        version: 1.0.0
+        specifier: 1.0.2
+        version: 1.0.2
       '@types/babel__code-frame':
         specifier: 7.0.2
         version: 7.0.2
@@ -7771,8 +7771,8 @@ packages:
     dependencies:
       '@types/estree': 1.0.0
 
-  /@types/amphtml-validator@1.0.0:
-    resolution: {integrity: sha512-CJOi00fReT1JehItkgTZDI47v9WJxUH/OLX0XzkDgyEed7dGdeUQfXk5CTRM7N9FkHdv3klSjsZxo5sH1oTIGg==}
+  /@types/amphtml-validator@1.0.2:
+    resolution: {integrity: sha512-s+BGiFbw/LcV732JnQs/17/z+yor/Bg6ieJ7gpIWEupvLPUaHaqBTPX/LEDuqyfTr5Pw7TqH5v9J6B6zaTnAcw==}
     dependencies:
       '@types/node': 20.2.5
     dev: true
