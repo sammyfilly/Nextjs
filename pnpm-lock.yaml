@@ -863,8 +863,8 @@ importers:
         specifier: 7.1.12
         version: 7.1.12
       '@types/babel__generator':
-        specifier: 7.6.2
-        version: 7.6.2
+        specifier: 7.6.5
+        version: 7.6.5
       '@types/babel__template':
         specifier: 7.4.0
         version: 7.4.0
@@ -7803,7 +7803,7 @@ packages:
     dependencies:
       '@babel/parser': 7.18.0
       '@babel/types': 7.18.0
-      '@types/babel__generator': 7.6.2
+      '@types/babel__generator': 7.6.5
       '@types/babel__template': 7.4.0
       '@types/babel__traverse': 7.11.1
     dev: true
@@ -7813,13 +7813,13 @@ packages:
     dependencies:
       '@babel/parser': 7.18.0
       '@babel/types': 7.18.0
-      '@types/babel__generator': 7.6.2
+      '@types/babel__generator': 7.6.5
       '@types/babel__template': 7.4.0
       '@types/babel__traverse': 7.11.1
     dev: true
 
-  /@types/babel__generator@7.6.2:
-    resolution: {integrity: sha512-MdSJnBjl+bdwkLskZ3NGFp9YcXGx5ggLpQQPqtgakVhsWK0hTtNYhjpZLlWQTviGTvF8at+Bvli3jV7faPdgeQ==}
+  /@types/babel__generator@7.6.5:
+    resolution: {integrity: sha512-h9yIuWbJKdOPLJTbmSpPzkF67e659PbQDba7ifWm5BJ8xTv+sDmS7rFmywkWOvXedGTivCdeGSIIX8WLcRTz8w==}
     dependencies:
       '@babel/types': 7.18.0
     dev: true
