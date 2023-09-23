@@ -818,8 +818,8 @@ importers:
         specifier: 0.23.0
         version: 0.23.0
       '@napi-rs/cli':
-        specifier: 2.16.2
-        version: 2.16.2
+        specifier: 2.16.3
+        version: 2.16.3
       '@napi-rs/triples':
         specifier: 1.1.0
         version: 1.1.0
@@ -1422,8 +1422,8 @@ importers:
   packages/next-swc:
     devDependencies:
       '@napi-rs/cli':
-        specifier: 2.16.2
-        version: 2.16.2
+        specifier: 2.16.3
+        version: 2.16.3
       cross-env:
         specifier: 6.0.3
         version: 6.0.3
@@ -6684,8 +6684,8 @@ packages:
       strict-event-emitter: 0.5.0
     dev: true
 
-  /@napi-rs/cli@2.16.2:
-    resolution: {integrity: sha512-U2aZfnr0s9KkXpZlYC0l5WxWCXL7vJUNpCnWMwq3T9GG9rhYAAUM9CTZsi1Z+0iR2LcHbfq9EfMgoqnuTyUjfg==}
+  /@napi-rs/cli@2.16.3:
+    resolution: {integrity: sha512-3mLNPlbbOhpbIUKicLrJtIearlHXUuXL3UeueYyRRplpVMNkdn8xCyzY6PcYZi3JXR8bmCOiWgkVmLnrSL7DKw==}
     engines: {node: '>= 10'}
     hasBin: true
     dev: true
