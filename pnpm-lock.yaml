@@ -857,8 +857,8 @@ importers:
         specifier: 1.0.2
         version: 1.0.2
       '@types/babel__code-frame':
-        specifier: 7.0.2
-        version: 7.0.2
+        specifier: 7.0.4
+        version: 7.0.4
       '@types/babel__core':
         specifier: 7.1.12
         version: 7.1.12
@@ -1534,8 +1534,8 @@ importers:
         specifier: 7.12.11
         version: 7.12.11
       '@types/babel__code-frame':
-        specifier: 7.0.2
-        version: 7.0.2
+        specifier: 7.0.4
+        version: 7.0.4
       anser:
         specifier: 1.4.9
         version: 1.4.9
@@ -7795,8 +7795,8 @@ packages:
     resolution: {integrity: sha512-Vqm22aZrCvCd6I5g1SvpW151jfqwTzEZ7XJ3yZ6xaZG31nUEOEyzzVImjRcsN8Wi/QyPxId/x8GTtgIbsy8kEw==}
     dev: true
 
-  /@types/babel__code-frame@7.0.2:
-    resolution: {integrity: sha512-imO+jT/yjOKOAS5GQZ8SDtwiIloAGGr6OaZDKB0V5JVaSfGZLat5K5/ZRtyKW6R60XHV3RHYPTFfhYb+wDKyKg==}
+  /@types/babel__code-frame@7.0.4:
+    resolution: {integrity: sha512-WBxINLlATjvmpCgBbb9tOPrKtcPfu4A/Yz2iRzmdaodfvjAS/Z0WZJClV9/EXvoC9viI3lgUs7B9Uo7G/RmMGg==}
 
   /@types/babel__core@7.1.12:
     resolution: {integrity: sha512-wMTHiiTiBAAPebqaPiPDLFA4LYPKr6Ph0Xq/6rq1Ur3v66HXyG+clfR9CNETkD7MQS8ZHvpQOtA53DLws5WAEQ==}
