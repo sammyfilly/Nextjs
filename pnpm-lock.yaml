@@ -908,8 +908,8 @@ importers:
         specifier: 9.0.0
         version: 9.0.0
       '@types/lodash':
-        specifier: 4.14.149
-        version: 4.14.149
+        specifier: 4.14.199
+        version: 4.14.199
       '@types/lodash.curry':
         specifier: 4.1.6
         version: 4.1.6
@@ -8105,11 +8105,11 @@ packages:
   /@types/lodash.curry@4.1.6:
     resolution: {integrity: sha512-x3ctCcmOYqRrihNNnQJW6fe/yZFCgnrIa6p80AiPQRO8Jis29bBdy1dEw1FwngoF/mCZa3Bx+33fUZvOEE635Q==}
     dependencies:
-      '@types/lodash': 4.14.149
+      '@types/lodash': 4.14.199
     dev: true
 
-  /@types/lodash@4.14.149:
-    resolution: {integrity: sha512-ijGqzZt/b7BfzcK9vTrS6MFljQRPn5BFWOx8oE0GYxribu6uV+aA9zZuXI1zc/etK9E8nrgdoF2+LgUw7+9tJQ==}
+  /@types/lodash@4.14.199:
+    resolution: {integrity: sha512-Vrjz5N5Ia4SEzWWgIVwnHNEnb1UE1XMkvY5DGXrAeOGE9imk0hgTHh5GyDjLDJi9OTCn9oo9dXH1uToK1VRfrg==}
     dev: true
 
   /@types/long@4.0.1:
