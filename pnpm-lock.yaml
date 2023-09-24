@@ -102,8 +102,8 @@ importers:
         specifier: 13.0.0
         version: 13.0.0(react-dom@18.2.0)(react@18.2.0)
       '@types/cheerio':
-        specifier: 0.22.16
-        version: 0.22.16
+        specifier: 0.22.32
+        version: 0.22.32
       '@types/cookie':
         specifier: 0.3.3
         version: 0.3.3
@@ -7870,8 +7870,8 @@ packages:
       '@types/responselike': 1.0.0
     dev: true
 
-  /@types/cheerio@0.22.16:
-    resolution: {integrity: sha512-bSbnU/D4yzFdzLpp3+rcDj0aQQMIRUBNJU7azPxdqMpnexjUSvGJyDuOBQBHeOZh1mMKgsJm6Dy+LLh80Ew4tQ==}
+  /@types/cheerio@0.22.32:
+    resolution: {integrity: sha512-4RrpCp5ufWTLb6/1RCOjazRhUM6DTD79l763det29n8kLmPB7XeN46cxlUf2GsSF+0g6CbWT5nYl8C/Gs15bdg==}
     dependencies:
       '@types/node': 20.2.5
     dev: true
