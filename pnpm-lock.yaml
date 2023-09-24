@@ -117,8 +117,8 @@ importers:
         specifier: 7.1.1
         version: 7.1.1
       '@types/html-validator':
-        specifier: 5.0.3
-        version: 5.0.3
+        specifier: 5.0.4
+        version: 5.0.4
       '@types/http-proxy':
         specifier: 1.17.3
         version: 1.17.3
@@ -8006,8 +8006,8 @@ packages:
     dependencies:
       '@types/unist': 2.0.3
 
-  /@types/html-validator@5.0.3:
-    resolution: {integrity: sha512-QcKpR0cAWhLy7T3J24dwCuviRyS8xj/gVtFxcfZer9lfRgHdSAUFvE02nI/rsgIxSr71Z/2moXVYvWl2fTAzHQ==}
+  /@types/html-validator@5.0.4:
+    resolution: {integrity: sha512-x/LIjSIPZ1cxjCG6Blya2u4m74wcfXefSWgEw2g2m/u/2kFKEfKpoYkaUNG6k62mBNY6wC/hNZEm79QxfAvOZg==}
     dependencies:
       '@types/node': 20.2.5
     dev: true
