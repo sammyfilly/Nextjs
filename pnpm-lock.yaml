@@ -947,8 +947,8 @@ importers:
         specifier: 6.1.5
         version: 6.1.5
       '@types/text-table':
-        specifier: 0.2.1
-        version: 0.2.1
+        specifier: 0.2.3
+        version: 0.2.3
       '@types/ua-parser-js':
         specifier: 0.7.36
         version: 0.7.36
@@ -8321,8 +8321,8 @@ packages:
       minipass: 4.2.8
     dev: true
 
-  /@types/text-table@0.2.1:
-    resolution: {integrity: sha512-dchbFCWfVgUSWEvhOkXGS7zjm+K7jCUvGrQkAHPk2Fmslfofp4HQTH2pqnQ3Pw5GPYv0zWa2AQjKtsfZThuemQ==}
+  /@types/text-table@0.2.3:
+    resolution: {integrity: sha512-MUW7DN7e178wJ2dB9rHuhwUWRUJGrl8fCng37BEWV0r2r5VpzkRFRiMfnX6sjXlu4tMn41lrjzsVh/z1XrKc+A==}
     dev: true
 
   /@types/through@0.0.30:
