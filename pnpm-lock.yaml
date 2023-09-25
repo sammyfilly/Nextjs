@@ -1377,8 +1377,8 @@ importers:
         specifier: 10.0.0
         version: 10.0.0
       dotenv-expand:
-        specifier: 8.0.1
-        version: 8.0.1
+        specifier: 8.0.3
+        version: 8.0.3
 
   packages/next-mdx:
     dependencies:
@@ -12382,8 +12382,8 @@ packages:
       is-obj: 2.0.0
     dev: true
 
-  /dotenv-expand@8.0.1:
-    resolution: {integrity: sha512-j/Ih7bIERDR5PzI89Zu8ayd3tXZ6E3dbY0ljQ9Db0K87qBO8zdLsi2dIvDHMWtjC3Yxb8XixOTHAtia0fDHRpg==}
+  /dotenv-expand@8.0.3:
+    resolution: {integrity: sha512-SErOMvge0ZUyWd5B0NXMQlDkN+8r+HhVUsxgOO7IoPDOdDRD2JjExpN6y3KnFR66jsJMwSn1pqIivhU5rcJiNg==}
     engines: {node: '>=12'}
     dev: true
 
