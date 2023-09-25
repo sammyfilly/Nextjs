@@ -543,8 +543,8 @@ importers:
         specifier: 1.5.25
         version: 1.5.25
       commander:
-        specifier: 2.20.0
-        version: 2.20.0
+        specifier: 2.20.3
+        version: 2.20.3
       dotenv:
         specifier: 10.0.0
         version: 10.0.0
@@ -600,8 +600,8 @@ importers:
         specifier: watson/ci-info#8e2b9d24a06753311503ea3838080034c5a63611
         version: github.com/watson/ci-info/8e2b9d24a06753311503ea3838080034c5a63611
       commander:
-        specifier: 2.20.0
-        version: 2.20.0
+        specifier: 2.20.3
+        version: 2.20.3
       conf:
         specifier: 10.2.0
         version: 10.2.0
@@ -10848,9 +10848,6 @@ packages:
 
   /comma-separated-tokens@2.0.3:
     resolution: {integrity: sha512-Fu4hJdvzeylCfQPp9SGWidpzrMs7tTrlu6Vb8XGaRGck8QSNZJJp538Wrb60Lax4fPwR64ViY468OIUTbRlGZg==}
-
-  /commander@2.20.0:
-    resolution: {integrity: sha512-7j2y+40w61zy6YC2iRNpUe/NwhNyoXrYpHMrSunaMG64nRnaf96zO/KMQR4OyN/UnE5KLyEBnKHd4aG3rskjpQ==}
 
   /commander@2.20.3:
     resolution: {integrity: sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==}
