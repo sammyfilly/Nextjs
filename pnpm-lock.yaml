@@ -1190,8 +1190,8 @@ importers:
         specifier: 3.0.0
         version: 3.0.0(postcss@8.4.30)
       postcss-modules-local-by-default:
-        specifier: 4.0.0
-        version: 4.0.0(postcss@8.4.30)
+        specifier: 4.0.3
+        version: 4.0.3(postcss@8.4.30)
       postcss-modules-scope:
         specifier: 3.0.0
         version: 3.0.0(postcss@8.4.30)
@@ -20741,15 +20741,15 @@ packages:
       postcss: 8.4.30
     dev: true
 
-  /postcss-modules-local-by-default@4.0.0(postcss@8.4.30):
-    resolution: {integrity: sha512-sT7ihtmGSF9yhm6ggikHdV0hlziDTX7oFoXtuVWeDd3hHObNkcHRo9V3yg7vCAY7cONyxJC/XXCmmiHHcvX7bQ==}
+  /postcss-modules-local-by-default@4.0.3(postcss@8.4.30):
+    resolution: {integrity: sha512-2/u2zraspoACtrbFRnTijMiQtb4GW4BvatjaG/bCjYQo8kLTdevCUlwuBHx2sCnSyrI3x3qj4ZK1j5LQBgzmwA==}
     engines: {node: ^10 || ^12 || >= 14}
     peerDependencies:
       postcss: ^8.1.0
     dependencies:
       icss-utils: 5.1.0(postcss@8.4.30)
       postcss: 8.4.30
-      postcss-selector-parser: 6.0.10
+      postcss-selector-parser: 6.0.11
       postcss-value-parser: 4.2.0
     dev: true
 
@@ -20783,7 +20783,7 @@ packages:
       lodash.camelcase: 4.3.0
       postcss: 8.4.30
       postcss-modules-extract-imports: 3.0.0(postcss@8.4.30)
-      postcss-modules-local-by-default: 4.0.0(postcss@8.4.30)
+      postcss-modules-local-by-default: 4.0.3(postcss@8.4.30)
       postcss-modules-scope: 3.0.0(postcss@8.4.30)
       postcss-modules-values: 4.0.0(postcss@8.4.30)
       string-hash: 1.1.3
