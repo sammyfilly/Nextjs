@@ -18,7 +18,7 @@
     "@actions/core": "^1.10.0",
     "@actions/github": "^5.1.1",
     "github-slugger": "1.2.0",
-    "gray-matter": "4.0.2",
+    "gray-matter": "4.0.3",
     "rehype-raw": "4.0.1",
     "remark-parse": "7.0.1",
     "remark-rehype": "5.0.0",
