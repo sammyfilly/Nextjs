@@ -150,7 +150,7 @@
     "gzip-size": "5.1.1",
     "html-validator": "5.1.18",
     "http-proxy": "1.18.1",
-    "husky": "8.0.0",
+    "husky": "8.0.3",
     "image-size": "0.9.3",
     "is-animated": "2.0.2",
     "isomorphic-unfetch": "3.0.0",
