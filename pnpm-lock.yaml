@@ -402,8 +402,8 @@ importers:
         specifier: 5.3.0
         version: 5.3.0
       pretty-ms:
-        specifier: 7.0.0
-        version: 7.0.0
+        specifier: 7.0.1
+        version: 7.0.1
       random-seed:
         specifier: 0.3.0
         version: 0.3.0
@@ -21504,13 +21504,6 @@ packages:
   /pretty-hrtime@1.0.3:
     resolution: {integrity: sha1-t+PqQkNaTJsnWdmeDyAesZWALuE=}
     engines: {node: '>= 0.8'}
-    dev: true
-
-  /pretty-ms@7.0.0:
-    resolution: {integrity: sha512-J3aPWiC5e9ZeZFuSeBraGxSkGMOvulSWsxDByOcbD1Pr75YL3LSNIKIb52WXbCLE1sS5s4inBBbryjF4Y05Ceg==}
-    engines: {node: '>=10'}
-    dependencies:
-      parse-ms: 2.1.0
     dev: true
 
   /pretty-ms@7.0.1:
