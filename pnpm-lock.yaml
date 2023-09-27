@@ -917,8 +917,8 @@ importers:
         specifier: 5.1.1
         version: 5.1.1
       '@types/micromatch':
-        specifier: 4.0.2
-        version: 4.0.2
+        specifier: 4.0.3
+        version: 4.0.3
       '@types/path-to-regexp':
         specifier: 1.7.0
         version: 1.7.0
@@ -8056,8 +8056,8 @@ packages:
   /@types/mdx@2.0.3:
     resolution: {integrity: sha512-IgHxcT3RC8LzFLhKwP3gbMPeaK7BM9eBH46OdapPA7yvuIUJ8H6zHZV53J8hGZcTSnt95jANt+rTBNUUc22ACQ==}
 
-  /@types/micromatch@4.0.2:
-    resolution: {integrity: sha512-oqXqVb0ci19GtH0vOA/U2TmHTcRY9kuZl4mqUxe0QmJAlIW13kzhuK5pi1i9+ngav8FjpSb9FVS/GE00GLX1VA==}
+  /@types/micromatch@4.0.3:
+    resolution: {integrity: sha512-QX1czv7QoLU76Asb1NSVSlu5zTMx/TFNswUDtQSbH9hgvCg+JHvIEoVvVSzBf1WNCT8XsK515W+p3wFOCuvhCg==}
     dependencies:
       '@types/braces': 3.0.1
     dev: true
