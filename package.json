@@ -205,7 +205,7 @@
     "request-promise-core": "1.1.4",
     "resolve-from": "5.0.0",
     "sass": "1.54.0",
-    "satori": "0.10.1",
+    "satori": "0.10.8",
     "scheduler-builtin": "npm:scheduler@0.24.0-canary-1a001dac6-20230812",
     "scheduler-experimental-builtin": "npm:scheduler@0.0.0-experimental-1a001dac6-20230812",
     "seedrandom": "3.0.5",
