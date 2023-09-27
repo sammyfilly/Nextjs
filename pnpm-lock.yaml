@@ -932,8 +932,8 @@ importers:
         specifier: 18.2.4
         version: 18.2.4
       '@types/react-is':
-        specifier: 17.0.4
-        version: 17.0.4
+        specifier: 17.0.5
+        version: 17.0.5
       '@types/semver':
         specifier: 7.3.1
         version: 7.3.1
@@ -8143,8 +8143,8 @@ packages:
       '@types/react': 18.2.7
     dev: true
 
-  /@types/react-is@17.0.4:
-    resolution: {integrity: sha512-FLzd0K9pnaEvKz4D1vYxK9JmgQPiGk1lu23o1kqGsLeT0iPbRSF7b76+S5T9fD8aRa0B8bY7I/3DebEj+1ysBA==}
+  /@types/react-is@17.0.5:
+    resolution: {integrity: sha512-mTTgVYfA8fLtyyuppoO7hQJWLV5TNivNKle5vBryoOwlA5158/4UgcZFOx59po/zC0K2ZBEv/IRATlxdVJRVQA==}
     dependencies:
       '@types/react': 18.2.7
     dev: true
