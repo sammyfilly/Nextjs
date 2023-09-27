@@ -202,7 +202,7 @@
     "relay-compiler": "13.0.2",
     "relay-runtime": "13.0.2",
     "release": "6.3.1",
-    "request-promise-core": "1.1.2",
+    "request-promise-core": "1.1.4",
     "resolve-from": "5.0.0",
     "sass": "1.54.0",
     "satori": "0.10.1",
