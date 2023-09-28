@@ -76,7 +76,7 @@ turbopack-binding = { workspace = true, features = [
 # allow to specify alternative (rustls) instead via features.
 # Note to opt in rustls default-features should be disabled
 # (--no-default-features --features sentry_rustls)
-sentry = { version = "0.27.0", default-features = false, features = [
+sentry = { version = "0.31.7", default-features = false, features = [
   "backtrace",
   "contexts",
   "panic",
