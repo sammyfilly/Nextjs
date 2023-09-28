@@ -305,7 +305,7 @@
     "ua-parser-js": "0.7.28",
     "undici": "5.22.0",
     "unistore": "3.4.1",
-    "util": "0.12.4",
+    "util": "0.12.5",
     "uuid": "8.3.2",
     "vm-browserify": "1.1.2",
     "watchpack": "2.4.0",
