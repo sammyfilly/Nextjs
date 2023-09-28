@@ -55,7 +55,7 @@ tokio = { workspace = true, features = ["full"] }
 tracing = { workspace = true }
 tracing-futures = "0.2.5"
 tracing-subscriber = { workspace = true }
-tracing-chrome = "0.5.0"
+tracing-chrome = "0.7.1"
 turbopack-binding = { workspace = true, features = [
   "__swc_core_binding_napi",
   "__feature_node_file_trace",
