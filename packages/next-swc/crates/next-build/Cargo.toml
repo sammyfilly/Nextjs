@@ -74,7 +74,7 @@ turbo-tasks = { workspace = true }
 
 [build-dependencies]
 turbopack-binding = { workspace = true, features = ["__turbo_tasks_build"] }
-vergen = { version = "7.3.2", default-features = false, features = [
+vergen = { version = "7.5.1", default-features = false, features = [
   "cargo",
   "build",
 ] }
