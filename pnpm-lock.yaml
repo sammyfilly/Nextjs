@@ -42,8 +42,8 @@ importers:
         specifier: 7.22.15
         version: 7.22.15(@babel/core@7.23.0)
       '@edge-runtime/jest-environment':
-        specifier: 2.2.5
-        version: 2.2.5
+        specifier: 2.3.3
+        version: 2.3.3
       '@fullhuman/postcss-purgecss':
         specifier: 1.3.0
         version: 1.3.0
@@ -4497,11 +4497,11 @@ packages:
     engines: {node: '>=14'}
     dev: true
 
-  /@edge-runtime/jest-environment@2.2.5:
-    resolution: {integrity: sha512-I9JYvOrWhsso/C/OmSxaawEEw7mUpjNVIwNJncBODVhLoFkn6gkHGZVTPR0e4g4yH9yq4gwXnSdC4BS/iwTSqw==}
-    engines: {node: '>=14'}
+  /@edge-runtime/jest-environment@2.3.3:
+    resolution: {integrity: sha512-mJmhbCZLsS9fHa6ayM6yOOLIujVujknGT35bajtDARjCo3Ga24MLT0faw9LwjmqutX5MGs5pFkgAyEhiT98nAQ==}
+    engines: {node: '>=16'}
     dependencies:
-      '@edge-runtime/vm': 3.0.4
+      '@edge-runtime/vm': 3.1.3
       '@jest/environment': 29.5.0
       '@jest/fake-timers': 29.5.0
       jest-mock: 29.5.0
@@ -4518,11 +4518,23 @@ packages:
     engines: {node: '>=14'}
     dev: true
 
+  /@edge-runtime/primitives@4.0.1:
+    resolution: {integrity: sha512-hxWUzx1SeyOed/Ea9Z6y6tyFKSj8gQWIdLilybTR2ene1IthLZE01A1SLGoch1szUdhFlUwpWDaYBYQw00lj2g==}
+    engines: {node: '>=16'}
+    dev: true
+
   /@edge-runtime/vm@3.0.4:
     resolution: {integrity: sha512-/QvVIn2+nO48dO3cl5tD3cjoF/xJ7WfTKBIs/oKgfmmWbEQ4EixKlOTJEpcBdOni0E8FCHIc7yxoJGq1qcLdCg==}
     engines: {node: '>=14'}
     dependencies:
       '@edge-runtime/primitives': 3.0.4
+    dev: true
+
+  /@edge-runtime/vm@3.1.3:
+    resolution: {integrity: sha512-LkEtuVtT1kgOEghxFAEJZ+BeIpGz3XfI2l1Ts74HXzd3JneMmmx6RRkNiEE85DVBpuvv9d8KB1u+lc1CHTmz/g==}
+    engines: {node: '>=16'}
+    dependencies:
+      '@edge-runtime/primitives': 4.0.1
     dev: true
 
   /@emotion/is-prop-valid@1.2.1:
@@ -16243,7 +16255,7 @@ packages:
       micromatch: 4.0.5
       pretty-format: 27.5.1
       slash: 3.0.0
-      stack-utils: 2.0.5
+      stack-utils: 2.0.6
 
   /jest-message-util@29.5.0:
     resolution: {integrity: sha512-Kijeg9Dag6CKtIDA7O21zNTACqD5MD/8HfIV8pdD94vFyFuer52SigdC3IQMhab3vACxXMiFk+yMHNdbqtyTGA==}
@@ -23738,7 +23750,6 @@ packages:
     engines: {node: '>=10'}
     dependencies:
       escape-string-regexp: 2.0.0
-    dev: true
 
   /stacktrace-parser@0.1.10:
     resolution: {integrity: sha512-KJP1OCML99+8fhOHxwwzyWrlUuVX5GQ0ZpJTd1DFXhdkrvg1szxfHhawXUZ3g9TkXORQd4/WG68jMlQZ2p8wlg==}
