@@ -815,8 +815,8 @@ importers:
         specifier: 29.5.0
         version: 29.5.0
       '@mswjs/interceptors':
-        specifier: 0.23.0
-        version: 0.23.0
+        specifier: 0.25.6
+        version: 0.25.6
       '@napi-rs/cli':
         specifier: 2.16.3
         version: 2.16.3
@@ -6123,14 +6123,14 @@ packages:
       - supports-color
     dev: true
 
-  /@mswjs/interceptors@0.23.0:
-    resolution: {integrity: sha512-JytvDa7pBbxXvCTXBYQs+0eE6MqxpqH/H4peRNY6zVAlvJ6d/hAWLHAef1D9lWN4zuIigN0VkakGOAUrX7FWLg==}
+  /@mswjs/interceptors@0.25.6:
+    resolution: {integrity: sha512-k+xe/oY20Fo8jo0j5ev56t6tA9bLlic/HlKf6AJ10Ws0x/yCLLPRW+7/GaIrEvqsW7CGYvgrCfw2r+VsnotQiw==}
     engines: {node: '>=18'}
     dependencies:
-      '@open-draft/deferred-promise': 2.1.0
+      '@open-draft/deferred-promise': 2.2.0
       '@open-draft/logger': 0.3.0
       '@open-draft/until': 2.1.0
-      headers-polyfill: 3.1.2
+      is-node-process: 1.2.0
       outvariant: 1.4.0
       strict-event-emitter: 0.5.1
     dev: true
@@ -6641,8 +6641,8 @@ packages:
       aggregate-error: 3.1.0
     dev: true
 
-  /@open-draft/deferred-promise@2.1.0:
-    resolution: {integrity: sha512-Rzd5JrXZX8zErHzgcGyngh4fmEbSHqTETdGj9rXtejlqMIgXFlyKBA7Jn1Xp0Ls0M0Y22+xHcWiEzbmdWl0BOA==}
+  /@open-draft/deferred-promise@2.2.0:
+    resolution: {integrity: sha512-CecwLWx3rhxVQF6V4bAgPS5t+So2sTbPgAzafKkVizyi7tlwpcFpdFqq+wqF2OwNBmqFuu6tOyouTuxgpMfzmA==}
     dev: true
 
   /@open-draft/logger@0.3.0:
