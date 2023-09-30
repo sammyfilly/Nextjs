@@ -983,8 +983,8 @@ importers:
         specifier: 4.1.3
         version: 4.1.3
       assert:
-        specifier: 2.0.0
-        version: 2.0.0
+        specifier: 2.1.0
+        version: 2.1.0
       async-retry:
         specifier: 1.2.3
         version: 1.2.3
@@ -8931,12 +8931,13 @@ packages:
     engines: {node: '>=0.8'}
     dev: true
 
-  /assert@2.0.0:
-    resolution: {integrity: sha512-se5Cd+js9dXJnu6Ag2JFc00t+HmHOen+8Q+L7O9zI0PqQXr20uk2J0XQqMxZEeo5U50o8Nvmmx7dZrl+Ufr35A==}
+  /assert@2.1.0:
+    resolution: {integrity: sha512-eLHpSK/Y4nhMJ07gDaAzoX/XAKS8PSaojml3M0DM4JpV1LAi5JOJ/p6H/XWrl8L+DzVEvVCW1z3vWAaB9oTsQw==}
     dependencies:
-      es6-object-assign: 1.1.0
+      call-bind: 1.0.2
       is-nan: 1.3.2
-      object-is: 1.0.2
+      object-is: 1.1.5
+      object.assign: 4.1.4
       util: 0.12.5
     dev: true
 
@@ -12279,10 +12280,6 @@ packages:
       d: 1.0.1
       es5-ext: 0.10.62
       es6-symbol: 3.1.3
-    dev: true
-
-  /es6-object-assign@1.1.0:
-    resolution: {integrity: sha1-wsNYJlYkfDnqEHyx5mUrb58kUjw=}
     dev: true
 
   /es6-promise@4.2.8:
@@ -19239,6 +19236,14 @@ packages:
   /object-is@1.0.2:
     resolution: {integrity: sha512-Epah+btZd5wrrfjkJZq1AOB9O6OxUQto45hzFd7lXGrpHPGE0W1k+426yrZV+k6NJOzLNNW/nVsmZdIWsAqoOQ==}
     engines: {node: '>= 0.4'}
+    dev: true
+
+  /object-is@1.1.5:
+    resolution: {integrity: sha512-3cyDsyHgtmi7I7DfSSI2LDp6SK2lwvtbg0p0R1e0RvTqF5ceGx+K2dfSjm1bKDMVCFEDAQvy+o8c6a7VujOddw==}
+    engines: {node: '>= 0.4'}
+    dependencies:
+      call-bind: 1.0.2
+      define-properties: 1.1.4
     dev: true
 
   /object-keys@0.4.0:
