@@ -846,7 +846,7 @@ importers:
         version: 1.35.1
       '@segment/ajv-human-errors':
         specifier: 2.11.3
-        version: 2.11.3(ajv@8.11.0)
+        version: 2.11.3(ajv@8.12.0)
       '@taskr/clear':
         specifier: 1.1.0
         version: 1.1.0
@@ -971,8 +971,8 @@ importers:
         specifier: 8.5.0
         version: 8.5.0
       ajv:
-        specifier: 8.11.0
-        version: 8.11.0
+        specifier: 8.12.0
+        version: 8.12.0
       amphtml-validator:
         specifier: 1.0.35
         version: 1.0.35
@@ -6851,12 +6851,12 @@ packages:
       rxjs: 6.6.2
     dev: true
 
-  /@segment/ajv-human-errors@2.11.3(ajv@8.11.0):
+  /@segment/ajv-human-errors@2.11.3(ajv@8.12.0):
     resolution: {integrity: sha512-UeeDR6wmSoIlQ5GKx7Cs1FmQfqf+r+VxpAa6xuJkh4EP/+0UHY+OFUqf9G+2NiD7ZQdWZihgqHBgyc3tXfpZnw==}
     peerDependencies:
       ajv: ^8.0.0
     dependencies:
-      ajv: 8.11.0
+      ajv: 8.12.0
     dev: true
 
   /@shuding/opentype.js@1.4.0-beta.0:
@@ -8510,6 +8510,17 @@ packages:
       ajv: 8.11.0
     dev: true
 
+  /ajv-formats@2.1.1(ajv@8.12.0):
+    resolution: {integrity: sha512-Wx0Kx52hxE7C18hkMEggYlEifqWZtYaRgouJor+WMdPnQyEK13vgEWyVNup7SoeeoLMsr4kf5h6dOW11I15MUA==}
+    peerDependencies:
+      ajv: ^8.0.0
+    peerDependenciesMeta:
+      ajv:
+        optional: true
+    dependencies:
+      ajv: 8.12.0
+    dev: true
+
   /ajv-keywords@3.5.2(ajv@6.12.6):
     resolution: {integrity: sha512-5p6WTN0DdTGVQk6VjcEju19IgaHudalcfabD7yhDGeA6bcQnmL+CpveLJq/3hvfwd1aof6L386Ougkx6RfyMIQ==}
     peerDependencies:
@@ -8517,12 +8528,12 @@ packages:
     dependencies:
       ajv: 6.12.6
 
-  /ajv-keywords@5.1.0(ajv@8.11.0):
+  /ajv-keywords@5.1.0(ajv@8.12.0):
     resolution: {integrity: sha512-YCS/JNFAUyr5vAuhk1DWm1CBxRHW9LbJ2ozWeemrIqpbsqKjHVxYPyi5GC0rjZIT5JxJ3virVTS8wk4i/Z+krw==}
     peerDependencies:
       ajv: ^8.8.2
     dependencies:
-      ajv: 8.11.0
+      ajv: 8.12.0
       fast-deep-equal: 3.1.3
     dev: true
 
@@ -8540,7 +8551,16 @@ packages:
       fast-deep-equal: 3.1.3
       json-schema-traverse: 1.0.0
       require-from-string: 2.0.2
-      uri-js: 4.2.2
+      uri-js: 4.4.1
+    dev: true
+
+  /ajv@8.12.0:
+    resolution: {integrity: sha512-sRu1kpcO9yLtYxBKvqfTeh9KzZEwO3STyX1HT+4CaDzC6HpTGYhIhPIzj9XuKU7KYDwnaeh5hcOwjy1QuJzBPA==}
+    dependencies:
+      fast-deep-equal: 3.1.3
+      json-schema-traverse: 1.0.0
+      require-from-string: 2.0.2
+      uri-js: 4.4.1
     dev: true
 
   /alex@9.1.1:
@@ -23103,9 +23123,9 @@ packages:
     engines: {node: '>= 12.13.0'}
     dependencies:
       '@types/json-schema': 7.0.12
-      ajv: 8.11.0
-      ajv-formats: 2.1.1(ajv@8.11.0)
-      ajv-keywords: 5.1.0(ajv@8.11.0)
+      ajv: 8.12.0
+      ajv-formats: 2.1.1(ajv@8.12.0)
+      ajv-keywords: 5.1.0(ajv@8.12.0)
     dev: true
 
   /seedrandom@3.0.5:
@@ -24307,7 +24327,7 @@ packages:
     resolution: {integrity: sha512-s/fitrbVeEyHKFa7mFdkuQMWlH1Wgw/yEXMt5xACT4ZpzWFluehAxRtUUQKPuWhaLAWhFcVx6w3oC8VKaUfPGA==}
     engines: {node: '>=10.0.0'}
     dependencies:
-      ajv: 8.11.0
+      ajv: 8.12.0
       lodash.truncate: 4.4.2
       slice-ansi: 4.0.0
       string-width: 4.2.3
@@ -25414,12 +25434,6 @@ packages:
     resolution: {integrity: sha512-KgdgDGJt2TpuwBUIjgG6lzw2GWFRCW9Qkfkiv0DxqHHLYJHmtmdUIKcZd8rHgFSjopVTlw6ggzCm1b8MFQwikg==}
     dependencies:
       tslib: 2.5.3
-    dev: true
-
-  /uri-js@4.2.2:
-    resolution: {integrity: sha512-KY9Frmirql91X2Qgjry0Wd4Y+YTdrdZheS8TFwvkbLWf/G5KNJDCh6pKL5OZctEW4+0Baa5idK2ZQuELRwPznQ==}
-    dependencies:
-      punycode: 2.1.1
     dev: true
 
   /uri-js@4.4.1:
