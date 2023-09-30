@@ -869,8 +869,8 @@ importers:
         specifier: 7.4.2
         version: 7.4.2
       '@types/babel__traverse':
-        specifier: 7.11.0
-        version: 7.11.0
+        specifier: 7.20.2
+        version: 7.20.2
       '@types/bytes':
         specifier: 3.1.2
         version: 3.1.2
@@ -7310,7 +7310,7 @@ packages:
       '@babel/types': 7.23.0
       '@types/babel__generator': 7.6.5
       '@types/babel__template': 7.4.2
-      '@types/babel__traverse': 7.11.0
+      '@types/babel__traverse': 7.20.2
     dev: true
 
   /@types/babel__generator@7.6.5:
@@ -7326,8 +7326,8 @@ packages:
       '@babel/types': 7.23.0
     dev: true
 
-  /@types/babel__traverse@7.11.0:
-    resolution: {integrity: sha512-kSjgDMZONiIfSH1Nxcr5JIRMwUetDki63FSQfpTCz8ogF3Ulqm8+mr5f78dUYs6vMiB6gBusQqfQmBvHZj/lwg==}
+  /@types/babel__traverse@7.20.2:
+    resolution: {integrity: sha512-ojlGK1Hsfce93J0+kn3H5R73elidKUaZonirN33GSmgTUMpzI/MIFfSpF3haANe3G1bEBS9/9/QEqwTzwqFsKw==}
     dependencies:
       '@babel/types': 7.23.0
 
@@ -9140,7 +9140,7 @@ packages:
       '@babel/template': 7.21.9
       '@babel/types': 7.23.0
       '@types/babel__core': 7.20.2
-      '@types/babel__traverse': 7.11.0
+      '@types/babel__traverse': 7.20.2
     dev: true
 
   /babel-plugin-macros@3.0.1:
@@ -16475,7 +16475,7 @@ packages:
       '@babel/types': 7.23.0
       '@jest/transform': 27.5.1
       '@jest/types': 27.5.1
-      '@types/babel__traverse': 7.11.0
+      '@types/babel__traverse': 7.20.2
       '@types/prettier': 2.2.3
       babel-preset-current-node-syntax: 1.0.1(@babel/core@7.23.0)
       chalk: 4.0.0
@@ -16506,7 +16506,7 @@ packages:
       '@babel/types': 7.23.0
       '@jest/transform': 27.5.1
       '@jest/types': 27.5.1
-      '@types/babel__traverse': 7.11.0
+      '@types/babel__traverse': 7.20.2
       '@types/prettier': 2.2.3
       babel-preset-current-node-syntax: 1.0.1(@babel/core@7.23.0)
       chalk: 4.0.0
