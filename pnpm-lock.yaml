@@ -180,8 +180,8 @@ importers:
         specifier: 4.3.2
         version: 4.3.2
       async-sema:
-        specifier: 3.0.1
-        version: 3.0.1
+        specifier: 3.1.1
+        version: 3.1.1
       browserslist:
         specifier: 4.20.2
         version: 4.20.2
@@ -989,8 +989,8 @@ importers:
         specifier: 1.3.3
         version: 1.3.3
       async-sema:
-        specifier: 3.0.0
-        version: 3.0.0
+        specifier: 3.1.1
+        version: 3.1.1
       babel-plugin-transform-define:
         specifier: 2.1.4
         version: 2.1.4
@@ -8972,14 +8972,6 @@ packages:
     resolution: {integrity: sha512-wfr/jstw9xNi/0teMHrRW7dsz3Lt5ARhYNZ2ewpadnhaIp5mbALhOAP+EAdsC7t4Z6wqsDVv9+W6gm1Dk9mEyw==}
     dependencies:
       retry: 0.13.1
-    dev: true
-
-  /async-sema@3.0.0:
-    resolution: {integrity: sha512-zyCMBDl4m71feawrxYcVbHxv/UUkqm4nKJiLu3+l9lfiQha6jQ/9dxhrXLnzzBXVFqCTDwiUkZOz9XFbdEGQsg==}
-    dev: true
-
-  /async-sema@3.0.1:
-    resolution: {integrity: sha512-fKT2riE8EHAvJEfLJXZiATQWqZttjx1+tfgnVshCDrH8vlw4YC8aECe0B8MU184g+aVRFVgmfxFlKZKaozSrNw==}
     dev: true
 
   /async-sema@3.1.1:
