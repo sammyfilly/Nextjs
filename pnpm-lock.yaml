@@ -965,8 +965,8 @@ importers:
         specifier: 0.38.0
         version: 0.38.0
       '@vercel/nft':
-        specifier: 0.22.6
-        version: 0.22.6
+        specifier: 0.24.1
+        version: 0.24.1
       acorn:
         specifier: 8.5.0
         version: 8.5.0
@@ -1880,7 +1880,7 @@ packages:
       debug: 4.1.1
       lodash.debounce: 4.0.8
       resolve: 1.22.2
-      semver: 6.3.0
+      semver: 6.3.1
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -1896,7 +1896,7 @@ packages:
       debug: 4.1.1
       lodash.debounce: 4.0.8
       resolve: 1.22.2
-      semver: 6.3.0
+      semver: 6.3.1
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -4903,7 +4903,7 @@ packages:
     resolution: {integrity: sha512-e8gSjRZnOUefsR3obOgxG9RtYW2Mw83hh7ogE2ByCdgRhoX0mdnJwBcZOami3E0l643KCTZvORFwfSEi48KFIQ==}
     engines: {node: ^8.13.0 || >=10.10.0}
     dependencies:
-      semver: 6.3.0
+      semver: 6.3.1
     dev: true
 
   /@grpc/proto-loader@0.5.3:
@@ -8170,21 +8170,21 @@ packages:
     hasBin: true
     dev: true
 
-  /@vercel/nft@0.22.6:
-    resolution: {integrity: sha512-gTsFnnT4mGxodr4AUlW3/urY+8JKKB452LwF3m477RFUJTAaDmcz2JqFuInzvdybYIeyIv1sSONEJxsxnbQ5JQ==}
-    engines: {node: '>=14'}
+  /@vercel/nft@0.24.1:
+    resolution: {integrity: sha512-bGYrA/w98LNl9edxXcAezKs+Ixa2a+RkAvxXK38gH3815v+WkNa2AGY+wQv59vu2f9il9+zIKj6YrnlYIbh+jA==}
+    engines: {node: '>=16'}
     hasBin: true
     dependencies:
       '@mapbox/node-pre-gyp': 1.0.5
       '@rollup/pluginutils': 4.2.1
-      acorn: 8.8.0
+      acorn: 8.8.2
       async-sema: 3.1.1
       bindings: 1.5.0
       estree-walker: 2.0.2
-      glob: 7.2.0
-      graceful-fs: 4.2.10
+      glob: 7.1.7
+      graceful-fs: 4.2.11
       micromatch: 4.0.5
-      node-gyp-build: 4.2.3
+      node-gyp-build: 4.6.0
       resolve-from: 5.0.0
     transitivePeerDependencies:
       - encoding
@@ -9161,7 +9161,7 @@ packages:
       '@babel/compat-data': 7.22.3
       '@babel/core': 7.23.0
       '@babel/helper-define-polyfill-provider': 0.2.3(@babel/core@7.23.0)
-      semver: 6.3.0
+      semver: 6.3.1
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -9174,7 +9174,7 @@ packages:
       '@babel/compat-data': 7.22.3
       '@babel/core': 7.23.0
       '@babel/helper-define-polyfill-provider': 0.4.0(@babel/core@7.23.0)
-      semver: 6.3.0
+      semver: 6.3.1
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -10670,7 +10670,7 @@ packages:
       json-stringify-safe: 5.0.1
       lodash: 4.17.21
       meow: 8.1.2
-      semver: 6.3.0
+      semver: 6.3.1
       split: 1.0.1
       through2: 4.0.2
     dev: true
@@ -13984,7 +13984,7 @@ packages:
     hasBin: true
     dependencies:
       meow: 8.1.2
-      semver: 6.3.0
+      semver: 6.3.1
     dev: true
 
   /git-spawned-stream@1.0.0:
@@ -15805,7 +15805,7 @@ packages:
       '@babel/core': 7.23.0
       '@istanbuljs/schema': 0.1.2
       istanbul-lib-coverage: 3.2.0
-      semver: 6.3.0
+      semver: 6.3.1
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -15818,7 +15818,7 @@ packages:
       '@babel/parser': 7.23.0
       '@istanbuljs/schema': 0.1.2
       istanbul-lib-coverage: 3.2.0
-      semver: 6.3.0
+      semver: 6.3.1
     transitivePeerDependencies:
       - supports-color
 
@@ -18882,11 +18882,6 @@ packages:
     hasBin: true
     dev: true
 
-  /node-gyp-build@4.2.3:
-    resolution: {integrity: sha512-MN6ZpzmfNCRM+3t57PTJHgHyw/h4OWnZ6mR8P5j/uZtqQr46RRuDE/P+g3n0YR/AiYXeWixZZzaip77gdICfRg==}
-    hasBin: true
-    dev: true
-
   /node-gyp-build@4.6.0:
     resolution: {integrity: sha512-NTZVKn9IylLwUzaKjkas1e4u2DLNcV4rdYagA4PWdPwW87Bi7z+BznyKSRwS/761tV/lzCGXplWsiaMjLqP2zQ==}
     hasBin: true
@@ -19692,7 +19687,7 @@ packages:
       got: 9.6.0
       registry-auth-token: 4.2.1
       registry-url: 5.1.0
-      semver: 6.3.0
+      semver: 6.3.1
     dev: true
 
   /pacote@11.2.6:
@@ -23133,7 +23128,7 @@ packages:
     resolution: {integrity: sha512-GX0Ix/CJcHyB8c4ykpHGIAvLyOwOobtM/8d+TQkAd81/bEjgPHrfba41Vpesr7jX/t8Uh+R3EX9eAS5be+jQYg==}
     engines: {node: '>=8'}
     dependencies:
-      semver: 6.3.0
+      semver: 6.3.1
     dev: true
 
   /semver-regex@4.0.5:
