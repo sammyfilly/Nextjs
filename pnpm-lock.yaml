@@ -845,8 +845,8 @@ importers:
         specifier: ^1.35.1
         version: 1.35.1
       '@segment/ajv-human-errors':
-        specifier: 2.1.2
-        version: 2.1.2(ajv@8.11.0)
+        specifier: 2.11.3
+        version: 2.11.3(ajv@8.11.0)
       '@taskr/clear':
         specifier: 1.1.0
         version: 1.1.0
@@ -6851,8 +6851,8 @@ packages:
       rxjs: 6.6.2
     dev: true
 
-  /@segment/ajv-human-errors@2.1.2(ajv@8.11.0):
-    resolution: {integrity: sha512-d1uQndRFLRO01+xW1y5m+joxDgHf5SLJ70YCY2ArLoo2FJ50o6AoX2mEbuGvnKz/IdwnvDugm9Ti3mZQkW1OoA==}
+  /@segment/ajv-human-errors@2.11.3(ajv@8.11.0):
+    resolution: {integrity: sha512-UeeDR6wmSoIlQ5GKx7Cs1FmQfqf+r+VxpAa6xuJkh4EP/+0UHY+OFUqf9G+2NiD7ZQdWZihgqHBgyc3tXfpZnw==}
     peerDependencies:
       ajv: ^8.0.0
     dependencies:
