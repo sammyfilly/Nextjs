@@ -992,8 +992,8 @@ importers:
         specifier: 3.0.0
         version: 3.0.0
       babel-plugin-transform-define:
-        specifier: 2.0.0
-        version: 2.0.0
+        specifier: 2.1.4
+        version: 2.1.4
       babel-plugin-transform-react-remove-prop-types:
         specifier: 0.4.24
         version: 0.4.24
@@ -9264,11 +9264,11 @@ packages:
     resolution: {integrity: sha512-WpOrF76nUHijnNn10eBGOHZmXQC8JYRME9rOLxStOga7Av2VO53ehVFvVNImMksVtQuL2/7ZNxEgxnx7oo/3Hw==}
     dev: true
 
-  /babel-plugin-transform-define@2.0.0:
-    resolution: {integrity: sha512-0dv5RNRUlUKxGYIIErl01lpvi8b7W2R04Qcl1mCj70ahwZcgiklfXnFlh4FGnRh6aayCfSZKdhiMryVzcq5Dmg==}
+  /babel-plugin-transform-define@2.1.4:
+    resolution: {integrity: sha512-NN9xFmyNvr4swPZkRWy+RZZoV0yHhPk/WoxpuIvcVkTyYf0xy/JTQeZVbVGX8hyJ0/NKKuxnt4BZz9No7BziVA==}
     engines: {node: '>= 8.x.x'}
     dependencies:
-      lodash: 4.17.20
+      lodash: 4.17.21
       traverse: 0.6.6
     dev: true
 
@@ -24746,7 +24746,7 @@ packages:
     dev: true
 
   /traverse@0.6.6:
-    resolution: {integrity: sha1-y99WD9e5r2MlAv7UD5GMFX6pcTc=}
+    resolution: {integrity: sha512-kdf4JKs8lbARxWdp7RKdNzoJBhGUcIalSYibuGyHJbmk40pOysQ0+QPvlkCOICOivDWU2IJo2rkrxyTK2AH4fw==}
     dev: true
 
   /tree-kill@1.2.2:
