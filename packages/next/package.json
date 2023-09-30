@@ -156,7 +156,7 @@
     "@taskr/esnext": "1.1.0",
     "@types/amphtml-validator": "1.0.2",
     "@types/babel__code-frame": "7.0.4",
-    "@types/babel__core": "7.1.12",
+    "@types/babel__core": "7.20.2",
     "@types/babel__generator": "7.6.5",
     "@types/babel__template": "7.4.2",
     "@types/babel__traverse": "7.11.0",
