@@ -570,8 +570,8 @@ importers:
   packages/create-next-app:
     devDependencies:
       '@types/async-retry':
-        specifier: 1.4.2
-        version: 1.4.2
+        specifier: 1.4.6
+        version: 1.4.6
       '@types/ci-info':
         specifier: 2.0.0
         version: 2.0.0
@@ -594,8 +594,8 @@ importers:
         specifier: 0.38.0
         version: 0.38.0
       async-retry:
-        specifier: 1.3.1
-        version: 1.3.1
+        specifier: 1.3.3
+        version: 1.3.3
       ci-info:
         specifier: watson/ci-info#8e2b9d24a06753311503ea3838080034c5a63611
         version: github.com/watson/ci-info/8e2b9d24a06753311503ea3838080034c5a63611
@@ -986,8 +986,8 @@ importers:
         specifier: 2.1.0
         version: 2.1.0
       async-retry:
-        specifier: 1.2.3
-        version: 1.2.3
+        specifier: 1.3.3
+        version: 1.3.3
       async-sema:
         specifier: 3.0.0
         version: 3.0.0
@@ -7290,12 +7290,6 @@ packages:
     resolution: {integrity: sha512-yMQ6CVgICWtyFNBqJT3zqOc+TnqqEPLo4nKJNPFwcialiylil38Ie6q1ENeFTjvaLOkVim9K5LisHgAKJWidGQ==}
     dev: true
 
-  /@types/async-retry@1.4.2:
-    resolution: {integrity: sha512-GUDuJURF0YiJZ+CBjNQA0+vbP/VHlJbB0sFqkzsV7EcOPRfurVonXpXKAt3w8qIjM1TEzpz6hc6POocPvHOS3w==}
-    dependencies:
-      '@types/retry': 0.12.0
-    dev: true
-
   /@types/async-retry@1.4.6:
     resolution: {integrity: sha512-or8JPgYUtyPpO0ddHImwUWmSjVE/UalxgMm2d0r3698QhjzlM7eke0PT60bOxs1NG7HxU232RQ1vy1iQKGGRTw==}
     dependencies:
@@ -8141,7 +8135,7 @@ packages:
     peerDependencies:
       node-fetch: '*'
     dependencies:
-      async-retry: 1.3.1
+      async-retry: 1.3.3
       debug: 3.2.7
       node-fetch: 2.6.7
     transitivePeerDependencies:
@@ -8974,10 +8968,10 @@ packages:
       retry: 0.12.0
     dev: true
 
-  /async-retry@1.3.1:
-    resolution: {integrity: sha512-aiieFW/7h3hY0Bq5d+ktDBejxuwR78vRu9hDUdR8rNhSaQ29VzPL4AoIRG7D/c7tdenwOcKvgPM6tIxB3cB6HA==}
+  /async-retry@1.3.3:
+    resolution: {integrity: sha512-wfr/jstw9xNi/0teMHrRW7dsz3Lt5ARhYNZ2ewpadnhaIp5mbALhOAP+EAdsC7t4Z6wqsDVv9+W6gm1Dk9mEyw==}
     dependencies:
-      retry: 0.12.0
+      retry: 0.13.1
     dev: true
 
   /async-sema@3.0.0:
@@ -22786,6 +22780,11 @@ packages:
 
   /retry@0.12.0:
     resolution: {integrity: sha512-9LkiTwjUh6rT555DtE9rTX+BKByPfrMzEAtnlEtdEwr3Nkffwiihqe2bWADg+OQRjt9gl6ICdmB/ZFDCGAtSow==}
+    engines: {node: '>= 4'}
+    dev: true
+
+  /retry@0.13.1:
+    resolution: {integrity: sha512-XQBQ3I8W1Cge0Seh+6gjj03LbmRFWuoszgK9ooCpwYIrhhoO80pfq4cUkU5DkknwfOfFteRwlZ56PYOGYyFWdg==}
     engines: {node: '>= 4'}
     dev: true
 

@@ -198,7 +198,7 @@
     "anser": "1.4.10",
     "arg": "4.1.3",
     "assert": "2.1.0",
-    "async-retry": "1.2.3",
+    "async-retry": "1.3.3",
     "async-sema": "3.0.0",
     "babel-plugin-transform-define": "2.0.0",
     "babel-plugin-transform-react-remove-prop-types": "0.4.24",
