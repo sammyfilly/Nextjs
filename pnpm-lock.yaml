@@ -186,8 +186,8 @@ importers:
         specifier: 4.20.2
         version: 4.20.2
       buffer:
-        specifier: 5.6.0
-        version: 5.6.0
+        specifier: 5.7.1
+        version: 5.7.1
       chalk:
         specifier: 5.0.1
         version: 5.0.1
@@ -1004,8 +1004,8 @@ importers:
         specifier: 4.20.2
         version: 4.20.2
       buffer:
-        specifier: 5.6.0
-        version: 5.6.0
+        specifier: 5.7.1
+        version: 5.7.1
       bytes:
         specifier: 3.1.2
         version: 3.1.2
@@ -9415,7 +9415,7 @@ packages:
   /bl@4.1.0:
     resolution: {integrity: sha512-1W07cM9gS6DcLperZfFSj+bWLtaPGSOHWhPiGzXmvVJbRLdG82sH/Kn8EtW1VqWVA54AKf2h5k5BbnIbwF3h6w==}
     dependencies:
-      buffer: 5.6.0
+      buffer: 5.7.1
       inherits: 2.0.4
       readable-stream: 3.6.0
     dev: true
@@ -9642,8 +9642,8 @@ packages:
     resolution: {integrity: sha512-571s0T7nZWK6vB67HI5dyUF7wXiNcfaPPPTl6zYCNApANjIvYJTg7hlud/+cJpdAhS7dVzqMLmfhfHR3rAcOjQ==}
     dev: true
 
-  /buffer@5.6.0:
-    resolution: {integrity: sha512-/gDYp/UtU0eA1ys8bOs9J6a+E/KWIY+DZ+Q2WESNUA0jFRsJOc0SNUO6xJ5SGA1xueg3NL65W6s+NY5l9cunuw==}
+  /buffer@5.7.1:
+    resolution: {integrity: sha512-EHcyIPBQ4BSGlvjB16k5KgAJ27CIsHY/2JBmCRReo48y9rQ3MaUzWX3KVlBa4U7MyX02HdVj0K7C3WaB3ju7FQ==}
     dependencies:
       base64-js: 1.5.1
       ieee754: 1.2.1
