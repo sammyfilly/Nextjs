@@ -231,8 +231,8 @@ importers:
         specifier: workspace:*
         version: link:packages/eslint-config-next
       eslint-plugin-eslint-plugin:
-        specifier: 4.3.0
-        version: 4.3.0(eslint@7.32.0)
+        specifier: 4.4.1
+        version: 4.4.1(eslint@7.32.0)
       eslint-plugin-import:
         specifier: 2.22.1
         version: 2.22.1(@typescript-eslint/parser@6.1.0)(eslint@7.32.0)
@@ -12384,8 +12384,8 @@ packages:
       - supports-color
     dev: false
 
-  /eslint-plugin-eslint-plugin@4.3.0(eslint@7.32.0):
-    resolution: {integrity: sha512-0xZ++ilIpGY+gBwsaW/uIhG/Rrl/sltPCai3UUPzWbaOPud2tel9UCWj8sLTADNmVqBD+vcqLHzHY86q/b71yg==}
+  /eslint-plugin-eslint-plugin@4.4.1(eslint@7.32.0):
+    resolution: {integrity: sha512-e4jJGw/ezJseAPutnIasBfnO0XMdp0wPD/upBvRtzN5tqMM3xiwXtcCmDyH5NHO79ij7olxpaNGATFqS+5480g==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: '>=6.0.0'
