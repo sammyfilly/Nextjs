@@ -1407,8 +1407,8 @@ importers:
   packages/next-polyfill-nomodule:
     devDependencies:
       core-js:
-        specifier: 3.6.5
-        version: 3.6.5
+        specifier: 3.32.2
+        version: 3.32.2
       microbundle:
         specifier: 0.15.1
         version: 0.15.1
@@ -10757,6 +10757,11 @@ packages:
   /core-js@1.2.7:
     resolution: {integrity: sha512-ZiPp9pZlgxpWRu0M+YWbm6+aQ84XEfH1JRXvfOc/fILWI0VKhLC2LX13X1NYq4fULzLMq7Hfh43CSo2/aIaUPA==}
     deprecated: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js.
+    dev: true
+
+  /core-js@3.32.2:
+    resolution: {integrity: sha512-pxXSw1mYZPDGvTQqEc5vgIb83jGQKFGYWY76z4a7weZXUolw3G+OvpZqSRcfYOoOVUQJYEPsWeQK8pKEnUtWxQ==}
+    requiresBuild: true
     dev: true
 
   /core-js@3.6.5:
