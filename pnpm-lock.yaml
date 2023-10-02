@@ -1112,8 +1112,8 @@ importers:
         specifier: 1.0.0
         version: 1.0.0
       is-docker:
-        specifier: 2.0.0
-        version: 2.0.0
+        specifier: 2.2.1
+        version: 2.2.1
       is-wsl:
         specifier: 2.2.0
         version: 2.2.0
@@ -15427,11 +15427,6 @@ packages:
   /is-directory@0.3.1:
     resolution: {integrity: sha512-yVChGzahRFvbkscn2MlwGismPO12i9+znNruC5gVEntG3qu0xQMzsGg/JFbrsqDOHtHFPci+V5aP5T9I+yeKqw==}
     engines: {node: '>=0.10.0'}
-    dev: true
-
-  /is-docker@2.0.0:
-    resolution: {integrity: sha512-pJEdRugimx4fBMra5z2/5iRdZ63OhYV0vr0Dwm5+xtW4D1FvRkB8hamMIhnWfyJeDdyr/aa7BDyNbtG38VxgoQ==}
-    engines: {node: '>=8'}
     dev: true
 
   /is-docker@2.2.1:
