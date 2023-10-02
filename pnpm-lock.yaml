@@ -1343,8 +1343,8 @@ importers:
         specifier: 1.0.0-rc.12
         version: 1.0.0-rc.12
       execa:
-        specifier: 4.0.3
-        version: 4.0.3
+        specifier: 4.1.0
+        version: 4.1.0
       globby:
         specifier: 11.0.1
         version: 11.0.1
@@ -13023,7 +13023,7 @@ packages:
     dev: true
 
   /execa@0.4.0:
-    resolution: {integrity: sha1-TrZGejaglfq7KXD/nV4/t7zm68M=}
+    resolution: {integrity: sha512-QPexBaNjeOjyiZ47q0FCukTO1kX3F+HMM0EWpnxXddcr3MZtElILMkz9Y38nmSZtp03+ZiSRMffrKWBPOIoSIg==}
     engines: {node: '>=0.12'}
     dependencies:
       cross-spawn-async: 2.2.5
@@ -13075,6 +13075,22 @@ packages:
       onetime: 5.1.2
       signal-exit: 3.0.7
       strip-final-newline: 2.0.0
+    dev: true
+
+  /execa@4.1.0:
+    resolution: {integrity: sha512-j5W0//W7f8UxAn8hXVnwG8tLwdiUy4FJLcSupCg6maBYZDpyBvTApK7KyuI4bKj8KOh1r2YH+6ucuYtJv1bTZA==}
+    engines: {node: '>=10'}
+    dependencies:
+      cross-spawn: 7.0.3
+      get-stream: 5.1.0
+      human-signals: 1.1.1
+      is-stream: 2.0.0
+      merge-stream: 2.0.0
+      npm-run-path: 4.0.1
+      onetime: 5.1.2
+      signal-exit: 3.0.7
+      strip-final-newline: 2.0.0
+    dev: false
 
   /execa@5.0.0:
     resolution: {integrity: sha512-ov6w/2LCiuyO4RLYGdpFGjkcs0wMTgGE8PrkTHikeUy5iJekXyPIKUjifk5CsE0pt7sMCrMZ3YNqoCj6idQOnQ==}
