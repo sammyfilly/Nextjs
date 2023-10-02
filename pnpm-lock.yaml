@@ -255,8 +255,8 @@ importers:
         specifier: 2.1.0
         version: 2.1.0
       expect-type:
-        specifier: 0.14.2
-        version: 0.14.2
+        specifier: 0.16.0
+        version: 0.16.0
       express:
         specifier: 4.17.0
         version: 4.17.0
@@ -13136,8 +13136,9 @@ packages:
       homedir-polyfill: 1.0.3
     dev: true
 
-  /expect-type@0.14.2:
-    resolution: {integrity: sha512-ed3+tr5ujbIYXZ8Pl/VgIphwJQ0q5tBLGGdn7Zvwt1WyPBRX83xjT5pT77P/GkuQbctx0K2ZNSSan7eruJqTCQ==}
+  /expect-type@0.16.0:
+    resolution: {integrity: sha512-wCpFeVBiAPGiYkQZzaqvGuuBnNCHbtnowMOBpBGY8a27XbG8VAit3lklWph1r8VmgsH61mOZqI3NuGm8bZnUlw==}
+    engines: {node: '>=12.0.0'}
     dev: true
 
   /expect@24.5.0:
