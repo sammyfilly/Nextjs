@@ -252,8 +252,8 @@ importers:
         specifier: 4.0.1
         version: 4.0.1
       execa:
-        specifier: 2.0.3
-        version: 2.0.3
+        specifier: 2.1.0
+        version: 2.1.0
       expect-type:
         specifier: 0.14.2
         version: 0.14.2
@@ -13023,7 +13023,7 @@ packages:
     dev: true
 
   /execa@0.4.0:
-    resolution: {integrity: sha1-TrZGejaglfq7KXD/nV4/t7zm68M=}
+    resolution: {integrity: sha512-QPexBaNjeOjyiZ47q0FCukTO1kX3F+HMM0EWpnxXddcr3MZtElILMkz9Y38nmSZtp03+ZiSRMffrKWBPOIoSIg==}
     engines: {node: '>=0.12'}
     dependencies:
       cross-spawn-async: 2.2.5
@@ -13047,18 +13047,18 @@ packages:
       strip-eof: 1.0.0
     dev: true
 
-  /execa@2.0.3:
-    resolution: {integrity: sha512-iM124nlyGSrXmuyZF1EMe83ESY2chIYVyDRZKgmcDynid2Q2v/+GuE7gNMl6Sy9Niwf4MC0DDxagOxeMPjuLsw==}
+  /execa@2.1.0:
+    resolution: {integrity: sha512-Y/URAVapfbYy2Xp/gb6A0E7iR8xeqOCXsuuaoMn7A5PzrXUK84E1gyiEfq0wQd/GHA6GsoHWwhNq8anb0mleIw==}
     engines: {node: ^8.12.0 || >=9.7.0}
     dependencies:
-      cross-spawn: 6.0.5
+      cross-spawn: 7.0.3
       get-stream: 5.1.0
       is-stream: 2.0.0
       merge-stream: 2.0.0
       npm-run-path: 3.1.0
       onetime: 5.1.2
       p-finally: 2.0.1
-      signal-exit: 3.0.3
+      signal-exit: 3.0.7
       strip-final-newline: 2.0.0
     dev: true
 
@@ -23542,10 +23542,6 @@ packages:
       call-bind: 1.0.2
       get-intrinsic: 1.2.1
       object-inspect: 1.12.3
-
-  /signal-exit@3.0.3:
-    resolution: {integrity: sha512-VUJ49FC8U1OxwZLxIbTTrDvLnf/6TDgxZcK8wxR8zs13xpx7xbG60ndBlhNrFi2EMuFRoeDoJO7wthSLq42EjA==}
-    dev: true
 
   /signal-exit@3.0.7:
     resolution: {integrity: sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==}
