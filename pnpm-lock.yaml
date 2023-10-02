@@ -965,8 +965,8 @@ importers:
         specifier: 0.38.0
         version: 0.38.0
       '@vercel/nft':
-        specifier: 0.24.1
-        version: 0.24.1
+        specifier: 0.24.2
+        version: 0.24.2
       acorn:
         specifier: 8.10.0
         version: 8.10.0
@@ -8155,8 +8155,8 @@ packages:
     hasBin: true
     dev: true
 
-  /@vercel/nft@0.24.1:
-    resolution: {integrity: sha512-bGYrA/w98LNl9edxXcAezKs+Ixa2a+RkAvxXK38gH3815v+WkNa2AGY+wQv59vu2f9il9+zIKj6YrnlYIbh+jA==}
+  /@vercel/nft@0.24.2:
+    resolution: {integrity: sha512-KhY3Ky/lCqE+fHpOXiKOLnXYJ49PZh1dyDSfVtZhmYtmica0NQgyO6kPOAGDNWqD9IOBx8hb65upxxjfnfa1JA==}
     engines: {node: '>=16'}
     hasBin: true
     dependencies:
