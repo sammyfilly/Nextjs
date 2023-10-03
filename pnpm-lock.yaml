@@ -800,8 +800,8 @@ importers:
         specifier: 3.4.1
         version: 3.4.1
       '@edge-runtime/ponyfill':
-        specifier: 2.4.0
-        version: 2.4.0
+        specifier: 2.4.1
+        version: 2.4.1
       '@edge-runtime/primitives':
         specifier: 3.1.1
         version: 3.1.1
@@ -4392,8 +4392,8 @@ packages:
       jest-util: 29.5.0
     dev: true
 
-  /@edge-runtime/ponyfill@2.4.0:
-    resolution: {integrity: sha512-xMthmStGQiQE4zV/0Ee1qR3WThO1ZTShZO3z1ZbR7uRukw2+t1i1jHspQFmOcuLSL/xvWJZfki5arE3g9jl0WA==}
+  /@edge-runtime/ponyfill@2.4.1:
+    resolution: {integrity: sha512-ZbR/EViY3gg2rmEAQTKPa6mXl4aR1/+cFcQe4r1segCjEbTAxT6PWu40odbu/KlZKSysEb2O/BWIC2lJgSJOMQ==}
     engines: {node: '>=16'}
     dev: true
 
