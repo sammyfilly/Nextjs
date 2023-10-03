@@ -1067,8 +1067,8 @@ importers:
         specifier: 4.22.0
         version: 4.22.0
       edge-runtime:
-        specifier: 2.5.3
-        version: 2.5.3
+        specifier: 2.5.4
+        version: 2.5.4
       events:
         specifier: 3.3.0
         version: 3.3.0
@@ -4402,21 +4402,9 @@ packages:
     engines: {node: '>=16'}
     dev: true
 
-  /@edge-runtime/primitives@4.0.1:
-    resolution: {integrity: sha512-hxWUzx1SeyOed/Ea9Z6y6tyFKSj8gQWIdLilybTR2ene1IthLZE01A1SLGoch1szUdhFlUwpWDaYBYQw00lj2g==}
-    engines: {node: '>=16'}
-    dev: true
-
   /@edge-runtime/primitives@4.0.2:
     resolution: {integrity: sha512-zIzzqvq62O0gxKv/PrfFBn2TEJtJYw6YlNyfLsWr16Lxz6bT8CB1IrfWa9vc5zsQPElP/orwZCu+x80+ihWQyQ==}
     engines: {node: '>=16'}
-    dev: true
-
-  /@edge-runtime/vm@3.1.3:
-    resolution: {integrity: sha512-LkEtuVtT1kgOEghxFAEJZ+BeIpGz3XfI2l1Ts74HXzd3JneMmmx6RRkNiEE85DVBpuvv9d8KB1u+lc1CHTmz/g==}
-    engines: {node: '>=16'}
-    dependencies:
-      '@edge-runtime/primitives': 4.0.1
     dev: true
 
   /@edge-runtime/vm@3.1.4:
@@ -11908,13 +11896,13 @@ packages:
       safe-buffer: 5.2.1
     dev: true
 
-  /edge-runtime@2.5.3:
-    resolution: {integrity: sha512-XCm0unR6JnjVQs9fgs6yvvgF6a/A9pwguxD9Y6CSXkBRgJLQ3dJBkluBe/gYW/PJ5kFesAJZ/EDaZ0VIFaRonw==}
+  /edge-runtime@2.5.4:
+    resolution: {integrity: sha512-s+FSmEuH9iUvrfBeGDrRrj7rGtGAGl0JoztV0OuUpDbxTWb6ZeBawW/CQjvFmcZRmOSm1aryk8rOsm96PNNuFg==}
     engines: {node: '>=16'}
     hasBin: true
     dependencies:
       '@edge-runtime/format': 2.2.0
-      '@edge-runtime/vm': 3.1.3
+      '@edge-runtime/vm': 3.1.4
       async-listen: 3.0.1
       mri: 1.2.0
       picocolors: 1.0.0
