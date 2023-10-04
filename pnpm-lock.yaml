@@ -1166,8 +1166,8 @@ importers:
         specifier: 5.4.2
         version: 5.4.2
       ora:
-        specifier: 4.0.4
-        version: 4.0.4
+        specifier: 4.1.1
+        version: 4.1.1
       os-browserify:
         specifier: 0.3.0
         version: 0.3.0
@@ -19430,8 +19430,8 @@ packages:
       wcwidth: 1.0.1
     dev: true
 
-  /ora@4.0.4:
-    resolution: {integrity: sha512-77iGeVU1cIdRhgFzCK8aw1fbtT1B/iZAvWjS+l/o1x0RShMgxHUZaD2yDpWsNCPwXg9z1ZA78Kbdvr8kBmG/Ww==}
+  /ora@4.1.1:
+    resolution: {integrity: sha512-sjYP8QyVWBpBZWD6Vr1M/KwknSw6kJOz41tvGMlwWeClHBtYKTbHMki1PsLZnxKpXMPbTKv9b3pjQu3REib96A==}
     engines: {node: '>=8'}
     dependencies:
       chalk: 3.0.0
