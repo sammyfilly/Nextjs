@@ -597,8 +597,8 @@ importers:
         specifier: 1.3.3
         version: 1.3.3
       ci-info:
-        specifier: watson/ci-info#5ea8d850ed49673fd6a673edd249d807f8c2d971
-        version: github.com/watson/ci-info/5ea8d850ed49673fd6a673edd249d807f8c2d971
+        specifier: watson/ci-info#54e74d014ebed90aa5684c9812d8e14f49c194b0
+        version: github.com/watson/ci-info/54e74d014ebed90aa5684c9812d8e14f49c194b0
       commander:
         specifier: 2.20.3
         version: 2.20.3
@@ -1013,8 +1013,8 @@ importers:
         specifier: 2.4.2
         version: 2.4.2
       ci-info:
-        specifier: watson/ci-info#5ea8d850ed49673fd6a673edd249d807f8c2d971
-        version: github.com/watson/ci-info/5ea8d850ed49673fd6a673edd249d807f8c2d971
+        specifier: watson/ci-info#54e74d014ebed90aa5684c9812d8e14f49c194b0
+        version: github.com/watson/ci-info/54e74d014ebed90aa5684c9812d8e14f49c194b0
       cli-select:
         specifier: 1.1.2
         version: 1.1.2
@@ -26398,10 +26398,10 @@ packages:
       loader-runner: 4.3.0
     dev: false
 
-  github.com/watson/ci-info/5ea8d850ed49673fd6a673edd249d807f8c2d971:
-    resolution: {tarball: https://codeload.github.com/watson/ci-info/tar.gz/5ea8d850ed49673fd6a673edd249d807f8c2d971}
+  github.com/watson/ci-info/54e74d014ebed90aa5684c9812d8e14f49c194b0:
+    resolution: {tarball: https://codeload.github.com/watson/ci-info/tar.gz/54e74d014ebed90aa5684c9812d8e14f49c194b0}
     name: ci-info
-    version: 3.8.0
+    version: 3.9.0
     engines: {node: '>=8'}
     prepare: true
     requiresBuild: true
