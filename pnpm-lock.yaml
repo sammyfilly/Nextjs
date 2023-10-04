@@ -1598,8 +1598,8 @@ importers:
         specifier: 0.8.0
         version: 0.8.0
       prettier:
-        specifier: 2.5.1
-        version: 2.5.1
+        specifier: 2.8.8
+        version: 2.8.8
 
 packages:
 
@@ -21500,12 +21500,6 @@ packages:
         optional: true
     dependencies:
       prettier: 2.8.8
-    dev: true
-
-  /prettier@2.5.1:
-    resolution: {integrity: sha512-vBZcPRUR5MZJwoyi3ZoyQlc1rXeEck8KgeC9AwwOn+exuxLxq5toTRDTSaVrXHxelDMHy9zlicw8u66yxoSUFg==}
-    engines: {node: '>=10.13.0'}
-    hasBin: true
     dev: true
 
   /prettier@2.8.8:
