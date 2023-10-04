@@ -582,8 +582,8 @@ importers:
         specifier: 20.2.5
         version: 20.2.5
       '@types/prompts':
-        specifier: 2.0.1
-        version: 2.0.1
+        specifier: 2.4.5
+        version: 2.4.5
       '@types/tar':
         specifier: 6.1.5
         version: 6.1.5
@@ -621,8 +621,8 @@ importers:
         specifier: 0.5.5
         version: 0.5.5(prettier@3.0.3)
       prompts:
-        specifier: 2.1.0
-        version: 2.1.0
+        specifier: 2.4.2
+        version: 2.4.2
       tar:
         specifier: 6.1.15
         version: 6.1.15
@@ -7625,8 +7625,11 @@ packages:
   /@types/prettier@2.2.3:
     resolution: {integrity: sha512-PijRCG/K3s3w1We6ynUKdxEc5AcuuH3NBmMDP8uvKVp6X43UY7NQlTzczakXP3DJR0F4dfNQIGjU2cUeRYs2AA==}
 
-  /@types/prompts@2.0.1:
-    resolution: {integrity: sha512-AhtMcmETelF8wFDV1ucbChKhLgsc+ytXZXkNz/nnTAMSDeqsjALknEFxi7ZtLgS/G8bV2rp90LhDW5SGACimIQ==}
+  /@types/prompts@2.4.5:
+    resolution: {integrity: sha512-TvrzGMCwARi2qqXcD7VmvMvfMP3F7JRQpeEHECK0oufRNZInoBqzd8v/1zksKFE5XW8OOGto/5FsDT8lnpvGRA==}
+    dependencies:
+      '@types/node': 20.2.5
+      kleur: 3.0.3
     dev: true
 
   /@types/prop-types@15.7.3:
@@ -15966,7 +15969,7 @@ packages:
       jest-config: 27.0.6
       jest-util: 27.5.1
       jest-validate: 27.0.6
-      prompts: 2.3.0
+      prompts: 2.4.2
       yargs: 16.2.0
     transitivePeerDependencies:
       - bufferutil
@@ -21648,20 +21651,12 @@ packages:
       asap: 2.0.6
     dev: true
 
-  /prompts@2.1.0:
-    resolution: {integrity: sha512-+x5TozgqYdOwWsQFZizE/Tra3fKvAoy037kOyU6cgz84n8f6zxngLOV4O32kTwt9FcLCxAqw0P/c8rOr9y+Gfg==}
+  /prompts@2.4.2:
+    resolution: {integrity: sha512-NxNv/kLguCA7p3jE8oL2aEBsrJWgAakBpgmgK6lpPWV+WuOmY6r2/zbAVnP+T8bQlA0nzHXSJSJW0Hq7ylaD2Q==}
     engines: {node: '>= 6'}
     dependencies:
       kleur: 3.0.3
-      sisteransi: 1.0.4
-    dev: true
-
-  /prompts@2.3.0:
-    resolution: {integrity: sha512-NfbbPPg/74fT7wk2XYQ7hAIp9zJyZp5Fu19iRbORqqy1BhtrkZ0fPafBU+7bmn8ie69DpT0R6QpJIN2oisYjJg==}
-    engines: {node: '>= 6'}
-    dependencies:
-      kleur: 3.0.3
-      sisteransi: 1.0.4
+      sisteransi: 1.0.5
     dev: true
 
   /promzard@0.3.0:
@@ -23514,8 +23509,8 @@ packages:
       mime: 2.5.2
       totalist: 1.1.0
 
-  /sisteransi@1.0.4:
-    resolution: {integrity: sha512-/ekMoM4NJ59ivGSfKapeG+FWtrmWvA1p6FBZwXrqojw90vJu8lBmrTxCMuBCydKtkaUe2zt4PlxeTKpjwMbyig==}
+  /sisteransi@1.0.5:
+    resolution: {integrity: sha512-bLGGlR1QxBcynn2d5YmDX4MGjlZvy2MRBDRNHLJ8VI6l6+9FUiyTFNJ0IveOSP0bcXgVDPRcfGqA0pjaqUpfVg==}
     dev: true
 
   /slash@2.0.0:
