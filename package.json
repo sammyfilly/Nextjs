@@ -177,7 +177,7 @@
     "pixrem": "5.0.0",
     "playwright-chromium": "1.35.1",
     "playwright-core": "1.35.1",
-    "plop": "3.0.5",
+    "plop": "3.1.2",
     "postcss": "8.4.31",
     "postcss-nested": "4.2.3",
     "postcss-pseudoelements": "5.0.0",
