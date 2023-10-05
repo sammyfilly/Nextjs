@@ -138,8 +138,8 @@ importers:
         specifier: 18.2.10
         version: 18.2.10
       '@types/relay-runtime':
-        specifier: 13.0.0
-        version: 13.0.0
+        specifier: 13.0.5
+        version: 13.0.5
       '@types/selenium-webdriver':
         specifier: 4.0.15
         version: 4.0.15
@@ -447,8 +447,8 @@ importers:
         specifier: 13.2.0
         version: 13.2.0
       relay-runtime:
-        specifier: 13.0.2
-        version: 13.0.2
+        specifier: 13.2.0
+        version: 13.2.0
       release:
         specifier: 6.3.1
         version: 6.3.1
@@ -4156,6 +4156,7 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       regenerator-runtime: 0.13.4
+    dev: false
 
   /@babel/runtime@7.23.1:
     resolution: {integrity: sha512-hC2v6p8ZSI/W0HUzh3V8C5g+NwSKzKPtJwSpTjwl0o297GP9+ZLQSkdvHz46CM3LqyoXxq+5G9komY+eSqSO0g==}
@@ -7666,8 +7667,8 @@ packages:
       '@types/scheduler': 0.16.2
       csstype: 3.1.2
 
-  /@types/relay-runtime@13.0.0:
-    resolution: {integrity: sha512-yzv6F8EZPWA2rtfFP2qMluS8tsz1q4lfdYxLegCshdAjX5uqxTR2pAliATj9wrzD6OMZF4fl9aU+Y+zmSfm2EA==}
+  /@types/relay-runtime@13.0.5:
+    resolution: {integrity: sha512-Iv3hd3D6R6a1ZyXlmv5fZnue0+62IKe4EAnZVf3APhJ5KRK1Y698/6eSbXYvl9MhdKhMvYthB6sv4S56W4YYwA==}
     dev: true
 
   /@types/resolve@1.17.1:
@@ -10859,12 +10860,6 @@ packages:
       cross-spawn: 7.0.3
     dev: true
 
-  /cross-fetch@3.1.4:
-    resolution: {integrity: sha512-1eAtFWdIubi6T4XPy6ei9iUFoKpUkIF971QLN8lIvvvwueI65+Nw5haMNKUwfJxabqlIIDODJKGrQ66gxC0PbQ==}
-    dependencies:
-      node-fetch: 2.6.1
-    dev: true
-
   /cross-fetch@3.1.5:
     resolution: {integrity: sha512-lvb1SBsI0Z7GDwmuid+mU3kWVBwTVUbe7S0H52yaaAdQOXq2YktTCZdlAcNKFzE6QtRz0snpw9bNiPeOIkkQvw==}
     dependencies:
@@ -13313,13 +13308,15 @@ packages:
   /fbjs@3.0.2:
     resolution: {integrity: sha512-qv+boqYndjElAJHNN3NoM8XuwQZ1j2m3kEvTgdle8IDjr6oUbkEpvABWtj/rQl3vq4ew7dnElBxL4YJAwTVqQQ==}
     dependencies:
-      cross-fetch: 3.1.4
+      cross-fetch: 3.1.5
       fbjs-css-vars: 1.0.2
       loose-envify: 1.4.0
       object-assign: 4.1.1
       promise: 7.3.1
       setimmediate: 1.0.5
       ua-parser-js: 0.7.31
+    transitivePeerDependencies:
+      - encoding
     dev: true
 
   /fetch-blob@3.2.0:
@@ -22465,12 +22462,14 @@ packages:
     hasBin: true
     dev: true
 
-  /relay-runtime@13.0.2:
-    resolution: {integrity: sha512-sP4lNGfFcOm7tQD12qlvwsiOREDgjkw4FQAjtemmtwivKOqI4qHAL22Ar62r5TPVlASn4iVWMk7rIdIJI20KGQ==}
+  /relay-runtime@13.2.0:
+    resolution: {integrity: sha512-iDS/fy5iWg9EhySaPpeo4Fwy1cYwNJqLHdhdGncpJBtSogFFd3fI+K0SafUoxX7+Moj6a+aMQt/JKN78HdeLhA==}
     dependencies:
-      '@babel/runtime': 7.16.7
+      '@babel/runtime': 7.23.1
       fbjs: 3.0.2
       invariant: 2.2.4
+    transitivePeerDependencies:
+      - encoding
     dev: true
 
   /release@6.3.1:
