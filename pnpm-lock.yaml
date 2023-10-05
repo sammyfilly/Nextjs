@@ -1229,8 +1229,8 @@ importers:
         specifier: 0.14.0
         version: 0.14.0
       regenerator-runtime:
-        specifier: 0.13.4
-        version: 0.13.4
+        specifier: 0.14.0
+        version: 0.14.0
       sass-loader:
         specifier: 12.4.0
         version: 12.4.0(sass@1.54.0)(webpack@5.86.0)
