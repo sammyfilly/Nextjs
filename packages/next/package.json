@@ -274,7 +274,7 @@
     "postcss-scss": "4.0.9",
     "postcss-value-parser": "4.2.0",
     "process": "0.11.10",
-    "punycode": "2.1.1",
+    "punycode": "2.3.0",
     "querystring-es3": "0.2.1",
     "raw-body": "2.4.1",
     "react-is": "18.2.0",
