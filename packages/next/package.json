@@ -276,7 +276,7 @@
     "process": "0.11.10",
     "punycode": "2.3.0",
     "querystring-es3": "0.2.1",
-    "raw-body": "2.4.1",
+    "raw-body": "2.5.2",
     "react-is": "18.2.0",
     "react-refresh": "0.14.0",
     "regenerator-runtime": "0.13.4",
