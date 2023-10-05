@@ -459,8 +459,8 @@ importers:
         specifier: 5.0.0
         version: 5.0.0
       sass:
-        specifier: 1.54.0
-        version: 1.54.0
+        specifier: 1.68.0
+        version: 1.68.0
       satori:
         specifier: 0.10.8
         version: 0.10.8
@@ -23125,6 +23125,16 @@ packages:
       chokidar: 3.5.3
       immutable: 4.1.0
       source-map-js: 1.0.2
+
+  /sass@1.68.0:
+    resolution: {integrity: sha512-Lmj9lM/fef0nQswm1J2HJcEsBUba4wgNx2fea6yJHODREoMFnwRpZydBnX/RjyXw2REIwdkbqE4hrTo4qfDBUA==}
+    engines: {node: '>=14.0.0'}
+    hasBin: true
+    dependencies:
+      chokidar: 3.5.3
+      immutable: 4.1.0
+      source-map-js: 1.0.2
+    dev: true
 
   /satori@0.10.8:
     resolution: {integrity: sha512-WlPLxgpx5kIyMuOO6qi98DhZGIbRk5XJRqENkt6D6gyDBWGyo3M5kcSl0X/oSFHUH+n4unlzwMejoPM47s4zug==}
