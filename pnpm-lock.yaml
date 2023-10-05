@@ -444,8 +444,8 @@ importers:
         specifier: 9.22.5
         version: 9.22.5(react-dom@18.2.0)(react@18.2.0)
       relay-compiler:
-        specifier: 13.0.2
-        version: 13.0.2
+        specifier: 13.2.0
+        version: 13.2.0
       relay-runtime:
         specifier: 13.0.2
         version: 13.0.2
@@ -22460,8 +22460,8 @@ packages:
       hast-util-to-nlcst: 1.2.8
     dev: true
 
-  /relay-compiler@13.0.2:
-    resolution: {integrity: sha512-Gg/5FNj8gz03GRkG5KjMNpDB4nOeApDFZq+8CZehu3KkQQ+vNIurX6RiTY3UNUYvg5SX2A9DS5bq5iHJ8iEV3A==}
+  /relay-compiler@13.2.0:
+    resolution: {integrity: sha512-GGLWTJYqQ5jQLMXlq++Fl17f4gMuvmIi3+xU/TrD4UqWZLI3qhxE0NFAmOvg6xgBQ8xtCMhP066kv+3bhL+7Aw==}
     hasBin: true
     dev: true
 
