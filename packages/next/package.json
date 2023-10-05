@@ -282,7 +282,7 @@
     "regenerator-runtime": "0.14.0",
     "sass-loader": "12.6.0",
     "schema-utils2": "npm:schema-utils@2.7.1",
-    "schema-utils3": "npm:schema-utils@3.0.0",
+    "schema-utils3": "npm:schema-utils@3.3.0",
     "semver": "7.3.2",
     "send": "0.17.1",
     "server-only": "0.0.1",
