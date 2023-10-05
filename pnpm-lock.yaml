@@ -438,8 +438,8 @@ importers:
         specifier: npm:react-server-dom-webpack@0.0.1
         version: /react-server-dom-webpack@0.0.1(react-dom@18.2.0)(react@18.2.0)
       react-ssr-prepass:
-        specifier: 1.0.8
-        version: 1.0.8(react-is@16.13.1)(react@18.2.0)
+        specifier: 1.5.0
+        version: 1.5.0(react@18.2.0)
       react-virtualized:
         specifier: 9.22.5
         version: 9.22.5(react-dom@18.2.0)(react@18.2.0)
@@ -19251,11 +19251,6 @@ packages:
   /object-inspect@1.12.3:
     resolution: {integrity: sha512-geUvdk7c+eizMNUDkRpW1wJwgfOiOeHbxBR/hLXK1aT6zmVSO0jsQcs7fj6MGw89jC/cjGfLcNOrtMYtGqm81g==}
 
-  /object-is@1.0.2:
-    resolution: {integrity: sha512-Epah+btZd5wrrfjkJZq1AOB9O6OxUQto45hzFd7lXGrpHPGE0W1k+426yrZV+k6NJOzLNNW/nVsmZdIWsAqoOQ==}
-    engines: {node: '>= 0.4'}
-    dev: true
-
   /object-is@1.1.5:
     resolution: {integrity: sha512-3cyDsyHgtmi7I7DfSSI2LDp6SK2lwvtbg0p0R1e0RvTqF5ceGx+K2dfSjm1bKDMVCFEDAQvy+o8c6a7VujOddw==}
     engines: {node: '>= 0.4'}
@@ -22044,15 +22039,12 @@ packages:
       react-is: 18.2.0
     dev: true
 
-  /react-ssr-prepass@1.0.8(react-is@16.13.1)(react@18.2.0):
-    resolution: {integrity: sha512-O0gfRA1SaK+9ITKxqfnXsej2jF+OHGP/+GxD4unROQaM/0/UczGF9fuF+wTboxaQoKdIf4FvS3h/OigWh704VA==}
+  /react-ssr-prepass@1.5.0(react@18.2.0):
+    resolution: {integrity: sha512-yFNHrlVEReVYKsLI5lF05tZoHveA5pGzjFbFJY/3pOqqjGOmMmqx83N4hIjN2n6E1AOa+eQEUxs3CgRnPmT0RQ==}
     peerDependencies:
-      react: ^16.8.0
-      react-is: ^16.8.0
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
     dependencies:
-      object-is: 1.0.2
       react: 18.2.0
-      react-is: 16.13.1
     dev: true
 
   /react-test-renderer@18.2.0(react@18.2.0):
