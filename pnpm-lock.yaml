@@ -585,8 +585,8 @@ importers:
         specifier: 2.4.5
         version: 2.4.5
       '@types/tar':
-        specifier: 6.1.5
-        version: 6.1.5
+        specifier: 6.1.6
+        version: 6.1.6
       '@types/validate-npm-package-name':
         specifier: 3.0.3
         version: 3.0.3
@@ -624,8 +624,8 @@ importers:
         specifier: 2.4.2
         version: 2.4.2
       tar:
-        specifier: 6.1.15
-        version: 6.1.15
+        specifier: 6.2.0
+        version: 6.2.0
       update-check:
         specifier: 1.5.4
         version: 1.5.4
@@ -944,8 +944,8 @@ importers:
         specifier: 1.7.2
         version: 1.7.2
       '@types/tar':
-        specifier: 6.1.5
-        version: 6.1.5
+        specifier: 6.1.6
+        version: 6.1.6
       '@types/text-table':
         specifier: 0.2.3
         version: 0.2.3
@@ -1280,8 +1280,8 @@ importers:
         specifier: 6.0.1
         version: 6.0.1
       tar:
-        specifier: 6.1.15
-        version: 6.1.15
+        specifier: 6.2.0
+        version: 6.2.0
       taskr:
         specifier: 1.1.0
         version: 1.1.0
@@ -5540,7 +5540,7 @@ packages:
     dependencies:
       fs-extra: 9.1.0
       ssri: 8.0.1
-      tar: 6.1.15
+      tar: 6.2.0
     dev: true
 
   /@lerna/github-client@4.0.0:
@@ -5737,7 +5737,7 @@ packages:
       '@lerna/run-lifecycle': 4.0.0
       npm-packlist: 2.1.4
       npmlog: 4.1.2
-      tar: 6.1.15
+      tar: 6.2.0
       temp-write: 4.0.0
     dev: true
 
@@ -5994,7 +5994,7 @@ packages:
       npmlog: 4.1.2
       rimraf: 3.0.2
       semver: 7.5.4
-      tar: 6.1.15
+      tar: 6.2.0
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -7758,8 +7758,8 @@ packages:
     resolution: {integrity: sha512-OSaMrXUKxVigGlKRrET39V2xdhzlztQ9Aqumn1WbCBKHOi9ry7jKSd7rkyj0GzmWaU960Rd+LpOFpLfx5bMQAg==}
     dev: true
 
-  /@types/tar@6.1.5:
-    resolution: {integrity: sha512-qm2I/RlZij5RofuY7vohTpYNaYcrSQlN2MyjucQc7ZweDwaEWkdN/EeNh6e9zjK6uEm6PwjdMXkcj05BxZdX1Q==}
+  /@types/tar@6.1.6:
+    resolution: {integrity: sha512-HQ06kiiDXz9uqtmE9ksQUn1ovcPr1gGV9EgaCWo6FGYKD0onNBCetBzL0kfcS8Kbj1EFxJWY9jL2W4ZvvtGI8Q==}
     dependencies:
       '@types/node': 20.2.5
       minipass: 4.2.8
@@ -9741,7 +9741,7 @@ packages:
       promise-inflight: 1.0.1
       rimraf: 3.0.2
       ssri: 8.0.1
-      tar: 6.1.15
+      tar: 6.2.0
       unique-filename: 1.1.1
     transitivePeerDependencies:
       - bluebird
@@ -18938,7 +18938,7 @@ packages:
       request: 2.88.2
       rimraf: 3.0.2
       semver: 7.5.4
-      tar: 6.1.15
+      tar: 6.2.0
       which: 2.0.2
     dev: true
 
@@ -19798,7 +19798,7 @@ packages:
       read-package-json-fast: 2.0.1
       rimraf: 3.0.2
       ssri: 8.0.1
-      tar: 6.1.15
+      tar: 6.2.0
     transitivePeerDependencies:
       - bluebird
       - supports-color
@@ -24481,8 +24481,8 @@ packages:
       yallist: 3.1.1
     dev: true
 
-  /tar@6.1.15:
-    resolution: {integrity: sha512-/zKt9UyngnxIT/EAGYuxaMYgOIJiP81ab9ZfkILq4oNLPFX50qyYmu7jRj9qeXoxmJHjGlbH0+cm2uy1WCs10A==}
+  /tar@6.2.0:
+    resolution: {integrity: sha512-/Wo7DcT0u5HUV486xg675HtjNd3BXZ6xDbzsCUZPt5iw8bTQ63bP0Raut3mvro9u+CUyq7YQd8Cx55fsZXxqLQ==}
     engines: {node: '>=10'}
     dependencies:
       chownr: 2.0.0
