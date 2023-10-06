@@ -204,7 +204,7 @@
     "release": "6.3.1",
     "request-promise-core": "1.1.4",
     "resolve-from": "5.0.0",
-    "sass": "1.68.0",
+    "sass": "1.69.0",
     "satori": "0.10.8",
     "scheduler-builtin": "npm:scheduler@0.24.0-next-fecc288b7-20221025",
     "scheduler-experimental-builtin": "npm:scheduler@0.23.0",
