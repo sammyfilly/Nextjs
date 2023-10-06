@@ -950,8 +950,8 @@ importers:
         specifier: 0.2.3
         version: 0.2.3
       '@types/ua-parser-js':
-        specifier: 0.7.36
-        version: 0.7.36
+        specifier: 0.7.37
+        version: 0.7.37
       '@types/uuid':
         specifier: 8.3.4
         version: 8.3.4
@@ -1298,8 +1298,8 @@ importers:
         specifier: 0.0.1
         version: 0.0.1
       ua-parser-js:
-        specifier: 0.7.28
-        version: 0.7.28
+        specifier: 0.8.1
+        version: 0.8.1
       undici:
         specifier: 5.22.0
         version: 5.22.0
@@ -7772,8 +7772,8 @@ packages:
     resolution: {integrity: sha512-IDaobHimLQhjwsQ/NMwRVfa/yL7L/wriQPMhw1ZJall0KX6E1oxk29XMDeilW5qTIg5aoiqf5Udy8U/51aNoQQ==}
     dev: true
 
-  /@types/ua-parser-js@0.7.36:
-    resolution: {integrity: sha512-N1rW+njavs70y2cApeIw1vLMYXRwfBy+7trgavGuuTfOd7j1Yh7QTRc/yqsPl6ncokt72ZXuxEU0PiCp9bSwNQ==}
+  /@types/ua-parser-js@0.7.37:
+    resolution: {integrity: sha512-4sOxS3ZWXC0uHJLYcWAaLMxTvjRX3hT96eF4YWUh1ovTaenvibaZOE5uXtIp4mksKMLRwo7YDiCBCw6vBiUPVg==}
     dev: true
 
   /@types/unist@2.0.3:
@@ -13281,7 +13281,7 @@ packages:
       core-js: 1.2.7
       loose-envify: 1.4.0
       promise: 7.3.1
-      ua-parser-js: 0.7.28
+      ua-parser-js: 0.7.31
       whatwg-fetch: 0.9.0
     dev: true
 
@@ -25147,12 +25147,12 @@ packages:
     hasBin: true
     dev: true
 
-  /ua-parser-js@0.7.28:
-    resolution: {integrity: sha512-6Gurc1n//gjp9eQNXjD9O3M/sMwVtN5S8Lv9bvOYBfKfDNiIIhqiyi01vMBO45u4zkDE420w/e0se7Vs+sIg+g==}
-    dev: true
-
   /ua-parser-js@0.7.31:
     resolution: {integrity: sha512-qLK/Xe9E2uzmYI3qLeOmI0tEOt+TBBQyUIAh4aAgU05FVYzeZrKUdkAZfBNVGRaHVgV0TDkdEngJSw/SyQchkQ==}
+    dev: true
+
+  /ua-parser-js@0.8.1:
+    resolution: {integrity: sha512-top37bpoaHp+wJBAqjm5KNz7qNfSZ/tmHEisuMMK5uzjdIo/L6uWovDFuYboO+q8EMz1f67exTnd+OPYESuu8Q==}
     dev: true
 
   /uglify-js@3.17.4:
