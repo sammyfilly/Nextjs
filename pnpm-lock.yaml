@@ -528,8 +528,8 @@ importers:
         specifier: 4.7.0
         version: 4.7.0
       whatwg-fetch:
-        specifier: 3.0.0
-        version: 3.0.0
+        specifier: 3.6.19
+        version: 3.6.19
       ws:
         specifier: 8.2.3
         version: 8.2.3
@@ -1416,8 +1416,8 @@ importers:
         specifier: 4.1.1
         version: 4.1.1
       whatwg-fetch:
-        specifier: 3.0.0
-        version: 3.0.0
+        specifier: 3.6.19
+        version: 3.6.19
 
   packages/next-swc:
     devDependencies:
@@ -26023,8 +26023,8 @@ packages:
     resolution: {integrity: sha512-dcQ1GWpOD/eEQ97k66aiEVpNnapVj90/+R+SXTPYGHpYBBypfKJEQjLrvMZ7YXbKm21gXd4NcuxUTjiv1YtLng==}
     dev: true
 
-  /whatwg-fetch@3.0.0:
-    resolution: {integrity: sha512-9GSJUgz1D4MfyKU7KRqwOjXCXTqWdFNvEr7eUBYchQiVc744mqK/MzXPNR2WsPkmkOa4ywfg8C2n8h+13Bey1Q==}
+  /whatwg-fetch@3.6.19:
+    resolution: {integrity: sha512-d67JP4dHSbm2TrpFj8AbO8DnL1JXL5J9u0Kq2xW6d0TFDbCA3Muhdt8orXC22utleTVj7Prqt82baN6RBvnEgw==}
     dev: true
 
   /whatwg-mimetype@2.3.0:
