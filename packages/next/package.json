@@ -90,7 +90,7 @@
   },
   "dependencies": {
     "@next/env": "13.4.17",
-    "@swc/helpers": "0.5.2",
+    "@swc/helpers": "0.5.3",
     "busboy": "1.6.0",
     "caniuse-lite": "^1.0.30001406",
     "postcss": "8.4.31",
