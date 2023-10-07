@@ -189,7 +189,7 @@
     "@types/ua-parser-js": "0.7.37",
     "@types/uuid": "8.3.4",
     "@types/webpack-sources1": "npm:@types/webpack-sources@0.1.10",
-    "@types/ws": "8.2.0",
+    "@types/ws": "8.5.6",
     "@vercel/ncc": "0.38.0",
     "@vercel/nft": "0.24.2",
     "acorn": "8.10.0",
@@ -313,7 +313,7 @@
     "webpack": "5.88.2",
     "webpack-sources1": "npm:webpack-sources@1.4.3",
     "webpack-sources3": "npm:webpack-sources@3.2.3",
-    "ws": "8.2.3"
+    "ws": "8.14.2"
   },
   "engines": {
     "node": ">=16.8.0"
