@@ -914,8 +914,8 @@ importers:
         specifier: 4.1.7
         version: 4.1.7
       '@types/lru-cache':
-        specifier: 5.1.1
-        version: 5.1.1
+        specifier: 7.10.9
+        version: 7.10.9
       '@types/micromatch':
         specifier: 4.0.3
         version: 4.0.3
@@ -6833,8 +6833,10 @@ packages:
     resolution: {integrity: sha512-8mNEUG6diOrI6pMqOHrHPDBB1JsrpedeMK9AWGzVCQ7StRRribiT9BRvUmF8aUws9iBbVlgVekOT5Sgzc1MTKw==}
     dev: true
 
-  /@types/lru-cache@5.1.1:
-    resolution: {integrity: sha512-ssE3Vlrys7sdIzs5LOxCzTVMsU7i9oa/IaW92wF32JFb3CVczqOkru2xspuKczHEbG3nvmPY7IFqVmGGHdNbYw==}
+  /@types/lru-cache@7.10.9:
+    resolution: {integrity: sha512-wrwgkdJ0xr8AbzKhVaRI8SXZN9saapPwwLoydBEr4HqMZET1LUTi1gdoaj82XmRJ9atqN7MtB0aja29iiK+7ag==}
+    dependencies:
+      lru-cache: 5.1.1
     dev: true
 
   /@types/mdast@3.0.10:
