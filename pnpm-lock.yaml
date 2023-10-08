@@ -878,8 +878,8 @@ importers:
         specifier: 2.0.0
         version: 2.0.0
       '@types/compression':
-        specifier: 0.0.36
-        version: 0.0.36
+        specifier: 1.7.3
+        version: 1.7.3
       '@types/content-disposition':
         specifier: 0.5.6
         version: 0.5.6
@@ -6606,8 +6606,8 @@ packages:
     resolution: {integrity: sha512-5R2/MHILQLDCzTuhs1j4Qqq8AaKUf7Ma4KSSkCtc12+fMs47zfa34qhto9goxpyX00tQK1zxB885VCiawZ5Qhg==}
     dev: true
 
-  /@types/compression@0.0.36:
-    resolution: {integrity: sha512-B66iZCIcD2eB2F8e8YDIVtCUKgfiseOR5YOIbmMN2tM57Wu55j1xSdxdSw78aVzsPmbZ6G+hINc+1xe1tt4NBg==}
+  /@types/compression@1.7.3:
+    resolution: {integrity: sha512-rKquEGjebqizyHNMOpaE/4FdYR5VQiWFeesqYfvJU0seSEyB4625UGhNOO/qIkH10S3wftiV7oefc8WdLZ/gCQ==}
     dependencies:
       '@types/express': 4.17.2
     dev: true
