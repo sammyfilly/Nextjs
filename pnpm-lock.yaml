@@ -806,8 +806,8 @@ importers:
         specifier: 4.0.2
         version: 4.0.2
       '@hapi/accept':
-        specifier: 5.0.2
-        version: 5.0.2
+        specifier: 6.0.2
+        version: 6.0.2
       '@jest/transform':
         specifier: 29.7.0
         version: 29.7.0
@@ -4879,21 +4879,21 @@ packages:
       yargs: 17.7.2
     dev: true
 
-  /@hapi/accept@5.0.2:
-    resolution: {integrity: sha512-CmzBx/bXUR8451fnZRuZAJRlzgm0Jgu5dltTX/bszmR2lheb9BpyN47Q1RbaGTsvFzn0PXAEs+lXDKfshccYZw==}
+  /@hapi/accept@6.0.2:
+    resolution: {integrity: sha512-xaTLf29Zeph/B32hekmgxLFsEPuX1xQYyZu0gJ4ZCHKU6nXmBRXfBymtWNEK0souOJcX2XHWUaZU6JzccuuMpg==}
     dependencies:
-      '@hapi/boom': 9.1.0
-      '@hapi/hoek': 9.1.0
+      '@hapi/boom': 10.0.1
+      '@hapi/hoek': 11.0.2
     dev: true
 
-  /@hapi/boom@9.1.0:
-    resolution: {integrity: sha512-4nZmpp4tXbm162LaZT45P7F7sgiem8dwAh2vHWT6XX24dozNjGMg6BvKCRvtCUcmcXqeMIUqWN8Rc5X8yKuROQ==}
+  /@hapi/boom@10.0.1:
+    resolution: {integrity: sha512-ERcCZaEjdH3OgSJlyjVk8pHIFeus91CjKP3v+MpgBNp5IvGzP2l/bRiD78nqYcKPaZdbKkK5vDBVPd2ohHBlsA==}
     dependencies:
-      '@hapi/hoek': 9.1.0
+      '@hapi/hoek': 11.0.2
     dev: true
 
-  /@hapi/hoek@9.1.0:
-    resolution: {integrity: sha512-i9YbZPN3QgfighY/1X1Pu118VUz2Fmmhd6b2n0/O8YVgGGfw0FbUYoA97k7FkpGJ+pLCFEDLUmAPPV4D1kpeFw==}
+  /@hapi/hoek@11.0.2:
+    resolution: {integrity: sha512-aKmlCO57XFZ26wso4rJsW4oTUnrgTFw2jh3io7CAtO9w4UltBNwRXvXIVzzyfkaaLRo3nluP/19msA8vDUUuKw==}
     dev: true
 
   /@humanwhocodes/config-array@0.11.8:
