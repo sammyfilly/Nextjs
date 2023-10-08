@@ -159,8 +159,8 @@ importers:
         specifier: 6.7.4
         version: 6.7.4(eslint@7.32.0)(typescript@5.2.2)
       '@vercel/fetch':
-        specifier: 6.2.0
-        version: 6.2.0(@types/node-fetch@2.6.6)(node-fetch@2.7.0)
+        specifier: 7.0.0
+        version: 7.0.0(@types/node-fetch@2.6.6)(node-fetch@2.7.0)
       '@vercel/og':
         specifier: 0.5.17
         version: 0.5.17
@@ -7397,8 +7397,8 @@ packages:
       - supports-color
     dev: true
 
-  /@vercel/fetch@6.2.0(@types/node-fetch@2.6.6)(node-fetch@2.7.0):
-    resolution: {integrity: sha512-MU+Mzh06NIAXxwdnyHmBFg+/lTKBbzDkCSNhAwWTFJ4rHuBc4pHc8E6XP+qnwqaWugjOBQgFfQCGDLnV820c9A==}
+  /@vercel/fetch@7.0.0(@types/node-fetch@2.6.6)(node-fetch@2.7.0):
+    resolution: {integrity: sha512-zxZCtiZ2ICoaXCELiCnJbZqWWoQOMpsTyvPJBvCyXRnyQjuZkcCoWTaubUulxdFKCrSeJOgugJ2UtsjbLUlj1w==}
     peerDependencies:
       '@types/node-fetch': ^2.6.1
       node-fetch: ^2.6.7
@@ -7706,17 +7706,6 @@ packages:
     engines: {node: '>= 6.0.0'}
     dependencies:
       debug: 4.3.4
-    transitivePeerDependencies:
-      - supports-color
-    dev: true
-
-  /agentkeepalive@4.1.4:
-    resolution: {integrity: sha512-+V/rGa3EuU74H6wR04plBb7Ks10FbtUQgRj/FQOG7uUIEuaINI+AiqJR1k6t3SVNs7o7ZjIdus6706qqzVq8jQ==}
-    engines: {node: '>= 8.0.0'}
-    dependencies:
-      debug: 4.3.4
-      depd: 1.1.2
-      humanize-ms: 1.2.1
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -10912,11 +10901,6 @@ packages:
 
   /delegates@1.0.0:
     resolution: {integrity: sha512-bd2L678uiWATM6m5Z1VzNCErI3jiGzt6HGY8OVICs40JQq/HALfbyNJmp0UDakEY4pMMaN0Ly5om/B1VI/+xfQ==}
-    dev: true
-
-  /depd@1.1.2:
-    resolution: {integrity: sha512-7emPTl6Dpo6JRXOXjLRxck+FlLRX5847cLKEn00PLAgc3g2hTZZgr+e4c2v6QpSmLeFP3n5yUo7ft6avBK/5jQ==}
-    engines: {node: '>= 0.6'}
     dev: true
 
   /depd@2.0.0:
@@ -16945,7 +16929,7 @@ packages:
     resolution: {integrity: sha512-rQ5NijwwdU8tIaBrpTtSVrNCcAJfyDRcKBC76vOQlyJX588/88+TE+UpjWl4BgG7gCkp29wER7xcRqkeg+x64Q==}
     engines: {node: '>= 10'}
     dependencies:
-      agentkeepalive: 4.1.4
+      agentkeepalive: 4.5.0
       cacache: 15.3.0
       http-cache-semantics: 4.1.0
       http-proxy-agent: 4.0.1
