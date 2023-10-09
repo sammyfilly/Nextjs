@@ -213,8 +213,8 @@ importers:
         specifier: 7.0.3
         version: 7.0.3
       cross-spawn:
-        specifier: 6.0.5
-        version: 6.0.5
+        specifier: 7.0.3
+        version: 7.0.3
       dd-trace:
         specifier: 4.16.0
         version: 4.16.0
@@ -19557,7 +19557,7 @@ packages:
     dev: false
 
   /path-key@2.0.1:
-    resolution: {integrity: sha1-QRyttXTFoUDTpLGRDUDYDMn0C0A=}
+    resolution: {integrity: sha512-fEHGKCSmUSDPv4uoj8AlD+joPlq3peND+HRYyxFz4KPw4z926S/b8rIuFs2FYJg3BwsxJf6A9/3eIdLaYC+9Dw==}
     engines: {node: '>=4'}
     dev: true
 
