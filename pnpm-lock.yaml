@@ -210,8 +210,8 @@ importers:
         specifier: 0.0.20
         version: 0.0.20
       cross-env:
-        specifier: 6.0.3
-        version: 6.0.3
+        specifier: 7.0.3
+        version: 7.0.3
       cross-spawn:
         specifier: 6.0.5
         version: 6.0.5
@@ -1425,8 +1425,8 @@ importers:
         specifier: 2.16.3
         version: 2.16.3
       cross-env:
-        specifier: 6.0.3
-        version: 6.0.3
+        specifier: 7.0.3
+        version: 7.0.3
 
   packages/next-swc/crates/next-core/js:
     dependencies:
@@ -10158,9 +10158,9 @@ packages:
       pretty-bytes: 5.6.0
     dev: true
 
-  /cross-env@6.0.3:
-    resolution: {integrity: sha512-+KqxF6LCvfhWvADcDPqo64yVIB31gv/jQulX2NGzKS/g3GEVz6/pt4wjHFtFWsHMddebWD/sDthJemzM4MaAag==}
-    engines: {node: '>=8.0'}
+  /cross-env@7.0.3:
+    resolution: {integrity: sha512-+/HKd6EgcQCJGh2PSjZuUitQBQynKor4wrFbRg4DtAgS1aWO+gU52xpH7M9ScGgXSYmAVS9bIJ8EzuaGw0oNAw==}
+    engines: {node: '>=10.14', npm: '>=6', yarn: '>=1'}
     hasBin: true
     dependencies:
       cross-spawn: 7.0.3
