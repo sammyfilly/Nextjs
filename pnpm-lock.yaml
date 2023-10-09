@@ -1022,8 +1022,8 @@ importers:
         specifier: 0.0.1
         version: 0.0.1
       comment-json:
-        specifier: 3.0.3
-        version: 3.0.3
+        specifier: 4.2.3
+        version: 4.2.3
       compression:
         specifier: 1.7.4
         version: 1.7.4
@@ -8174,6 +8174,10 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
+  /array-timsort@1.0.3:
+    resolution: {integrity: sha512-/+3GRL7dDAGEfM6TseQk/U+mi18TU2Ms9I3UlLdUMhz2hbvGNTKdj9xniwXfUqgYhHxRx0+8UnKkvlNwVU+cWQ==}
+    dev: true
+
   /array-union@1.0.2:
     resolution: {integrity: sha512-Dxr6QJj/RdU/hCaBjOfxW+q6lyuVE6JFWIrAUpuOOhoJJoQ99cUn3igRaHVB5P9WrgFVN0FfArM3x0cueOU8ng==}
     engines: {node: '>=0.10.0'}
@@ -9737,11 +9741,12 @@ packages:
     engines: {node: ^12.20.0 || >=14}
     dev: true
 
-  /comment-json@3.0.3:
-    resolution: {integrity: sha512-P7XwYkC3qjIK45EAa9c5Y3lR7SMXhJqwFdWg3niAIAcbk3zlpKDdajV8Hyz/Y3sGNn3l+YNMl8A2N/OubSArHg==}
+  /comment-json@4.2.3:
+    resolution: {integrity: sha512-SsxdiOf064DWoZLH799Ata6u7iV658A11PlWtZATDlXPpKGJnbJZ5Z24ybixAi+LUUqJ/GKowAejtC5GFUG7Tw==}
     engines: {node: '>= 6'}
     dependencies:
-      core-util-is: 1.0.2
+      array-timsort: 1.0.3
+      core-util-is: 1.0.3
       esprima: 4.0.1
       has-own-prop: 2.0.0
       repeat-string: 1.6.1
@@ -10070,6 +10075,10 @@ packages:
 
   /core-util-is@1.0.2:
     resolution: {integrity: sha512-3lqz5YjWTYnW6dlDa5TLaTCcShfar1e40rmcJVwCBJC6mWlFuj0eCHIElmG1g5kyuJ/GD+8Wn4FFCcz4gJPfaQ==}
+    dev: true
+
+  /core-util-is@1.0.3:
+    resolution: {integrity: sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==}
     dev: true
 
   /cors@2.8.5:
