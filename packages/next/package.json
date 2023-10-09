@@ -210,7 +210,7 @@
     "ci-info": "watson/ci-info#54e74d014ebed90aa5684c9812d8e14f49c194b0",
     "cli-select": "1.1.2",
     "client-only": "0.0.1",
-    "comment-json": "3.0.3",
+    "comment-json": "4.2.3",
     "compression": "1.7.4",
     "conf": "5.0.0",
     "constants-browserify": "1.0.0",
