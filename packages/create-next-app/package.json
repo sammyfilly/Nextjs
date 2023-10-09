@@ -39,7 +39,7 @@
     "@vercel/ncc": "0.38.0",
     "async-retry": "1.3.3",
     "ci-info": "watson/ci-info#54e74d014ebed90aa5684c9812d8e14f49c194b0",
-    "commander": "2.20.3",
+    "commander": "11.0.0",
     "conf": "10.2.0",
     "cross-spawn": "7.0.3",
     "fast-glob": "3.3.1",
