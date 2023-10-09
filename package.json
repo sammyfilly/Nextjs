@@ -121,7 +121,7 @@
     "coveralls": "3.1.1",
     "create-next-app": "workspace:*",
     "critters": "0.0.20",
-    "cross-env": "6.0.3",
+    "cross-env": "7.0.3",
     "cross-spawn": "6.0.5",
     "dd-trace": "4.16.0",
     "es5-ext": "0.10.62",
