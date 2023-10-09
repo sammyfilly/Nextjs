@@ -206,7 +206,7 @@
     "browserslist": "4.22.1",
     "buffer": "6.0.3",
     "bytes": "3.1.2",
-    "chalk": "2.4.2",
+    "chalk": "5.3.0",
     "ci-info": "watson/ci-info#54e74d014ebed90aa5684c9812d8e14f49c194b0",
     "cli-select": "1.1.2",
     "client-only": "0.0.1",
