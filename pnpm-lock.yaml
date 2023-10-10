@@ -806,8 +806,8 @@ importers:
         specifier: 4.0.2
         version: 4.0.2
       '@hapi/accept':
-        specifier: 6.0.2
-        version: 6.0.2
+        specifier: 6.0.3
+        version: 6.0.3
       '@jest/transform':
         specifier: 29.7.0
         version: 29.7.0
@@ -4095,8 +4095,8 @@ packages:
       yargs: 17.7.2
     dev: true
 
-  /@hapi/accept@6.0.2:
-    resolution: {integrity: sha512-xaTLf29Zeph/B32hekmgxLFsEPuX1xQYyZu0gJ4ZCHKU6nXmBRXfBymtWNEK0souOJcX2XHWUaZU6JzccuuMpg==}
+  /@hapi/accept@6.0.3:
+    resolution: {integrity: sha512-p72f9k56EuF0n3MwlBNThyVE5PXX40g+aQh+C/xbKrfzahM2Oispv3AXmOIU51t3j77zay1qrX7IIziZXspMlw==}
     dependencies:
       '@hapi/boom': 10.0.1
       '@hapi/hoek': 11.0.2
