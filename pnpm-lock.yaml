@@ -14,7 +14,7 @@ overrides:
   '@babel/types': 7.23.0
   '@babel/traverse': 7.23.0
   '@types/react': 18.2.28
-  '@types/react-dom': 18.2.12
+  '@types/react-dom': 18.2.13
 
 importers:
 
@@ -135,8 +135,8 @@ importers:
         specifier: 18.2.28
         version: 18.2.28
       '@types/react-dom':
-        specifier: 18.2.12
-        version: 18.2.12
+        specifier: 18.2.13
+        version: 18.2.13
       '@types/relay-runtime':
         specifier: 14.1.14
         version: 14.1.14
@@ -929,8 +929,8 @@ importers:
         specifier: 18.2.28
         version: 18.2.28
       '@types/react-dom':
-        specifier: 18.2.12
-        version: 18.2.12
+        specifier: 18.2.13
+        version: 18.2.13
       '@types/react-is':
         specifier: 18.2.2
         version: 18.2.2
@@ -1474,8 +1474,8 @@ importers:
         specifier: 18.2.28
         version: 18.2.28
       '@types/react-dom':
-        specifier: 18.2.12
-        version: 18.2.12
+        specifier: 18.2.13
+        version: 18.2.13
       '@vercel/ncc':
         specifier: ^0.38.0
         version: 0.38.0
@@ -6587,7 +6587,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.23.1
       '@testing-library/dom': 9.3.3
-      '@types/react-dom': 18.2.12
+      '@types/react-dom': 18.2.13
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: true
@@ -7067,8 +7067,8 @@ packages:
     resolution: {integrity: sha512-ewFXqrQHlFsgc09MK5jP5iR7vumV/BYayNC6PgJO2LPe8vrnNFyjQjSppfEngITi0qvfKtzFvgKymGheFM9UOA==}
     dev: true
 
-  /@types/react-dom@18.2.12:
-    resolution: {integrity: sha512-QWZuiA/7J/hPIGocXreCRbx7wyoeet9ooxfbSA+zbIWqyQEE7GMtRn4A37BdYyksnN+/NDnWgfxZH9UVGDw1hg==}
+  /@types/react-dom@18.2.13:
+    resolution: {integrity: sha512-eJIUv7rPP+EC45uNYp/ThhSpE16k22VJUknt5OLoH9tbXoi8bMhwLf5xRuWMywamNbWzhrSmU7IBJfPup1+3fw==}
     dependencies:
       '@types/react': 18.2.28
     dev: true
