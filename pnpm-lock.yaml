@@ -1377,8 +1377,8 @@ importers:
         specifier: 16.3.1
         version: 16.3.1
       dotenv-expand:
-        specifier: 8.0.3
-        version: 8.0.3
+        specifier: 10.0.0
+        version: 10.0.0
 
   packages/next-mdx:
     dependencies:
@@ -11273,8 +11273,8 @@ packages:
       type-fest: 2.19.0
     dev: true
 
-  /dotenv-expand@8.0.3:
-    resolution: {integrity: sha512-SErOMvge0ZUyWd5B0NXMQlDkN+8r+HhVUsxgOO7IoPDOdDRD2JjExpN6y3KnFR66jsJMwSn1pqIivhU5rcJiNg==}
+  /dotenv-expand@10.0.0:
+    resolution: {integrity: sha512-GopVGCpVS1UKH75VKHGuQFqS1Gusej0z4FyQkPdwjil2gNIv+LNsqBlboOzpJFZKVT95GkCyWJbBSdFEFUWI2A==}
     engines: {node: '>=12'}
     dev: true
 
