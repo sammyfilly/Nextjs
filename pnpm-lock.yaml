@@ -231,8 +231,8 @@ importers:
         specifier: workspace:*
         version: link:packages/eslint-config-next
       eslint-plugin-eslint-plugin:
-        specifier: 4.4.1
-        version: 4.4.1(eslint@8.51.0)
+        specifier: 5.1.1
+        version: 5.1.1(eslint@8.51.0)
       eslint-plugin-import:
         specifier: 2.28.1
         version: 2.28.1(@typescript-eslint/parser@6.7.5)(eslint@8.51.0)
@@ -7508,7 +7508,7 @@ packages:
     engines: {node: ^16.0.0 || >=18.0.0}
     dependencies:
       '@typescript-eslint/types': 6.7.5
-      eslint-visitor-keys: 3.4.1
+      eslint-visitor-keys: 3.4.3
     dev: true
 
   /@vercel/fetch-cached-dns@2.0.2(node-fetch@2.7.0):
@@ -11826,11 +11826,11 @@ packages:
       - supports-color
     dev: true
 
-  /eslint-plugin-eslint-plugin@4.4.1(eslint@8.51.0):
-    resolution: {integrity: sha512-e4jJGw/ezJseAPutnIasBfnO0XMdp0wPD/upBvRtzN5tqMM3xiwXtcCmDyH5NHO79ij7olxpaNGATFqS+5480g==}
-    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+  /eslint-plugin-eslint-plugin@5.1.1(eslint@8.51.0):
+    resolution: {integrity: sha512-4MGDsG505Ot2TSDSYxFL0cpDo4Y+t6hKB8cfZw9Jx484VjXWDfiYC/A6cccWFtWoOOC0j+wGgQIIb11cdIAMBg==}
+    engines: {node: ^14.17.0 || ^16.0.0 || >= 18.0.0}
     peerDependencies:
-      eslint: '>=6.0.0'
+      eslint: '>=7.0.0'
     dependencies:
       eslint: 8.51.0
       eslint-utils: 3.0.0(eslint@8.51.0)
@@ -12093,11 +12093,11 @@ packages:
   /eslint-visitor-keys@3.4.1:
     resolution: {integrity: sha512-pZnmmLwYzf+kWaM/Qgrvpen51upAktaaiI01nsJD/Yr3lMOdNtq0cxkrrg16w64VtisN6okbs7Q8AfGqj4c9fA==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    dev: false
 
   /eslint-visitor-keys@3.4.3:
     resolution: {integrity: sha512-wpc+LXeiyiisxPlEkUzU6svyS1frIO3Mgxj1fdy7Pm8Ygzguax2N3Fa/D/ag1WqbOprdI+uY6wMUl8/a2G+iag==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
-    dev: true
 
   /eslint@7.32.0:
     resolution: {integrity: sha512-VHZ8gX+EDfz+97jGcgyGCyRia/dPOd6Xh9yPv8Bl1+SoaIwD+a/vlrOmGRUyOYu7MwUhc7CxqeaDZU13S4+EpA==}
@@ -12257,7 +12257,7 @@ packages:
     dependencies:
       acorn: 8.10.0
       acorn-jsx: 5.3.2(acorn@8.10.0)
-      eslint-visitor-keys: 3.4.1
+      eslint-visitor-keys: 3.4.3
     dev: false
 
   /espree@9.6.1:
