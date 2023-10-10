@@ -222,8 +222,8 @@ importers:
         specifier: 0.10.62
         version: 0.10.62
       escape-string-regexp:
-        specifier: 2.0.0
-        version: 2.0.0
+        specifier: 5.0.0
+        version: 5.0.0
       eslint:
         specifier: 7.32.0
         version: 7.32.0
