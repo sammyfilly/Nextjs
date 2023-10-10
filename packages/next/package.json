@@ -138,7 +138,7 @@
     "@edge-runtime/cookies": "4.0.0",
     "@edge-runtime/ponyfill": "2.4.1",
     "@edge-runtime/primitives": "4.0.2",
-    "@hapi/accept": "6.0.2",
+    "@hapi/accept": "6.0.3",
     "@jest/transform": "29.7.0",
     "@jest/types": "29.6.3",
     "@mswjs/interceptors": "0.25.7",
