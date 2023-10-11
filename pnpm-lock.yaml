@@ -162,8 +162,8 @@ importers:
         specifier: 7.0.0
         version: 7.0.0(@types/node-fetch@2.6.6)(node-fetch@2.7.0)
       '@vercel/og':
-        specifier: 0.5.17
-        version: 0.5.17
+        specifier: 0.5.18
+        version: 0.5.18
       '@zeit/next-typescript':
         specifier: 1.1.2-canary.0
         version: 1.1.2-canary.0(@babel/core@7.23.0)
@@ -7756,12 +7756,12 @@ packages:
       - supports-color
     dev: true
 
-  /@vercel/og@0.5.17:
-    resolution: {integrity: sha512-/GOyUBq3MhB3ygbhTJoZ0cHvwlyKdt0g8f4npuj4mwFlp57S7j4XWwgtqILK3XdFf25esN9i77fInrDkeRJfgA==}
+  /@vercel/og@0.5.18:
+    resolution: {integrity: sha512-l519y6hscj14VkORBKshExoWaXWB4MqGUCIhY3gcXYir4aJ3J+9BU1E/CQ9yKsNmkgY+1VXOgjnq9zUT4B49KQ==}
     engines: {node: '>=16'}
     dependencies:
       '@resvg/resvg-wasm': 2.4.1
-      satori: 0.10.8
+      satori: 0.10.9
       yoga-wasm-web: 0.3.3
     dev: true
 
@@ -23046,22 +23046,6 @@ packages:
       chokidar: 3.5.3
       immutable: 4.1.0
       source-map-js: 1.0.2
-    dev: true
-
-  /satori@0.10.8:
-    resolution: {integrity: sha512-WlPLxgpx5kIyMuOO6qi98DhZGIbRk5XJRqENkt6D6gyDBWGyo3M5kcSl0X/oSFHUH+n4unlzwMejoPM47s4zug==}
-    engines: {node: '>=16'}
-    dependencies:
-      '@shuding/opentype.js': 1.4.0-beta.0
-      css-background-parser: 0.1.0
-      css-box-shadow: 1.0.0-3
-      css-to-react-native: 3.2.0
-      emoji-regex: 10.2.1
-      escape-html: 1.0.3
-      linebreak: 1.1.0
-      parse-css-color: 0.2.1
-      postcss-value-parser: 4.2.0
-      yoga-wasm-web: 0.3.3
     dev: true
 
   /satori@0.10.9:
