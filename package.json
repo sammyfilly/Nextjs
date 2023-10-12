@@ -148,7 +148,7 @@
     "get-port": "7.0.0",
     "glob": "10.3.10",
     "gzip-size": "7.0.0",
-    "html-validator": "5.1.18",
+    "html-validator": "6.0.1",
     "http-proxy": "1.18.1",
     "husky": "8.0.3",
     "image-size": "0.9.7",
