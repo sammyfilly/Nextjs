@@ -58,7 +58,7 @@
     "update-google-fonts": "node ./scripts/update-google-fonts.js"
   },
   "devDependencies": {
-    "@babel/core": "7.23.0",
+    "@babel/core": "7.23.2",
     "@babel/eslint-parser": "7.22.15",
     "@babel/generator": "7.23.0",
     "@babel/parser": "7.23.0",
@@ -235,7 +235,7 @@
     "browserslist": "4.22.1",
     "caniuse-lite": "1.0.30001547",
     "@types/node": "20.8.4",
-    "@babel/core": "7.23.0",
+    "@babel/core": "7.23.2",
     "@babel/parser": "7.23.0",
     "@babel/types": "7.23.0",
     "@babel/traverse": "7.23.2",
