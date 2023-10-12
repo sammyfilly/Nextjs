@@ -1100,8 +1100,8 @@ importers:
         specifier: 1.0.0
         version: 1.0.0
       https-proxy-agent:
-        specifier: 5.0.1
-        version: 5.0.1
+        specifier: 7.0.2
+        version: 7.0.2
       icss-utils:
         specifier: 5.1.0
         version: 5.1.0(postcss@8.4.31)
@@ -14651,6 +14651,16 @@ packages:
     engines: {node: '>= 6'}
     dependencies:
       agent-base: 6.0.2
+      debug: 4.3.4
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
+  /https-proxy-agent@7.0.2:
+    resolution: {integrity: sha512-NmLNjm6ucYwtcUmL7JQC1ZQ57LmHP4lT15FQ8D61nak1rO6DH+fz5qNK2Ap5UN4ZapYICE3/0KodcLYSPsPbaA==}
+    engines: {node: '>= 14'}
+    dependencies:
+      agent-base: 7.1.0
       debug: 4.3.4
     transitivePeerDependencies:
       - supports-color
