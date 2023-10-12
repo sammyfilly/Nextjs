@@ -234,7 +234,7 @@
     "glob": "10.3.10",
     "gzip-size": "7.0.0",
     "http-proxy": "1.18.1",
-    "http-proxy-agent": "5.0.0",
+    "http-proxy-agent": "7.0.0",
     "https-browserify": "1.0.0",
     "https-proxy-agent": "5.0.1",
     "icss-utils": "5.1.0",
