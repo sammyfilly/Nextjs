@@ -300,8 +300,8 @@ importers:
         specifier: 8.0.3
         version: 8.0.3
       image-size:
-        specifier: 0.9.7
-        version: 0.9.7
+        specifier: 1.0.2
+        version: 1.0.2
       is-animated:
         specifier: 2.0.2
         version: 2.0.2
@@ -1109,8 +1109,8 @@ importers:
         specifier: 0.1.2
         version: 0.1.2
       image-size:
-        specifier: 1.0.0
-        version: 1.0.0
+        specifier: 1.0.2
+        version: 1.0.2
       is-docker:
         specifier: 2.2.1
         version: 2.2.1
@@ -14740,17 +14740,9 @@ packages:
     resolution: {integrity: sha512-MAb38BcSbH0eHNBxn7ql2NH/kX33OkB3lZ1BNdh7ENeRChHTYsTvWrMubiIAMNS2llXEEgZ1MUOBtXChP3kaFQ==}
     engines: {node: '>= 4'}
 
-  /image-size@0.9.7:
-    resolution: {integrity: sha512-KRVgLNZkr00YGN0qn9MlIrmlxbRhsCcEb1Byq3WKGnIV4M48iD185cprRtaoK4t5iC+ym2Q5qlArxZ/V1yzDgA==}
-    engines: {node: '>=10.18.0'}
-    hasBin: true
-    dependencies:
-      queue: 6.0.2
-    dev: true
-
-  /image-size@1.0.0:
-    resolution: {integrity: sha512-JLJ6OwBfO1KcA+TvJT+v8gbE6iWbj24LyDNFgFEN0lzegn6cC6a/p3NIDaepMsJjQjlUWqIC7wJv8lBFxPNjcw==}
-    engines: {node: '>=12.0.0'}
+  /image-size@1.0.2:
+    resolution: {integrity: sha512-xfOoWjceHntRb3qFCrh5ZFORYH8XCdYpASltMhZ/Q0KZiOwjdE/Yl2QCiWdwD+lygV5bMCvauzgu5PxBX/Yerg==}
+    engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
       queue: 6.0.2
