@@ -1115,8 +1115,8 @@ importers:
         specifier: 3.0.0
         version: 3.0.0
       is-wsl:
-        specifier: 2.2.0
-        version: 2.2.0
+        specifier: 3.1.0
+        version: 3.1.0
       jest-docblock:
         specifier: 29.7.0
         version: 29.7.0
@@ -15470,6 +15470,13 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       is-docker: 2.2.1
+
+  /is-wsl@3.1.0:
+    resolution: {integrity: sha512-UcVfVfaK4Sc4m7X3dUSoHoozQGBEFeDC+zVo06t98xe8CzHSZZBekNXH+tu0NalHolcJ/QAGqS46Hef7QXBIMw==}
+    engines: {node: '>=16'}
+    dependencies:
+      is-inside-container: 1.0.0
+    dev: true
 
   /is-yarn-global@0.4.1:
     resolution: {integrity: sha512-/kppl+R+LO5VmhYSEWARUFjodS25D68gvj8W7z0I7OWhUla5xWu8KL6CtB2V0R6yqhnRgbcaREMr4EEM6htLPQ==}
