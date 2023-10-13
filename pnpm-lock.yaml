@@ -336,8 +336,8 @@ importers:
         specifier: 4.17.21
         version: 4.17.21
       lost:
-        specifier: 8.3.1
-        version: 8.3.1
+        specifier: 9.0.2
+        version: 9.0.2(postcss@8.4.31)
       minimatch:
         specifier: 3.1.2
         version: 3.1.2
@@ -16709,11 +16709,13 @@ packages:
     dependencies:
       js-tokens: 4.0.0
 
-  /lost@8.3.1:
-    resolution: {integrity: sha512-J+TgSVo9VVf4Y9lVGaI5DMN0BMqQTIabEJuEQGlK4vte+EZq9eDcvwGx9DfrkCUMqs0CvzAPE5dsnj18Zbjf6g==}
+  /lost@9.0.2(postcss@8.4.31):
+    resolution: {integrity: sha512-uK4l6tKiXflvLXssQpuw6RaYhWWO9cq1PBZ/PumZe8uqhxVzNeMKlWyN4vtYDOY1ugL7aG9KgUUyL8owaMJBOQ==}
+    peerDependencies:
+      postcss: ^8.4.14
     dependencies:
       object-assign: 4.1.1
-      postcss: 7.0.14
+      postcss: 8.4.31
     dev: true
 
   /lower-case@2.0.2:
@@ -20646,15 +20648,6 @@ packages:
       chalk: 2.4.2
       source-map: 0.6.1
       supports-color: 5.5.0
-    dev: true
-
-  /postcss@7.0.14:
-    resolution: {integrity: sha512-NsbD6XUUMZvBxtQAJuWDJeeC4QFsmWsfozWxCJPWf3M55K9iu2iMDaKqyoOdTJ1R4usBXuxlVFAIo8rZPQD4Bg==}
-    engines: {node: '>=6.0.0'}
-    dependencies:
-      chalk: 2.4.2
-      source-map: 0.6.1
-      supports-color: 6.1.0
     dev: true
 
   /postcss@7.0.32:
