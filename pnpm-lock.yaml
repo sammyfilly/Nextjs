@@ -321,11 +321,11 @@ importers:
         specifier: 2.2.3
         version: 2.2.3
       ky:
-        specifier: 0.33.3
-        version: 0.33.3
+        specifier: 1.0.1
+        version: 1.0.1
       ky-universal:
         specifier: 0.12.0
-        version: 0.12.0(ky@0.33.3)
+        version: 0.12.0(ky@1.0.1)
       lerna:
         specifier: 4.0.0
         version: 4.0.0
@@ -16603,7 +16603,7 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /ky-universal@0.12.0(ky@0.33.3):
+  /ky-universal@0.12.0(ky@1.0.1):
     resolution: {integrity: sha512-dGXoWBaHXIkiph3871I9H3KAgTE+fGOTAfTdO3wxb+Mg7seBa9rmWZmK29R38s8bZMDKulyELnwusOI8odCBvQ==}
     engines: {node: '>=16'}
     peerDependencies:
@@ -16613,13 +16613,13 @@ packages:
       web-streams-polyfill:
         optional: true
     dependencies:
-      ky: 0.33.3
+      ky: 1.0.1
       node-fetch: 3.3.2
     dev: true
 
-  /ky@0.33.3:
-    resolution: {integrity: sha512-CasD9OCEQSFIam2U8efFK81Yeg8vNMTBUqtMOHlrcWQHqUX3HeCl9Dr31u4toV7emlH8Mymk5+9p0lL6mKb/Xw==}
-    engines: {node: '>=14.16'}
+  /ky@1.0.1:
+    resolution: {integrity: sha512-UvcwpQO0LOuZwG0Ti3VDo6w57KYt+r4bWEYlNaMt82hgyFtse86QtOGum1RzsZni31FndXQl6NvtDArfunt2JQ==}
+    engines: {node: '>=18'}
     dev: true
 
   /language-subtag-registry@0.3.21:
