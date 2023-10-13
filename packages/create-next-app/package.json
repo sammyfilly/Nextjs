@@ -45,7 +45,7 @@
     "fast-glob": "3.3.1",
     "got": "13.0.0",
     "picocolors": "1.0.0",
-    "prettier-plugin-tailwindcss": "0.5.5",
+    "prettier-plugin-tailwindcss": "0.5.6",
     "prompts": "2.4.2",
     "tar": "6.2.0",
     "update-check": "1.5.4",
