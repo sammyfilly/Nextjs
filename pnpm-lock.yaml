@@ -1163,8 +1163,8 @@ importers:
         specifier: 2.6.2
         version: 2.6.2
       node-html-parser:
-        specifier: 5.4.2
-        version: 5.4.2
+        specifier: 6.1.10
+        version: 6.1.10
       ora:
         specifier: 4.1.1
         version: 4.1.1
@@ -10063,16 +10063,6 @@ packages:
       nth-check: 1.0.2
     dev: true
 
-  /css-select@4.3.0:
-    resolution: {integrity: sha512-wPpOYtnsVontu2mODhA19JrqWxNsfdatRKd64kmpRbQgh1KtItko5sTnEpPdpSaJszTOhEMlF/RPz28qj4HqhQ==}
-    dependencies:
-      boolbase: 1.0.0
-      css-what: 6.1.0
-      domhandler: 4.3.1
-      domutils: 2.8.0
-      nth-check: 2.1.1
-    dev: true
-
   /css-select@5.1.0:
     resolution: {integrity: sha512-nwoRF1rvRRnnCqqY7updORDsuqKzqYJ28+oSMaJMMgOauh3fvwHqMS7EZpIPqK8GL+g9mKxF1vP/ZjSeNjEVHg==}
     dependencies:
@@ -18104,10 +18094,10 @@ packages:
       - supports-color
     dev: true
 
-  /node-html-parser@5.4.2:
-    resolution: {integrity: sha512-RaBPP3+51hPne/OolXxcz89iYvQvKOydaqoePpOgXcrOKZhjVIzmpKZz+Hd/RBO2/zN2q6CNJhQzucVz+u3Jyw==}
+  /node-html-parser@6.1.10:
+    resolution: {integrity: sha512-6/uWdWxjQWQ7tMcFK2wWlrflsQUzh1HsEzlIf2j5+TtzfhT2yUvg3DwZYAmjEHeR3uX74ko7exjHW69J0tOzIg==}
     dependencies:
-      css-select: 4.3.0
+      css-select: 5.1.0
       he: 1.2.0
     dev: true
 
