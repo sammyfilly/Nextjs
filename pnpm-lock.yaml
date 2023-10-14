@@ -5,7 +5,7 @@ settings:
   excludeLinksFromLockfile: false
 
 overrides:
-  webpack: 5.88.2
+  webpack: 5.89.0
   browserslist: 4.22.1
   caniuse-lite: 1.0.30001547
   '@types/node': 20.8.6
@@ -49,7 +49,7 @@ importers:
         version: 5.0.0(postcss@8.4.31)
       '@mdx-js/loader':
         specifier: 2.3.0
-        version: 2.3.0(webpack@5.88.2)
+        version: 2.3.0(webpack@5.89.0)
       '@mdx-js/react':
         specifier: 2.3.0
         version: 2.3.0(react@18.2.0)
@@ -433,7 +433,7 @@ importers:
         version: /react@0.14.10
       react-server-dom-webpack:
         specifier: 18.3.0-next-fecc288b7-20221025
-        version: 18.3.0-next-fecc288b7-20221025(react-dom@18.2.0)(react@18.2.0)(webpack@5.88.2)
+        version: 18.3.0-next-fecc288b7-20221025(react-dom@18.2.0)(react@18.2.0)(webpack@5.89.0)
       react-server-dom-webpack-experimental:
         specifier: npm:react-server-dom-webpack@0.0.1
         version: /react-server-dom-webpack@0.0.1(react-dom@18.2.0)(react@18.2.0)
@@ -522,8 +522,8 @@ importers:
         specifier: 0.3.1
         version: 0.3.1
       webpack:
-        specifier: 5.88.2
-        version: 5.88.2(@swc/core@1.3.93)
+        specifier: 5.89.0
+        version: 5.89.0(@swc/core@1.3.93)
       webpack-bundle-analyzer:
         specifier: 4.9.1
         version: 4.9.1
@@ -1149,7 +1149,7 @@ importers:
         version: 4.0.5
       mini-css-extract-plugin:
         specifier: 2.7.6
-        version: 2.7.6(webpack@5.88.2)
+        version: 2.7.6(webpack@5.89.0)
       msw:
         specifier: ^1.2.2
         version: 1.2.2(typescript@5.2.2)
@@ -1233,7 +1233,7 @@ importers:
         version: 0.14.0
       sass-loader:
         specifier: 12.6.0
-        version: 12.6.0(sass@1.54.0)(webpack@5.88.2)
+        version: 12.6.0(sass@1.54.0)(webpack@5.89.0)
       schema-utils2:
         specifier: npm:schema-utils@2.7.1
         version: /schema-utils@2.7.1
@@ -1319,8 +1319,8 @@ importers:
         specifier: 3.5.0
         version: 3.5.0
       webpack:
-        specifier: 5.88.2
-        version: 5.88.2(@swc/core@1.3.93)
+        specifier: 5.89.0
+        version: 5.89.0(@swc/core@1.3.93)
       webpack-sources1:
         specifier: npm:webpack-sources@1.4.3
         version: /webpack-sources@1.4.3
@@ -1384,7 +1384,7 @@ importers:
     dependencies:
       '@mdx-js/loader':
         specifier: '>=0.15.0'
-        version: 2.2.1(webpack@5.88.2)
+        version: 2.2.1(webpack@5.89.0)
       '@mdx-js/react':
         specifier: '>=0.15.0'
         version: 2.2.1(react@18.2.0)
@@ -1432,7 +1432,7 @@ importers:
     dependencies:
       '@vercel/turbopack-ecmascript-runtime':
         specifier: https://gitpkg-fork.vercel.sh/vercel/turbo/crates/turbopack-ecmascript-runtime/js?turbopack-230814.2
-        version: '@gitpkg-fork.vercel.sh/vercel/turbo/crates/turbopack-ecmascript-runtime/js?turbopack-230814.2(react-refresh@0.12.0)(webpack@5.88.2)'
+        version: '@gitpkg-fork.vercel.sh/vercel/turbo/crates/turbopack-ecmascript-runtime/js?turbopack-230814.2(react-refresh@0.12.0)(webpack@5.89.0)'
       '@vercel/turbopack-node':
         specifier: https://gitpkg-fork.vercel.sh/vercel/turbo/crates/turbopack-node/js?turbopack-230814.2
         version: '@gitpkg-fork.vercel.sh/vercel/turbo/crates/turbopack-node/js?turbopack-230814.2'
@@ -1511,7 +1511,7 @@ importers:
         version: 10.4.4(postcss@8.4.14)
       babel-loader:
         specifier: 9.1.2
-        version: 9.1.2(@babel/core@7.23.2)(webpack@5.88.2)
+        version: 9.1.2(@babel/core@7.23.2)(webpack@5.89.0)
       loader-runner:
         specifier: 4.3.0
         version: 4.3.0
@@ -1570,8 +1570,8 @@ importers:
         specifier: 6.0.1
         version: 6.0.1
       webpack:
-        specifier: 5.88.2
-        version: 5.88.2(@swc/core@1.3.93)
+        specifier: 5.89.0
+        version: 5.89.0(@swc/core@1.3.93)
 
   packages/react-refresh-utils:
     devDependencies:
@@ -1579,8 +1579,8 @@ importers:
         specifier: 0.14.0
         version: 0.14.0
       webpack:
-        specifier: 5.88.2
-        version: 5.88.2(@swc/core@1.3.93)
+        specifier: 5.89.0
+        version: 5.89.0(@swc/core@1.3.93)
 
   packages/third-parties:
     dependencies:
@@ -4766,26 +4766,26 @@ packages:
       - supports-color
     dev: true
 
-  /@mdx-js/loader@2.2.1(webpack@5.88.2):
+  /@mdx-js/loader@2.2.1(webpack@5.89.0):
     resolution: {integrity: sha512-J4E8A5H+xtk4otZiEZ5AXl61Tj04Avm5MqLQazITdI3+puVXVnTTuZUKM1oNHTtfDIfOl0uMt+o/Ij+x6Fvf+g==}
     peerDependencies:
-      webpack: 5.88.2
+      webpack: 5.89.0
     dependencies:
       '@mdx-js/mdx': 2.2.1
       source-map: 0.7.3
-      webpack: 5.88.2(@swc/core@1.3.93)
+      webpack: 5.89.0(@swc/core@1.3.93)
     transitivePeerDependencies:
       - supports-color
     dev: false
 
-  /@mdx-js/loader@2.3.0(webpack@5.88.2):
+  /@mdx-js/loader@2.3.0(webpack@5.89.0):
     resolution: {integrity: sha512-IqsscXh7Q3Rzb+f5DXYk0HU71PK+WuFsEhf+mSV3fOhpLcEpgsHvTQ2h0T6TlZ5gHOaBeFjkXwB52by7ypMyNg==}
     peerDependencies:
-      webpack: 5.88.2
+      webpack: 5.89.0
     dependencies:
       '@mdx-js/mdx': 2.2.1
       source-map: 0.7.4
-      webpack: 5.88.2(@swc/core@1.3.93)
+      webpack: 5.89.0(@swc/core@1.3.93)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -4893,17 +4893,17 @@ packages:
     resolution: {integrity: sha512-XQr74QaLeMiqhStEhLn1im9EOMnkypp7MZOwQhGzqp2Weu5eQJbpPxWxixxlYRKWPOmJjsk6qYfYH9kq43yc2w==}
     dev: true
 
-  /@next/react-refresh-utils@13.4.17(react-refresh@0.12.0)(webpack@5.88.2):
+  /@next/react-refresh-utils@13.4.17(react-refresh@0.12.0)(webpack@5.89.0):
     resolution: {integrity: sha512-AFGHz7Kk9sykLhmMNHzHcYy888PI2hF9DEMOJD2d+ynA7ulAThiC/RAHFn7Q/1Bmju5iUIb3MB7e/eHiVv6/lw==}
     peerDependencies:
       react-refresh: 0.12.0
-      webpack: 5.88.2
+      webpack: 5.89.0
     peerDependenciesMeta:
       webpack:
         optional: true
     dependencies:
       react-refresh: 0.12.0
-      webpack: 5.88.2(@swc/core@1.3.93)
+      webpack: 5.89.0(@swc/core@1.3.93)
     dev: false
 
   /@nicolo-ribaudo/chokidar-2@2.1.8-no-fsevents.3:
@@ -8264,17 +8264,17 @@ packages:
       - supports-color
     dev: true
 
-  /babel-loader@9.1.2(@babel/core@7.23.2)(webpack@5.88.2):
+  /babel-loader@9.1.2(@babel/core@7.23.2)(webpack@5.89.0):
     resolution: {integrity: sha512-mN14niXW43tddohGl8HPu5yfQq70iUThvFL/4QzESA7GcZoC0eVOhvWdQ8+3UlSjaDE9MVtsW9mxDY07W7VpVA==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
       '@babel/core': 7.23.2
-      webpack: 5.88.2
+      webpack: 5.89.0
     dependencies:
       '@babel/core': 7.23.2
       find-cache-dir: 3.3.2
       schema-utils: 4.0.0
-      webpack: 5.88.2(@swc/core@1.3.93)
+      webpack: 5.89.0(@swc/core@1.3.93)
     dev: true
 
   /babel-plugin-istanbul@6.1.1:
@@ -12215,7 +12215,7 @@ packages:
     resolution: {integrity: sha512-u+SQgsubraE6zItfVA0tBuCBhfU9ogSRnsvygI7wht9TS510oLkBRXBsqopeUG/GBOIQyKZO9wjTqIu/sf5zFA==}
     engines: {node: '>=0.10.0'}
     dependencies:
-      mime-db: 1.47.0
+      mime-db: 1.52.0
     dev: true
 
   /ext-name@5.0.0:
@@ -17654,14 +17654,14 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /mini-css-extract-plugin@2.7.6(webpack@5.88.2):
+  /mini-css-extract-plugin@2.7.6(webpack@5.89.0):
     resolution: {integrity: sha512-Qk7HcgaPkGG6eD77mLvZS1nmxlao3j+9PkrT9Uc7HAE1id3F41+DdBRYRYkbyfNRGzm8/YWtzhw7nVPmwhqTQw==}
     engines: {node: '>= 12.13.0'}
     peerDependencies:
-      webpack: 5.88.2
+      webpack: 5.89.0
     dependencies:
       schema-utils: 4.0.0
-      webpack: 5.88.2(@swc/core@1.3.93)
+      webpack: 5.89.0(@swc/core@1.3.93)
     dev: true
 
   /minimalistic-assert@1.0.1:
@@ -21237,20 +21237,20 @@ packages:
       react-dom: 18.2.0(react@18.2.0)
     dev: true
 
-  /react-server-dom-webpack@18.3.0-next-fecc288b7-20221025(react-dom@18.2.0)(react@18.2.0)(webpack@5.88.2):
+  /react-server-dom-webpack@18.3.0-next-fecc288b7-20221025(react-dom@18.2.0)(react@18.2.0)(webpack@5.89.0):
     resolution: {integrity: sha512-7KdRDi/vm9iCs0eZqae+vSTHGKsKcbRtG0SCRrlHx+CDI+xxyscFFITo6PY/w9W79Eh4FnuPe52F1FiIaiprGg==}
     engines: {node: '>=0.10.0'}
     peerDependencies:
       react: 18.3.0-next-fecc288b7-20221025
       react-dom: 18.3.0-next-fecc288b7-20221025
-      webpack: 5.88.2
+      webpack: 5.89.0
     dependencies:
       acorn: 6.4.2
       loose-envify: 1.4.0
       neo-async: 2.6.2
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
-      webpack: 5.88.2(@swc/core@1.3.93)
+      webpack: 5.89.0(@swc/core@1.3.93)
     dev: true
 
   /react-shallow-renderer@16.15.0(react@18.2.0):
@@ -22265,7 +22265,7 @@ packages:
   /safer-buffer@2.1.2:
     resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
 
-  /sass-loader@12.6.0(sass@1.54.0)(webpack@5.88.2):
+  /sass-loader@12.6.0(sass@1.54.0)(webpack@5.89.0):
     resolution: {integrity: sha512-oLTaH0YCtX4cfnJZxKSLAyglED0naiYfNG1iXfU5w1LNZ+ukoA5DtyDIN5zmKVZwYNJP4KRc5Y3hkWga+7tYfA==}
     engines: {node: '>= 12.13.0'}
     peerDependencies:
@@ -22273,7 +22273,7 @@ packages:
       node-sass: ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0
       sass: ^1.3.0
       sass-embedded: '*'
-      webpack: 5.88.2
+      webpack: 5.89.0
     peerDependenciesMeta:
       fibers:
         optional: true
@@ -22287,7 +22287,7 @@ packages:
       klona: 2.0.4
       neo-async: 2.6.2
       sass: 1.54.0
-      webpack: 5.88.2(@swc/core@1.3.93)
+      webpack: 5.89.0(@swc/core@1.3.93)
     dev: true
 
   /sass@1.54.0:
@@ -23668,14 +23668,14 @@ packages:
       supports-hyperlinks: 2.1.0
     dev: true
 
-  /terser-webpack-plugin@5.3.9(@swc/core@1.3.93)(webpack@5.88.2):
+  /terser-webpack-plugin@5.3.9(@swc/core@1.3.93)(webpack@5.89.0):
     resolution: {integrity: sha512-ZuXsqE07EcggTWQjXUj+Aot/OMcD0bMKGgF63f7UxYcu5/AJF53aIpK1YoP5xR9l6s/Hy2b+t1AM0bLNPRuhwA==}
     engines: {node: '>= 10.13.0'}
     peerDependencies:
       '@swc/core': '*'
       esbuild: '*'
       uglify-js: '*'
-      webpack: 5.88.2
+      webpack: 5.89.0
     peerDependenciesMeta:
       '@swc/core':
         optional: true
@@ -23690,7 +23690,7 @@ packages:
       schema-utils: 3.3.0
       serialize-javascript: 6.0.1
       terser: 5.21.0
-      webpack: 5.88.2(@swc/core@1.3.93)
+      webpack: 5.89.0(@swc/core@1.3.93)
 
   /terser@5.21.0:
     resolution: {integrity: sha512-WtnFKrxu9kaoXuiZFSGrcAvvBqAdmKx0SFNmVNYdJamMu9yyN3I/QF0FbH4QcqJQ+y1CJnzxGIKH0cSj+FGYRw==}
@@ -25033,8 +25033,8 @@ packages:
     resolution: {integrity: sha512-D0meHk1WYryUbuCnWJuomJFAYvqs0rxv/JFu1XJT1YYpczdgnP1/vz+u/5Z31jrTxT6dJSxCg+TuKTgjhoZS6g==}
     dev: false
 
-  /webpack@5.88.2(@swc/core@1.3.93):
-    resolution: {integrity: sha512-JmcgNZ1iKj+aiR0OvTYtWQqJwq37Pf683dY9bVORwVbUrDhLhdn/PlO2sHsFHPkj7sHNQF3JwaAkp49V+Sq1tQ==}
+  /webpack@5.89.0(@swc/core@1.3.93):
+    resolution: {integrity: sha512-qyfIC10pOr70V+jkmud8tMfajraGCZMBWJtrmuBymQKCrLTRejBI8STDp1MCyZu/QTdZSeacCQYpYNQVOzX5kw==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     peerDependencies:
@@ -25064,7 +25064,7 @@ packages:
       neo-async: 2.6.2
       schema-utils: 3.3.0
       tapable: 2.2.0
-      terser-webpack-plugin: 5.3.9(@swc/core@1.3.93)(webpack@5.88.2)
+      terser-webpack-plugin: 5.3.9(@swc/core@1.3.93)(webpack@5.89.0)
       watchpack: 2.4.0
       webpack-sources: 3.2.3
     transitivePeerDependencies:
@@ -25493,13 +25493,13 @@ packages:
   /zwitch@2.0.4:
     resolution: {integrity: sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==}
 
-  '@gitpkg-fork.vercel.sh/vercel/turbo/crates/turbopack-ecmascript-runtime/js?turbopack-230814.2(react-refresh@0.12.0)(webpack@5.88.2)':
+  '@gitpkg-fork.vercel.sh/vercel/turbo/crates/turbopack-ecmascript-runtime/js?turbopack-230814.2(react-refresh@0.12.0)(webpack@5.89.0)':
     resolution: {registry: https://registry.npmjs.org/, tarball: https://gitpkg-fork.vercel.sh/vercel/turbo/crates/turbopack-ecmascript-runtime/js?turbopack-230814.2}
     id: '@gitpkg-fork.vercel.sh/vercel/turbo/crates/turbopack-ecmascript-runtime/js?turbopack-230814.2'
     name: '@vercel/turbopack-ecmascript-runtime'
     version: 0.0.0
     dependencies:
-      '@next/react-refresh-utils': 13.4.17(react-refresh@0.12.0)(webpack@5.88.2)
+      '@next/react-refresh-utils': 13.4.17(react-refresh@0.12.0)(webpack@5.89.0)
       '@types/node': 20.8.6
     transitivePeerDependencies:
       - react-refresh
