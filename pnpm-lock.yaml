@@ -141,8 +141,8 @@ importers:
         specifier: 14.1.14
         version: 14.1.14
       '@types/selenium-webdriver':
-        specifier: 4.1.17
-        version: 4.1.17
+        specifier: 4.1.18
+        version: 4.1.18
       '@types/sharp':
         specifier: 0.31.1
         version: 0.31.1
@@ -6746,10 +6746,10 @@ packages:
   /@types/scheduler@0.16.2:
     resolution: {integrity: sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==}
 
-  /@types/selenium-webdriver@4.1.17:
-    resolution: {integrity: sha512-vtoMYktN2XcSlXwSmZq6H+25CiQMPCuGP7RUulfSmRmyI6wCerZPmNyMMrvcCcyDE/ofeWD1COLfux5plsVizw==}
+  /@types/selenium-webdriver@4.1.18:
+    resolution: {integrity: sha512-oBh2f+bbspYPkZoexEIaU8tV6/DR4FBCcMT8vKlFn7yhUTxYzKLgugA2nO0G/hYrwJiHn3EF95+n/GrPdIV5wA==}
     dependencies:
-      '@types/ws': 8.2.0
+      '@types/ws': 8.5.7
     dev: true
 
   /@types/semver@7.5.3:
@@ -6854,12 +6854,6 @@ packages:
       '@types/node': 20.8.6
       '@types/source-list-map': 0.1.2
       source-map: 0.6.1
-    dev: true
-
-  /@types/ws@8.2.0:
-    resolution: {integrity: sha512-cyeefcUCgJlEk+hk2h3N+MqKKsPViQgF5boi9TTHSK+PoR9KWBb/C5ccPcDyAqgsbAYHTwulch725DV84+pSpg==}
-    dependencies:
-      '@types/node': 20.8.6
     dev: true
 
   /@types/ws@8.5.7:
