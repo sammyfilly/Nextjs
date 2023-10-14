@@ -160,7 +160,7 @@ importers:
         version: 6.7.5(eslint@8.51.0)(typescript@5.2.2)
       '@vercel/fetch':
         specifier: 7.0.0
-        version: 7.0.0(@types/node-fetch@2.6.6)(node-fetch@2.7.0)
+        version: 7.0.0(@types/node-fetch@2.6.6)(node-fetch@3.3.2)
       '@vercel/og':
         specifier: 0.5.18
         version: 0.5.18
@@ -351,8 +351,8 @@ importers:
         specifier: workspace:*
         version: link:packages/next
       node-fetch:
-        specifier: 2.7.0
-        version: 2.7.0
+        specifier: 3.3.2
+        version: 3.3.2
       npm-run-all:
         specifier: 4.1.5
         version: 4.1.5
@@ -7181,29 +7181,29 @@ packages:
       eslint-visitor-keys: 3.4.3
     dev: true
 
-  /@vercel/fetch-cached-dns@2.0.2(node-fetch@2.7.0):
+  /@vercel/fetch-cached-dns@2.0.2(node-fetch@3.3.2):
     resolution: {integrity: sha512-gDqKEV8CeY2YmCdZpP1rn3tFK1L07Vw2+HYkCK8zpRHOVGr/sP8yhBsW+C/yqGVj0i9z/rIvqIHe5emvRvxwgw==}
     peerDependencies:
       node-fetch: '*'
     dependencies:
       '@types/node-fetch': 2.3.2
       '@zeit/dns-cached-resolve': 2.1.2
-      node-fetch: 2.7.0
+      node-fetch: 3.3.2
     dev: true
 
-  /@vercel/fetch-retry@5.0.3(node-fetch@2.7.0):
+  /@vercel/fetch-retry@5.0.3(node-fetch@3.3.2):
     resolution: {integrity: sha512-DIIoBY92r+sQ6iHSf5WjKiYvkdsDIMPWKYATlE0KcUAj2RV6SZK9UWpUzBRKsofXqedOqpVjrI0IE6AWL7JRtg==}
     peerDependencies:
       node-fetch: '*'
     dependencies:
       async-retry: 1.3.3
       debug: 3.2.7
-      node-fetch: 2.7.0
+      node-fetch: 3.3.2
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /@vercel/fetch@7.0.0(@types/node-fetch@2.6.6)(node-fetch@2.7.0):
+  /@vercel/fetch@7.0.0(@types/node-fetch@2.6.6)(node-fetch@3.3.2):
     resolution: {integrity: sha512-zxZCtiZ2ICoaXCELiCnJbZqWWoQOMpsTyvPJBvCyXRnyQjuZkcCoWTaubUulxdFKCrSeJOgugJ2UtsjbLUlj1w==}
     peerDependencies:
       '@types/node-fetch': ^2.6.1
@@ -7211,11 +7211,11 @@ packages:
     dependencies:
       '@types/async-retry': 1.4.6
       '@types/node-fetch': 2.6.6
-      '@vercel/fetch-cached-dns': 2.0.2(node-fetch@2.7.0)
-      '@vercel/fetch-retry': 5.0.3(node-fetch@2.7.0)
+      '@vercel/fetch-cached-dns': 2.0.2(node-fetch@3.3.2)
+      '@vercel/fetch-retry': 5.0.3(node-fetch@3.3.2)
       agentkeepalive: 4.5.0
       debug: 4.3.4
-      node-fetch: 2.7.0
+      node-fetch: 3.3.2
     transitivePeerDependencies:
       - supports-color
     dev: true
