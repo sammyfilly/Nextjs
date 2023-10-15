@@ -1202,8 +1202,8 @@ importers:
         specifier: 9.2.0
         version: 9.2.0(postcss@8.4.31)
       postcss-safe-parser:
-        specifier: 6.0.0
-        version: 6.0.0(postcss@8.4.31)
+        specifier: 7.0.0
+        version: 7.0.0(postcss@8.4.31)
       postcss-scss:
         specifier: 4.0.9
         version: 4.0.9(postcss@8.4.31)
@@ -20657,11 +20657,11 @@ packages:
       postcss: 8.4.31
     dev: true
 
-  /postcss-safe-parser@6.0.0(postcss@8.4.31):
-    resolution: {integrity: sha512-FARHN8pwH+WiS2OPCxJI8FuRJpTVnn6ZNFiqAM2aeW2LwTHWWmWgIyKC6cUo0L8aeKiF/14MNvnpls6R2PBeMQ==}
-    engines: {node: '>=12.0'}
+  /postcss-safe-parser@7.0.0(postcss@8.4.31):
+    resolution: {integrity: sha512-ovehqRNVCpuFzbXoTb4qLtyzK3xn3t/CUBxOs8LsnQjQrShaB4lKiHoVqY8ANaC0hBMHq5QVWk77rwGklFUDrg==}
+    engines: {node: '>=18.0'}
     peerDependencies:
-      postcss: ^8.3.3
+      postcss: ^8.4.31
     dependencies:
       postcss: 8.4.31
     dev: true
