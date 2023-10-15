@@ -109,8 +109,8 @@ importers:
         specifier: ^6.0.0
         version: 6.1.1
       pretty-ms:
-        specifier: ^5.0.0
-        version: 5.1.0
+        specifier: ^8.0.0
+        version: 8.0.0
       semver:
         specifier: 7.5.4
         version: 7.5.4
@@ -1084,9 +1084,9 @@ packages:
       is-hexadecimal: 1.0.4
     dev: false
 
-  /parse-ms@2.1.0:
-    resolution: {integrity: sha512-kHt7kzLoS9VBZfUsiKjv43mr91ea+U05EyKkEtqp7vNbHxmaVuEqN7XxeEVnGrMtYOAxGrDElSi96K7EgO1zCA==}
-    engines: {node: '>=6'}
+  /parse-ms@3.0.0:
+    resolution: {integrity: sha512-Tpb8Z7r7XbbtBTrM9UhpkzzaMrqA2VXMT3YChzYltwV3P3pM6t8wl7TvpMnSTosz1aQAdVib7kdoys7vYOPerw==}
+    engines: {node: '>=12'}
     dev: false
 
   /parse5@7.1.2:
@@ -1124,11 +1124,11 @@ packages:
     engines: {node: ^14.13.1 || >=16.0.0}
     dev: false
 
-  /pretty-ms@5.1.0:
-    resolution: {integrity: sha512-4gaK1skD2gwscCfkswYQRmddUb2GJZtzDGRjHWadVHtK/DIKFufa12MvES6/xu1tVbUYeia5bmLcwJtZJQUqnw==}
-    engines: {node: '>=8'}
+  /pretty-ms@8.0.0:
+    resolution: {integrity: sha512-ASJqOugUF1bbzI35STMBUpZqdfYKlJugy6JBziGi2EE+AL5JPJGSzvpeVXojxrr0ViUYoToUjb5kjSEGf7Y83Q==}
+    engines: {node: '>=14.16'}
     dependencies:
-      parse-ms: 2.1.0
+      parse-ms: 3.0.0
     dev: false
 
   /property-information@6.3.0:
