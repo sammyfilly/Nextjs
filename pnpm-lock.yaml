@@ -444,8 +444,8 @@ importers:
         specifier: 9.22.5
         version: 9.22.5(react-dom@18.2.0)(react@18.2.0)
       relay-compiler:
-        specifier: 13.2.0
-        version: 13.2.0
+        specifier: 15.0.0
+        version: 15.0.0
       relay-runtime:
         specifier: 13.2.0
         version: 13.2.0
@@ -21803,8 +21803,8 @@ packages:
       unified: 10.1.2
     dev: true
 
-  /relay-compiler@13.2.0:
-    resolution: {integrity: sha512-GGLWTJYqQ5jQLMXlq++Fl17f4gMuvmIi3+xU/TrD4UqWZLI3qhxE0NFAmOvg6xgBQ8xtCMhP066kv+3bhL+7Aw==}
+  /relay-compiler@15.0.0:
+    resolution: {integrity: sha512-19gIIdrVe/lk7Dkz/hqxpBd54bBDWAKG+kR5ael+xznJPdjlr/rlAmh5Tqi6Mgf/wiEQGdtKiZqeNdOW2/wVRw==}
     hasBin: true
     dev: true
 
