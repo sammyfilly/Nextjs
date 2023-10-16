@@ -516,8 +516,8 @@ importers:
         specifier: 5.2.2
         version: 5.2.2
       unfetch:
-        specifier: 4.2.0
-        version: 4.2.0
+        specifier: 5.0.0
+        version: 5.0.0
       wait-port:
         specifier: 0.3.1
         version: 0.3.1
@@ -24462,10 +24462,6 @@ packages:
     engines: {node: '>=14.0'}
     dependencies:
       '@fastify/busboy': 2.0.0
-    dev: true
-
-  /unfetch@4.2.0:
-    resolution: {integrity: sha512-F9p7yYCn6cIW9El1zi0HI6vqpeIvBsr3dSuRO6Xuppb1u5rXpCPmMvLSyECLhybr9isec8Ohl0hPekMVrEinDA==}
     dev: true
 
   /unfetch@5.0.0:
