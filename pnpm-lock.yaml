@@ -630,8 +630,8 @@ importers:
         specifier: 1.5.4
         version: 1.5.4
       validate-npm-package-name:
-        specifier: 3.0.0
-        version: 3.0.0
+        specifier: 5.0.0
+        version: 5.0.0
 
   packages/eslint-config-next:
     dependencies:
@@ -24940,7 +24940,7 @@ packages:
     dev: true
 
   /validate-npm-package-name@3.0.0:
-    resolution: {integrity: sha1-X6kS2B630MdK/BQN5zF/DKffQ34=}
+    resolution: {integrity: sha512-M6w37eVCMMouJ9V/sdPGnC5H4uDr73/+xdq0FBLO3TFFX1+7wiUY6Es328NN+y43tmY+doUdN9g9J21vqB7iLw==}
     dependencies:
       builtins: 1.0.3
     dev: true
