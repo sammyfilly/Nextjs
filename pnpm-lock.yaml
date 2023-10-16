@@ -1298,8 +1298,8 @@ importers:
         specifier: 0.0.1
         version: 0.0.1
       ua-parser-js:
-        specifier: 0.8.1
-        version: 0.8.1
+        specifier: 1.0.36
+        version: 1.0.36
       undici:
         specifier: 5.26.3
         version: 5.26.3
@@ -24429,8 +24429,8 @@ packages:
     resolution: {integrity: sha512-qLK/Xe9E2uzmYI3qLeOmI0tEOt+TBBQyUIAh4aAgU05FVYzeZrKUdkAZfBNVGRaHVgV0TDkdEngJSw/SyQchkQ==}
     dev: true
 
-  /ua-parser-js@0.8.1:
-    resolution: {integrity: sha512-top37bpoaHp+wJBAqjm5KNz7qNfSZ/tmHEisuMMK5uzjdIo/L6uWovDFuYboO+q8EMz1f67exTnd+OPYESuu8Q==}
+  /ua-parser-js@1.0.36:
+    resolution: {integrity: sha512-znuyCIXzl8ciS3+y3fHJI/2OhQIXbXw9MWC/o3qwyR+RGppjZHrM27CGFSKCJXi2Kctiz537iOu2KnXs1lMQhw==}
     dev: true
 
   /uglify-js@3.17.4:
