@@ -1238,8 +1238,8 @@ importers:
         specifier: npm:schema-utils@4.2.0
         version: /schema-utils@4.2.0
       schema-utils3:
-        specifier: npm:schema-utils@3.3.0
-        version: /schema-utils@3.3.0
+        specifier: npm:schema-utils@4.2.0
+        version: /schema-utils@4.2.0
       semver:
         specifier: 7.5.4
         version: 7.5.4
