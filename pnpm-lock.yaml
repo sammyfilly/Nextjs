@@ -519,8 +519,8 @@ importers:
         specifier: 5.0.0
         version: 5.0.0
       wait-port:
-        specifier: 0.3.1
-        version: 0.3.1
+        specifier: 1.1.0
+        version: 1.1.0
       webpack:
         specifier: 5.89.0
         version: 5.89.0(@swc/core@1.3.93)
@@ -25047,8 +25047,8 @@ packages:
       xml-name-validator: 3.0.0
     dev: true
 
-  /wait-port@0.3.1:
-    resolution: {integrity: sha512-o8kW8xjslQDrbazXgXeDFt53l128J9xBAiG4aBmr9DcQA05jt0VBf2TE2vc9rxctgZjIuWpiXuO0gIYFo3pZSA==}
+  /wait-port@1.1.0:
+    resolution: {integrity: sha512-3e04qkoN3LxTMLakdqeWth8nih8usyg+sf1Bgdf9wwUkp05iuK1eSY/QpLvscT/+F/gA89+LpUmmgBtesbqI2Q==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
