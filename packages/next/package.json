@@ -280,7 +280,7 @@
     "react-is": "18.2.0",
     "react-refresh": "0.14.0",
     "regenerator-runtime": "0.14.0",
-    "sass-loader": "12.6.0",
+    "sass-loader": "13.3.2",
     "schema-utils2": "npm:schema-utils@2.7.1",
     "schema-utils3": "npm:schema-utils@3.3.0",
     "semver": "7.5.4",
