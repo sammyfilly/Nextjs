@@ -327,8 +327,8 @@ importers:
         specifier: 0.12.0
         version: 0.12.0(ky@1.1.0)
       lerna:
-        specifier: 7.3.1
-        version: 7.3.1(@swc/core@1.3.93)
+        specifier: 7.4.0
+        version: 7.4.0(@swc/core@1.3.93)
       lint-staged:
         specifier: 15.0.1
         version: 15.0.1
@@ -4773,8 +4773,8 @@ packages:
       '@jridgewell/resolve-uri': 3.1.0
       '@jridgewell/sourcemap-codec': 1.4.14
 
-  /@lerna/child-process@7.3.1:
-    resolution: {integrity: sha512-9neRI51jOhyIGT3/xKUQZftzg78ZY5Ya8iBCmVQYWwo8rLiMqUqcgwIwFHFFYyY41Sb4/HXatQ0iiuTTB/vr8A==}
+  /@lerna/child-process@7.4.0:
+    resolution: {integrity: sha512-KhocFx7HI04N2tUdKv/kJDy627m9TzIDrtudRTMTFVS8vKzGtxpfjgWZAnJ20hwQqe/MvvfrOhHsvDBrcBEW/g==}
     engines: {node: '>=16.0.0'}
     dependencies:
       chalk: 4.1.2
@@ -4782,11 +4782,11 @@ packages:
       strong-log-transformer: 2.1.0
     dev: true
 
-  /@lerna/create@7.3.1(@swc/core@1.3.93)(typescript@5.2.2):
-    resolution: {integrity: sha512-+gHt9rzWYaC0pxE/xMC8hQaLXJKW24rWlWJ7Vq6gETsl6D5v3rSy2VIlvoDE9WsvROnMSoXw2PZY371X79hNBw==}
+  /@lerna/create@7.4.0(@swc/core@1.3.93)(typescript@5.2.2):
+    resolution: {integrity: sha512-VmuJCS/cC2itJjpMNNBWBl1YRfYNBjo6BR4+KVdDYPO2/WT+CWqv5gWGrm0bU5/djwGJ2BN96STzHnWegACK0A==}
     engines: {node: '>=16.0.0'}
     dependencies:
-      '@lerna/child-process': 7.3.1
+      '@lerna/child-process': 7.4.0
       '@npmcli/run-script': 6.0.2
       '@nx/devkit': 16.10.0(nx@16.10.0)
       '@octokit/plugin-enterprise-rest': 6.0.1
@@ -9221,11 +9221,11 @@ packages:
   /cli-spinners@2.6.1:
     resolution: {integrity: sha512-x/5fWmGMnbKQAaNwN+UZlV79qBLM9JFnJuJ03gIi5whrob0xV0ofNVHy9DhwGdsMJQc2OKv0oGmLzvaqvAVv+g==}
     engines: {node: '>=6'}
+    dev: true
 
   /cli-spinners@2.9.1:
     resolution: {integrity: sha512-jHgecW0pxkonBJdrKsqxgRX9AcG+u/5k0Q7WPDfi8AogLAdwxEkyYYNWwZ5GvVFoFx2uiY1eNcSK00fh+1+FyQ==}
     engines: {node: '>=6'}
-    dev: true
 
   /cli-truncate@3.1.0:
     resolution: {integrity: sha512-wfOBkjXteqSnI59oPcJkcPl/ZmwvMMOj340qUIY1SKZCv0B9Cf4D4fAucRkIKQmsIuYK3x1rrgU7MeGRruiuiA==}
@@ -9608,7 +9608,7 @@ packages:
     dependencies:
       conventional-commits-filter: 3.0.0
       dateformat: 3.0.3
-      handlebars: 4.7.7
+      handlebars: 4.7.8
       json-stringify-safe: 5.0.1
       meow: 8.1.2
       semver: 7.5.4
@@ -13152,19 +13152,6 @@ packages:
       duplexer: 0.1.2
     dev: true
 
-  /handlebars@4.7.7:
-    resolution: {integrity: sha512-aAcXm5OAfE/8IXkcZvCepKU3VzW1/39Fb5ZuqMtgI/hT8X2YgoMvBY5dLhq/cpOvw7Lk1nK/UF71aLG/ZnVYRA==}
-    engines: {node: '>=0.4.7'}
-    hasBin: true
-    dependencies:
-      minimist: 1.2.6
-      neo-async: 2.6.2
-      source-map: 0.6.1
-      wordwrap: 1.0.0
-    optionalDependencies:
-      uglify-js: 3.17.4
-    dev: true
-
   /handlebars@4.7.8:
     resolution: {integrity: sha512-vafaFqs8MZkRrSX7sFVUdo3ap/eNiLnb4IakshzvP56X5Nr1iGKAIqdX6tMlm6HcNRIkr6AxO5jFEoJzzpT8aQ==}
     engines: {node: '>=0.4.7'}
@@ -15265,7 +15252,7 @@ packages:
     resolution: {integrity: sha512-g1MWMLBiz8FKi1e4w0UyVL3w+iJceWAFBAaBnnGKOpNa5f8TLktkbre1+s6oICydWAm+HRUGTmI+//xv2hvXYA==}
     hasBin: true
     dependencies:
-      minimist: 1.2.6
+      minimist: 1.2.8
 
   /json5@2.2.3:
     resolution: {integrity: sha512-XmOWe7eyHYH14cLdVPoyg+GOH3rYX++KpzrylJwSW98t3Nk+U8XOl8FWKOgwtzdb8lXGf6zYwDUzeHMWfxasyg==}
@@ -15507,13 +15494,13 @@ packages:
     hasBin: true
     dev: true
 
-  /lerna@7.3.1(@swc/core@1.3.93):
-    resolution: {integrity: sha512-4Lt6nKIqCDqWgRlKu02g6+0Gfl5Hx9ZK3EIJTjMntea6QBuOgfSpJEj3j20osmE1tzFCkbAltJRyeLE1CImv+A==}
+  /lerna@7.4.0(@swc/core@1.3.93):
+    resolution: {integrity: sha512-Dp5js6R7mygy3Ncxc/1HxDd5EgiE7mFqZbCAYKm6FzeOn/GLcqyOPJHLsck6PlSu/uvqUh1lZO4wGaJJQAcW2Q==}
     engines: {node: '>=16.0.0'}
     hasBin: true
     dependencies:
-      '@lerna/child-process': 7.3.1
-      '@lerna/create': 7.3.1(@swc/core@1.3.93)(typescript@5.2.2)
+      '@lerna/child-process': 7.4.0
+      '@lerna/create': 7.4.0(@swc/core@1.3.93)(typescript@5.2.2)
       '@npmcli/run-script': 6.0.2
       '@nx/devkit': 16.10.0(nx@16.10.0)
       '@octokit/plugin-enterprise-rest': 6.0.1
@@ -16964,10 +16951,10 @@ packages:
 
   /minimist@1.2.6:
     resolution: {integrity: sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==}
+    dev: true
 
   /minimist@1.2.8:
     resolution: {integrity: sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==}
-    dev: true
 
   /minipass-collect@1.0.2:
     resolution: {integrity: sha512-6T6lH0H8OG9kITm/Jm6tdooIbogG9e0tLgpY6mphXSm/A9u8Nq1ryBG+Qspiub9LjWlBPsPS3tWQ/Botq4FdxA==}
@@ -17053,7 +17040,7 @@ packages:
     resolution: {integrity: sha512-NKmAlESf6jMGym1++R0Ra7wvhV+wFW63FaSOFPwRahvea0gMUcGUhVeAg/0BC0wiv9ih5NYPB1Wn1UEI1/L+xQ==}
     hasBin: true
     dependencies:
-      minimist: 1.2.6
+      minimist: 1.2.8
     dev: true
 
   /mkdirp@1.0.4:
@@ -18046,7 +18033,7 @@ packages:
       bl: 4.1.0
       chalk: 4.1.2
       cli-cursor: 3.1.0
-      cli-spinners: 2.6.1
+      cli-spinners: 2.9.1
       is-interactive: 1.0.0
       is-unicode-supported: 0.1.0
       log-symbols: 4.1.0
@@ -22273,7 +22260,7 @@ packages:
     hasBin: true
     dependencies:
       duplexer: 0.1.2
-      minimist: 1.2.6
+      minimist: 1.2.8
       through: 2.3.8
     dev: true
 
@@ -22902,7 +22889,7 @@ packages:
     dependencies:
       '@types/json5': 0.0.29
       json5: 1.0.2
-      minimist: 1.2.6
+      minimist: 1.2.8
       strip-bom: 3.0.0
     dev: false
 
@@ -22911,7 +22898,7 @@ packages:
     dependencies:
       '@types/json5': 0.0.29
       json5: 1.0.2
-      minimist: 1.2.6
+      minimist: 1.2.8
       strip-bom: 3.0.0
     dev: true
 
@@ -22920,7 +22907,7 @@ packages:
     engines: {node: '>=6'}
     dependencies:
       json5: 2.2.3
-      minimist: 1.2.6
+      minimist: 1.2.8
       strip-bom: 3.0.0
     dev: true
 
