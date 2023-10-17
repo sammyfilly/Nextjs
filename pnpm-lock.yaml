@@ -216,8 +216,8 @@ importers:
         specifier: 7.0.3
         version: 7.0.3
       dd-trace:
-        specifier: 4.16.0
-        version: 4.16.0
+        specifier: 4.17.0
+        version: 4.17.0
       es5-ext:
         specifier: 0.10.62
         version: 0.10.62
@@ -3790,8 +3790,9 @@ packages:
       node-gyp-build: 4.6.0
     dev: true
 
-  /@datadog/native-iast-taint-tracking@1.5.0:
-    resolution: {integrity: sha512-SOWIk1M6PZH0osNB191Voz2rKBPoF5hISWVSK9GiJPrD40+xjib1Z/bFDV7EkDn3kjOyordSBdNPG5zOqZJdyg==}
+  /@datadog/native-iast-taint-tracking@1.6.1:
+    resolution: {integrity: sha512-V1X0UbEROcEkqP4IIovqK9uu8jPXq80m8xOW1Vb6xJ9otO3eBphvDFDSa/OJ4pEYhajjjmGlraLlV6rXjaSGlQ==}
+    requiresBuild: true
     dependencies:
       node-gyp-build: 3.9.0
     dev: true
@@ -3805,9 +3806,9 @@ packages:
       node-gyp-build: 3.9.0
     dev: true
 
-  /@datadog/pprof@3.2.0:
-    resolution: {integrity: sha512-kOhWHCWB80djnMCr5KNKBAy1Ih/jK/PIj6yqnZwL1Wqni/h6IBPRUMhtIxcYJMRgsZVYrFXUV20AVXTZCzFokw==}
-    engines: {node: '>=12'}
+  /@datadog/pprof@4.0.0:
+    resolution: {integrity: sha512-1rQV6arh5fp7BWshjHgKmhNzXELAIod1Y4ydkI7XRcRim35uBoxQgPy1VgMCuLjfzco7112Vt8bkfQxo9bIdoA==}
+    engines: {node: '>=14'}
     requiresBuild: true
     dependencies:
       delay: 5.0.0
@@ -10289,16 +10290,16 @@ packages:
     resolution: {integrity: sha512-jyCETtSl3VMZMWeRo7iY1FL19ges1t55hMo5yaam4Jrsm5EPL89UQkoQRyiI+Yf4k8r2ZpdngkV8hr1lIdjb3Q==}
     dev: true
 
-  /dd-trace@4.16.0:
-    resolution: {integrity: sha512-pDAZgJ9hYrRHztpSM7hcO6bAXj/Jrf1EMW/O6BiDsQS6GMzXho3rqOHIGMBeB7+pzM6/chncio1KkwOKP+d4bQ==}
+  /dd-trace@4.17.0:
+    resolution: {integrity: sha512-qLutasPUGy5JiR42XVXWH4/KScqf01Xhpkp3d+ykEr5Bha1F5P8IuP6Ule9285fBQClEgVvIB0Frm+PSDO5idQ==}
     engines: {node: '>=16'}
     requiresBuild: true
     dependencies:
       '@datadog/native-appsec': 4.0.0
       '@datadog/native-iast-rewriter': 2.1.3
-      '@datadog/native-iast-taint-tracking': 1.5.0
+      '@datadog/native-iast-taint-tracking': 1.6.1
       '@datadog/native-metrics': 2.0.0
-      '@datadog/pprof': 3.2.0
+      '@datadog/pprof': 4.0.0
       '@datadog/sketches-js': 2.1.0
       '@opentelemetry/api': 1.6.0
       '@opentelemetry/core': 1.17.0(@opentelemetry/api@1.6.0)
@@ -10309,6 +10310,7 @@ packages:
       int64-buffer: 0.1.10
       ipaddr.js: 2.1.0
       istanbul-lib-coverage: 3.2.0
+      jest-docblock: 29.7.0
       koalas: 1.0.2
       limiter: 1.1.5
       lodash.kebabcase: 4.1.1
