@@ -162,8 +162,8 @@ importers:
         specifier: 7.0.0
         version: 7.0.0(@types/node-fetch@2.6.6)(node-fetch@3.3.2)
       '@vercel/og':
-        specifier: 0.5.18
-        version: 0.5.18
+        specifier: 0.5.19
+        version: 0.5.19
       '@zeit/next-typescript':
         specifier: 1.1.2-canary.0
         version: 1.1.2-canary.0(@babel/core@7.23.2)
@@ -5864,8 +5864,8 @@ packages:
     resolution: {integrity: sha512-Vvn3zZrhQZkkBE8LSuW3em98c0FwgO4nxzv6OdSxPKJIEKY2bGbHn+mhGIPerzI4twdxaP8/0+06HBpwf345Lw==}
     dev: true
 
-  /@resvg/resvg-wasm@2.4.1:
-    resolution: {integrity: sha512-yi6R0HyHtsoWTRA06Col4WoDs7SvlXU3DLMNP2bdAgs7HK18dTEVl1weXgxRzi8gwLteGUbIg29zulxIB3GSdg==}
+  /@resvg/resvg-wasm@2.5.0:
+    resolution: {integrity: sha512-jM0zG54ykoGFiMMVvRxzHFVXhxCdQTGp+okLCWGIXt8bN2GLlsWpjvyU0vZJWkTsd+qLmy2dmYcPU02zC0IVMQ==}
     engines: {node: '>= 10'}
     dev: true
 
@@ -7410,11 +7410,11 @@ packages:
       - supports-color
     dev: true
 
-  /@vercel/og@0.5.18:
-    resolution: {integrity: sha512-l519y6hscj14VkORBKshExoWaXWB4MqGUCIhY3gcXYir4aJ3J+9BU1E/CQ9yKsNmkgY+1VXOgjnq9zUT4B49KQ==}
+  /@vercel/og@0.5.19:
+    resolution: {integrity: sha512-U/Oi+5/eCZ1YPZxSObSoiyDqqZnNJIjCd6qs9BlCHscrwP2OTfbs88hkT5qMT3HanK1lDFquONjlnrE696fgxA==}
     engines: {node: '>=16'}
     dependencies:
-      '@resvg/resvg-wasm': 2.4.1
+      '@resvg/resvg-wasm': 2.5.0
       satori: 0.10.9
       yoga-wasm-web: 0.3.3
     dev: true
