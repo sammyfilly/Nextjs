@@ -956,8 +956,8 @@ importers:
         specifier: 9.0.5
         version: 9.0.5
       '@types/webpack-sources1':
-        specifier: npm:@types/webpack-sources@0.1.10
-        version: /@types/webpack-sources@0.1.10
+        specifier: npm:@types/webpack-sources@3.2.1
+        version: /@types/webpack-sources@3.2.1
       '@types/ws':
         specifier: 8.5.7
         version: 8.5.7
@@ -1322,8 +1322,8 @@ importers:
         specifier: 5.89.0
         version: 5.89.0(@swc/core@1.3.93)
       webpack-sources1:
-        specifier: npm:webpack-sources@1.4.3
-        version: /webpack-sources@1.4.3
+        specifier: npm:webpack-sources@3.2.3
+        version: /webpack-sources@3.2.3
       webpack-sources3:
         specifier: npm:webpack-sources@3.2.3
         version: /webpack-sources@3.2.3
@@ -7055,12 +7055,12 @@ packages:
     resolution: {integrity: sha512-RpO62vB2lkjEkyLbwTheA2+uwYmtVMWTr/kWRI++UAgVdZqNqdAuIQl/SxBCGeMKfdjWaXPbyhZbiCc4PAj+KA==}
     dev: true
 
-  /@types/webpack-sources@0.1.10:
-    resolution: {integrity: sha512-noRTIo37j3t2ZXao5PhewJ0XW5LI3WauIHd8qiHWwx6vAPa7oldzzFaymuHjjcs4cpWShUnmmKeSGk/K6A8hRA==}
+  /@types/webpack-sources@3.2.1:
+    resolution: {integrity: sha512-iLC3Fsx62ejm3ST3PQ8vBMC54Rb3EoCprZjeJGI5q+9QjfDLGt9jeg/k245qz1G9AQnORGk0vqPicJFPT1QODQ==}
     dependencies:
       '@types/node': 20.8.6
       '@types/source-list-map': 0.1.2
-      source-map: 0.6.1
+      source-map: 0.7.4
     dev: true
 
   /@types/ws@8.5.7:
@@ -22923,10 +22923,6 @@ packages:
       is-plain-obj: 1.1.0
     dev: true
 
-  /source-list-map@2.0.1:
-    resolution: {integrity: sha512-qnQ7gVMxGNxsiL4lEuJwe/To8UnK7fAnmbGEEH8RpLouuKbeEm0lhbQVFIrNSuB+G7tVrAlVsZgETT5nljf+Iw==}
-    dev: true
-
   /source-map-js@1.0.2:
     resolution: {integrity: sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==}
     engines: {node: '>=0.10.0'}
@@ -25163,13 +25159,6 @@ packages:
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
-
-  /webpack-sources@1.4.3:
-    resolution: {integrity: sha512-lgTS3Xhv1lCOKo7SA5TjKXMjpSM4sBjNV5+q2bqesbSPs5FjGmU6jjtBSkX9b4qW87vDIsCIlUPOEhbZrMdjeQ==}
-    dependencies:
-      source-list-map: 2.0.1
-      source-map: 0.6.1
-    dev: true
 
   /webpack-sources@3.2.3:
     resolution: {integrity: sha512-/DyMEOrDgLKKIG0fmvtz+4dUX/3Ghozwgm6iPp8KRhvn+eQf9+Q7GWxVNMk3+uCPWfdXYC4ExGBckIXdFEfH1w==}
