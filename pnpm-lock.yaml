@@ -570,8 +570,8 @@ importers:
   packages/create-next-app:
     devDependencies:
       '@types/async-retry':
-        specifier: 1.4.6
-        version: 1.4.6
+        specifier: 1.4.7
+        version: 1.4.7
       '@types/ci-info':
         specifier: 2.0.0
         version: 2.0.0
@@ -6404,6 +6404,12 @@ packages:
 
   /@types/async-retry@1.4.6:
     resolution: {integrity: sha512-or8JPgYUtyPpO0ddHImwUWmSjVE/UalxgMm2d0r3698QhjzlM7eke0PT60bOxs1NG7HxU232RQ1vy1iQKGGRTw==}
+    dependencies:
+      '@types/retry': 0.12.0
+    dev: true
+
+  /@types/async-retry@1.4.7:
+    resolution: {integrity: sha512-4NH5wuf9x7LZWD23/knI6RBywD1qCmLm7wNaqq0riy7hdDrCGGfkPOUvx0Cb78lVrFrEnCvocoL8+UcvSQlBDw==}
     dependencies:
       '@types/retry': 0.12.0
     dev: true
