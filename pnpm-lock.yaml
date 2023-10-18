@@ -884,8 +884,8 @@ importers:
         specifier: 0.5.7
         version: 0.5.7
       '@types/content-type':
-        specifier: 1.1.6
-        version: 1.1.6
+        specifier: 1.1.7
+        version: 1.1.7
       '@types/cookie':
         specifier: 0.5.2
         version: 0.5.2
@@ -6510,8 +6510,8 @@ packages:
     resolution: {integrity: sha512-V9/5u21RHFR1zfdm3rQ6pJUKV+zSSVQt+yq16i1YhdivVzWgPEoKedc3GdT8aFjsqQbakdxuy3FnEdePUQOamQ==}
     dev: true
 
-  /@types/content-type@1.1.6:
-    resolution: {integrity: sha512-WFHg/KFLCdUQl3m27WSQu0NEaLzoHGmgZHlsSYr0Y0iIvItMcBq7opZc6AGXPXqf+btIM6vTBJyLvuDAihB+zQ==}
+  /@types/content-type@1.1.7:
+    resolution: {integrity: sha512-dSM/IQ1fgM1aSQ2PlHR4uWQGDjs9SY+/ilm228CIs9hwlyIfW+q5asThulBforWR6ktt/o8L8m6GPW/Fz1dk2A==}
     dev: true
 
   /@types/cookie@0.4.1:
