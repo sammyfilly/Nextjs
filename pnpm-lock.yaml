@@ -893,8 +893,8 @@ importers:
         specifier: 6.0.4
         version: 6.0.4
       '@types/debug':
-        specifier: 4.1.9
-        version: 4.1.9
+        specifier: 4.1.10
+        version: 4.1.10
       '@types/express-serve-static-core':
         specifier: 4.17.37
         version: 4.17.37
@@ -4979,7 +4979,7 @@ packages:
     engines: {node: '>=14'}
     dependencies:
       '@open-draft/until': 1.0.3
-      '@types/debug': 4.1.9
+      '@types/debug': 4.1.10
       '@xmldom/xmldom': 0.8.10
       debug: 4.3.4
       headers-polyfill: 3.1.2
@@ -6534,8 +6534,8 @@ packages:
       '@types/node': 20.8.6
     dev: true
 
-  /@types/debug@4.1.9:
-    resolution: {integrity: sha512-8Hz50m2eoS56ldRlepxSBa6PWEVCtzUo/92HgLc2qTMnotJNIm7xP+UZhyWoYsyOdd5dxZ+NZLb24rsKyFs2ow==}
+  /@types/debug@4.1.10:
+    resolution: {integrity: sha512-tOSCru6s732pofZ+sMv9o4o3Zc+Sa8l3bxd/tweTQudFn06vAzb13ZX46Zi6m6EJ+RUbRTHvgQJ1gBtSgkaUYA==}
     dependencies:
       '@types/ms': 0.7.31
 
@@ -16796,7 +16796,7 @@ packages:
   /micromark@3.1.0:
     resolution: {integrity: sha512-6Mj0yHLdUZjHnOPgr5xfWIMqMWS12zDN6iws9SLuSz76W8jTtAv24MN4/CL7gJrl5vtxGInkkqDv/JIoRsQOvA==}
     dependencies:
-      '@types/debug': 4.1.9
+      '@types/debug': 4.1.10
       debug: 4.3.4
       decode-named-character-reference: 1.0.2
       micromark-core-commonmark: 1.0.6
@@ -23257,7 +23257,7 @@ packages:
     resolution: {integrity: sha512-5+JDIs4hqKfHnJcVCxTid1yBoI/++FfF/1PFdSMpaftZZZY+qg2JFruRbf7PaIwa9KgLotXQV3gSjtY0IdcFGQ==}
     dependencies:
       '@types/concat-stream': 2.0.0
-      '@types/debug': 4.1.9
+      '@types/debug': 4.1.10
       '@types/is-empty': 1.2.1
       '@types/node': 20.8.6
       '@types/unist': 2.0.3
