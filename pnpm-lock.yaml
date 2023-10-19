@@ -120,8 +120,8 @@ importers:
         specifier: 5.0.5
         version: 5.0.5
       '@types/http-proxy':
-        specifier: 1.17.12
-        version: 1.17.12
+        specifier: 1.17.13
+        version: 1.17.13
       '@types/jest':
         specifier: 29.5.5
         version: 29.5.5
@@ -6628,8 +6628,8 @@ packages:
     resolution: {integrity: sha512-FD+nQWA2zJjh4L9+pFXqWOi0Hs1ryBCfI+985NjluQ1p8EYtoLvjLOKidXBtZ4/IcxDX4o8/E8qDS3540tNliw==}
     dev: true
 
-  /@types/http-proxy@1.17.12:
-    resolution: {integrity: sha512-kQtujO08dVtQ2wXAuSFfk9ASy3sug4+ogFR8Kd8UgP8PEuc1/G/8yjYRmp//PcDNJEUKOza/MrQu15bouEUCiw==}
+  /@types/http-proxy@1.17.13:
+    resolution: {integrity: sha512-GkhdWcMNiR5QSQRYnJ+/oXzu0+7JJEPC8vkWXK351BkhjraZF+1W13CUYARUvX9+NqIU2n6YHA4iwywsc/M6Sw==}
     dependencies:
       '@types/node': 20.8.6
     dev: true
