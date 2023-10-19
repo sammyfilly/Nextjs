@@ -685,8 +685,8 @@ importers:
   packages/font:
     devDependencies:
       '@types/fontkit':
-        specifier: 2.0.4
-        version: 2.0.4
+        specifier: 2.0.5
+        version: 2.0.5
       '@vercel/ncc':
         specifier: 0.38.0
         version: 0.38.0
@@ -6584,8 +6584,8 @@ packages:
     resolution: {integrity: sha512-CWYnSRnun3CGbt6taXeVo2lCbuaj4mchVJ4UF/BdU5TSuIn3AmS13pGMwCsBUoehGbhZrBrpNJZSZI5EVilXww==}
     dev: true
 
-  /@types/fontkit@2.0.4:
-    resolution: {integrity: sha512-+D925Yyu7sVxqE091SGnMvvp+gD20obGj52wwTRnhqpj2M0FhT5mZLo7MW23pwS/hKzzu1Kux7VlbFIGTJVeNA==}
+  /@types/fontkit@2.0.5:
+    resolution: {integrity: sha512-zHrNPwQ9QKRBoXuWJc4mekQUvncAKugYo2URPVnqw7US0U0BxdykYMK+T2I/l2rmRpQ+mBkleBmoXRtkYdBCpw==}
     dependencies:
       '@types/node': 20.8.6
     dev: true
