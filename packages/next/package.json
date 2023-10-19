@@ -165,7 +165,7 @@
     "@types/compression": "1.7.4",
     "@types/content-disposition": "0.5.7",
     "@types/content-type": "1.1.7",
-    "@types/cookie": "0.5.2",
+    "@types/cookie": "0.5.3",
     "@types/cross-spawn": "6.0.3",
     "@types/debug": "4.1.9",
     "@types/express-serve-static-core": "4.17.37",
