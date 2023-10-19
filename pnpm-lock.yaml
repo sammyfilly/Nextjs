@@ -1365,8 +1365,8 @@ importers:
         version: 1.0.0
     devDependencies:
       '@types/jscodeshift':
-        specifier: 0.11.7
-        version: 0.11.7
+        specifier: 0.11.9
+        version: 0.11.9
 
   packages/next-env:
     devDependencies:
@@ -6669,8 +6669,8 @@ packages:
     resolution: {integrity: sha512-qC4bCqYGy1y/NP7dDVr7KJarn+PbX1nSpwA7JXdu0HxT3QYjO8MJ+cntENtHFVy2dRAyBV23OZ6MxsW1AM1L8g==}
     dev: true
 
-  /@types/jscodeshift@0.11.7:
-    resolution: {integrity: sha512-YJ+dQlL2a8dR+iNExYVxiFMa4nhoUgIhYN47rCCdwkRPYdURkee4bCskMhNNCUNo14wbjVf7C0iIKL5tQ9jecw==}
+  /@types/jscodeshift@0.11.9:
+    resolution: {integrity: sha512-4BrPdC7z/IFmrQM0YsF2DY7tdDGVU99DYYwvyC/Iz9bF4L0lyv8iJAeb+soQs7/UZSJ831VaVMLEdXPmAfBpnQ==}
     dependencies:
       ast-types: 0.14.2
       recast: 0.20.5
