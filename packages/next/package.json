@@ -171,7 +171,7 @@
     "@types/express-serve-static-core": "4.17.39",
     "@types/fresh": "0.5.1",
     "@types/glob": "8.1.0",
-    "@types/jsonwebtoken": "9.0.3",
+    "@types/jsonwebtoken": "9.0.4",
     "@types/lodash": "4.14.199",
     "@types/lodash.curry": "4.1.7",
     "@types/lru-cache": "7.10.9",
