@@ -899,8 +899,8 @@ importers:
         specifier: 4.17.38
         version: 4.17.38
       '@types/fresh':
-        specifier: 0.5.0
-        version: 0.5.0
+        specifier: 0.5.1
+        version: 0.5.1
       '@types/glob':
         specifier: 8.1.0
         version: 8.1.0
@@ -6590,8 +6590,8 @@ packages:
       '@types/node': 20.8.6
     dev: true
 
-  /@types/fresh@0.5.0:
-    resolution: {integrity: sha512-eGPzuyc6wZM3sSHJdF7NM2jW6B/xsB014Rqg/iDa6xY02mlfy1w/TE2sYhR8vbHxkzJOXiGo6NuIk3xk35vsgQ==}
+  /@types/fresh@0.5.1:
+    resolution: {integrity: sha512-ctJt0f5tpRb9tU5EKUbQ+uk4H9KaE2wYb8zYGbD0x4B1jykzl+oMnEs6z/ZnPGPnbB0z8A0Ie74rP4jU3yQnxA==}
     dev: true
 
   /@types/fs-extra@11.0.2:
