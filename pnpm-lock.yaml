@@ -896,8 +896,8 @@ importers:
         specifier: 4.1.10
         version: 4.1.10
       '@types/express-serve-static-core':
-        specifier: 4.17.37
-        version: 4.17.37
+        specifier: 4.17.38
+        version: 4.17.38
       '@types/fresh':
         specifier: 0.5.0
         version: 0.5.0
@@ -6563,8 +6563,8 @@ packages:
   /@types/estree@1.0.0:
     resolution: {integrity: sha512-WulqXMDUTYAXCjZnk6JtIHPigp55cVtDgDrO2gHRwhyJto21+1zbVCtOYB2L1F9w4qCQ0rOGWBnBe0FNTiEJIQ==}
 
-  /@types/express-serve-static-core@4.17.37:
-    resolution: {integrity: sha512-ZohaCYTgGFcOP7u6aJOhY9uIZQgZ2vxC2yWoArY+FeDXlqeH66ZVBjgvg+RLVAS/DWNq4Ap9ZXu1+SUQiiWYMg==}
+  /@types/express-serve-static-core@4.17.38:
+    resolution: {integrity: sha512-hXOtc0tuDHZPFwwhuBJXPbjemWtXnJjbvuuyNH2Y5Z6in+iXc63c4eXYDc7GGGqHy+iwYqAJMdaItqdnbcBKmg==}
     dependencies:
       '@types/node': 20.8.6
       '@types/qs': 6.9.7
@@ -6576,7 +6576,7 @@ packages:
     resolution: {integrity: sha512-5mHFNyavtLoJmnusB8OKJ5bshSzw+qkMIBAobLrIM48HJvunFva9mOa6aBwh64lBFyNwBbs0xiEFuj4eU/NjCA==}
     dependencies:
       '@types/body-parser': 1.17.1
-      '@types/express-serve-static-core': 4.17.37
+      '@types/express-serve-static-core': 4.17.38
       '@types/serve-static': 1.13.3
     dev: true
 
@@ -6895,7 +6895,7 @@ packages:
   /@types/serve-static@1.13.3:
     resolution: {integrity: sha512-oprSwp094zOglVrXdlo/4bAHtKTAxX6VT8FOZlBKrmyLbNvE1zxZyJ6yikMVtHIvwP45+ZQGJn+FdXGKTozq0g==}
     dependencies:
-      '@types/express-serve-static-core': 4.17.37
+      '@types/express-serve-static-core': 4.17.38
       '@types/mime': 2.0.1
     dev: true
 
