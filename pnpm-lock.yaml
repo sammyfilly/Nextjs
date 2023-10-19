@@ -911,8 +911,8 @@ importers:
         specifier: 4.14.200
         version: 4.14.200
       '@types/lodash.curry':
-        specifier: 4.1.7
-        version: 4.1.7
+        specifier: 4.1.8
+        version: 4.1.8
       '@types/lru-cache':
         specifier: 7.10.9
         version: 7.10.9
@@ -6707,8 +6707,8 @@ packages:
       '@types/node': 20.8.6
     dev: true
 
-  /@types/lodash.curry@4.1.7:
-    resolution: {integrity: sha512-R+IkSvh7CI8klh7FkQuTAiAR+aPFqYrNEjw/hMxjCSO7TsAqBAxpR99PxxJN1lgE6YuvpHEoktqbh6V5VLzxZA==}
+  /@types/lodash.curry@4.1.8:
+    resolution: {integrity: sha512-zT5Pdo7ofnCcBvBPZM7Y310UxVrfBjVe+/XTKcJhRQwlXFXedWNoULpHcnU42CbyX9mj/c53zuiroVaJ+Yw1ug==}
     dependencies:
       '@types/lodash': 4.14.200
     dev: true
