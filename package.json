@@ -86,7 +86,7 @@
     "@swc/helpers": "0.5.3",
     "@testing-library/react": "14.0.0",
     "@types/cheerio": "0.22.33",
-    "@types/cookie": "0.5.2",
+    "@types/cookie": "0.5.3",
     "@types/cross-spawn": "6.0.3",
     "@types/fs-extra": "11.0.2",
     "@types/glob": "8.1.0",

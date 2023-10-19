@@ -105,8 +105,8 @@ importers:
         specifier: 0.22.33
         version: 0.22.33
       '@types/cookie':
-        specifier: 0.5.2
-        version: 0.5.2
+        specifier: 0.5.3
+        version: 0.5.3
       '@types/cross-spawn':
         specifier: 6.0.3
         version: 6.0.3
@@ -887,8 +887,8 @@ importers:
         specifier: 1.1.7
         version: 1.1.7
       '@types/cookie':
-        specifier: 0.5.2
-        version: 0.5.2
+        specifier: 0.5.3
+        version: 0.5.3
       '@types/cross-spawn':
         specifier: 6.0.3
         version: 6.0.3
@@ -6518,8 +6518,8 @@ packages:
     resolution: {integrity: sha512-XW/Aa8APYr6jSVVA1y/DEIZX0/GMKLEVekNG727R8cs56ahETkRAy/3DR7+fJyh7oUgGwNQaRfXCun0+KbWY7Q==}
     dev: true
 
-  /@types/cookie@0.5.2:
-    resolution: {integrity: sha512-DBpRoJGKJZn7RY92dPrgoMew8xCWc2P71beqsjyhEI/Ds9mOyVmBwtekyfhpwFIVt1WrxTonFifiOZ62V8CnNA==}
+  /@types/cookie@0.5.3:
+    resolution: {integrity: sha512-SLg07AS9z1Ab2LU+QxzU8RCmzsja80ywjf/t5oqw+4NSH20gIGlhLOrBDm1L3PBWzPa4+wkgFQVZAjE6Ioj2ug==}
     dev: true
 
   /@types/cors@2.8.14:
