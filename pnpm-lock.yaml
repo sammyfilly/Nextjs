@@ -147,8 +147,8 @@ importers:
         specifier: 0.31.1
         version: 0.31.1
       '@types/string-hash':
-        specifier: 1.1.1
-        version: 1.1.1
+        specifier: 1.1.2
+        version: 1.1.2
       '@types/trusted-types':
         specifier: 2.0.4
         version: 2.0.4
@@ -6926,8 +6926,8 @@ packages:
   /@types/stack-utils@2.0.1:
     resolution: {integrity: sha512-Hl219/BT5fLAaz6NDkSuhzasy49dwQS/DSdu4MdggFB8zcXv7vflBI3xp7FEmkmdDkBUI2bPUNeMttp2knYdxw==}
 
-  /@types/string-hash@1.1.1:
-    resolution: {integrity: sha512-ijt3zdHi2DmZxQpQTmozXszzDo78V4R3EdvX0jFMfnMH2ZzQSmCbaWOMPGXFUYSzSIdStv78HDjg32m5dxc+tA==}
+  /@types/string-hash@1.1.2:
+    resolution: {integrity: sha512-CtVwNz47vNgl2qVUnX29IkZaBr5XbscAL30cKFwU8HgbCB3cQ1OuY/COl4MrvWbJq0xfmB7mo/nZTng+bi4TDg==}
     dev: true
 
   /@types/stylis@4.2.1:

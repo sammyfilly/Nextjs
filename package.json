@@ -100,7 +100,7 @@
     "@types/relay-runtime": "14.1.15",
     "@types/selenium-webdriver": "4.1.19",
     "@types/sharp": "0.31.1",
-    "@types/string-hash": "1.1.1",
+    "@types/string-hash": "1.1.2",
     "@types/trusted-types": "2.0.4",
     "@typescript-eslint/eslint-plugin": "6.8.0",
     "@typescript-eslint/parser": "6.8.0",
