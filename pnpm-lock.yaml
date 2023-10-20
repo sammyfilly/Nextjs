@@ -950,8 +950,8 @@ importers:
         specifier: 0.2.4
         version: 0.2.4
       '@types/ua-parser-js':
-        specifier: 0.7.37
-        version: 0.7.37
+        specifier: 0.7.38
+        version: 0.7.38
       '@types/uuid':
         specifier: 9.0.5
         version: 9.0.5
@@ -6959,8 +6959,8 @@ packages:
     resolution: {integrity: sha512-IDaobHimLQhjwsQ/NMwRVfa/yL7L/wriQPMhw1ZJall0KX6E1oxk29XMDeilW5qTIg5aoiqf5Udy8U/51aNoQQ==}
     dev: true
 
-  /@types/ua-parser-js@0.7.37:
-    resolution: {integrity: sha512-4sOxS3ZWXC0uHJLYcWAaLMxTvjRX3hT96eF4YWUh1ovTaenvibaZOE5uXtIp4mksKMLRwo7YDiCBCw6vBiUPVg==}
+  /@types/ua-parser-js@0.7.38:
+    resolution: {integrity: sha512-59CA5oavBEWSNLtS/BChj9xntiWMsIf9IytjxmBo9OuZEYuRzRf3K1ARzFPlXTOz5Zm2wXI38AP9RlLqDYMToQ==}
     dev: true
 
   /@types/unist@2.0.3:
