@@ -941,8 +941,8 @@ importers:
         specifier: 0.17.3
         version: 0.17.3
       '@types/shell-quote':
-        specifier: 1.7.2
-        version: 1.7.2
+        specifier: 1.7.3
+        version: 1.7.3
       '@types/tar':
         specifier: 6.1.6
         version: 6.1.6
@@ -6915,8 +6915,8 @@ packages:
       '@types/node': 20.8.7
     dev: true
 
-  /@types/shell-quote@1.7.2:
-    resolution: {integrity: sha512-p3SZxGp6LXB6RPdMpJmquKjaxQlN/ijyBLTKGPg9IJK6J2g2sJsMmtXP9kNR+Axxi6MDKN2e/76HCOUmvkIpcw==}
+  /@types/shell-quote@1.7.3:
+    resolution: {integrity: sha512-CeYcQaOnluyKPHJTuJmaH9RDJEQSVxGMVf2EZab3chpA8sI65FB19t0x3JlS37NbxL+TUottk9pMypMJQcfhIw==}
     dev: true
 
   /@types/source-list-map@0.1.2:

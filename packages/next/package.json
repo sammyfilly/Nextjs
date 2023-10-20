@@ -183,7 +183,7 @@
     "@types/react-is": "18.2.3",
     "@types/semver": "7.5.4",
     "@types/send": "0.17.3",
-    "@types/shell-quote": "1.7.2",
+    "@types/shell-quote": "1.7.3",
     "@types/tar": "6.1.6",
     "@types/text-table": "0.2.3",
     "@types/ua-parser-js": "0.7.37",
