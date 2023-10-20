@@ -582,8 +582,8 @@ importers:
         specifier: 20.8.7
         version: 20.8.7
       '@types/prompts':
-        specifier: 2.4.6
-        version: 2.4.6
+        specifier: 2.4.7
+        version: 2.4.7
       '@types/tar':
         specifier: 6.1.6
         version: 6.1.6
@@ -6815,8 +6815,8 @@ packages:
     resolution: {integrity: sha512-PdpJUHGRTQ+4TSsRb0Z/VpLbB2OlpVdcwj5PLw721ogPufKkvQhMpuxmTrD5QaXVTLes5q6He0YweKKIV/iu0A==}
     dev: true
 
-  /@types/prompts@2.4.6:
-    resolution: {integrity: sha512-hIwnDhvsTV6XwAPo1zNy2MTelR0JmCxklIRsVxwROHLGaf6LfB+sGDkB9n+aqV4gXDz8z5MnlAz4CEC9wQDRsw==}
+  /@types/prompts@2.4.7:
+    resolution: {integrity: sha512-5zTamE+QQM4nR6Ab3yHK+ovWuhLJXaa2ZLt3mT1en8U3ubWtjVT1vXDaVFC2+cL89uVn7Y+gIq5B3IcVvBl5xQ==}
     dependencies:
       '@types/node': 20.8.7
       kleur: 3.0.3
