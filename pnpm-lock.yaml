@@ -138,8 +138,8 @@ importers:
         specifier: 18.2.13
         version: 18.2.13
       '@types/relay-runtime':
-        specifier: 14.1.14
-        version: 14.1.14
+        specifier: 14.1.15
+        version: 14.1.15
       '@types/selenium-webdriver':
         specifier: 4.1.18
         version: 4.1.18
@@ -6856,8 +6856,8 @@ packages:
       '@types/scheduler': 0.16.2
       csstype: 3.1.2
 
-  /@types/relay-runtime@14.1.14:
-    resolution: {integrity: sha512-uG5GJhlyhqBp4j5b4xeH9LFMAr+xAFbWf1Q4ZLa0aLFJJNbjDVmHbzqzuXb+WqNpM3V7LaKwPB1m7w3NYSlCMg==}
+  /@types/relay-runtime@14.1.15:
+    resolution: {integrity: sha512-ag5HMUtDG5kiR5Gje4he4+vQLZaYwg7UeboK1dcH30Qq5FyCZPthOPMPYsz4CeIwiDuvjY8IjGbd1vr3qqPPZw==}
     dev: true
 
   /@types/resolve@1.17.1:
