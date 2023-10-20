@@ -185,7 +185,7 @@
     "@types/send": "0.17.3",
     "@types/shell-quote": "1.7.3",
     "@types/tar": "6.1.7",
-    "@types/text-table": "0.2.3",
+    "@types/text-table": "0.2.4",
     "@types/ua-parser-js": "0.7.37",
     "@types/uuid": "9.0.5",
     "@types/webpack-sources1": "npm:@types/webpack-sources@3.2.1",
