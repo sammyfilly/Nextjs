@@ -585,8 +585,8 @@ importers:
         specifier: 2.4.7
         version: 2.4.7
       '@types/tar':
-        specifier: 6.1.6
-        version: 6.1.6
+        specifier: 6.1.7
+        version: 6.1.7
       '@types/validate-npm-package-name':
         specifier: 4.0.0
         version: 4.0.0
@@ -944,8 +944,8 @@ importers:
         specifier: 1.7.3
         version: 1.7.3
       '@types/tar':
-        specifier: 6.1.6
-        version: 6.1.6
+        specifier: 6.1.7
+        version: 6.1.7
       '@types/text-table':
         specifier: 0.2.3
         version: 0.2.3
@@ -6938,8 +6938,8 @@ packages:
     resolution: {integrity: sha512-dPWnWsf+kzIG140B8z2w3fr5D03TLWbOAFQl45xUpI3vcizeXriNR5VYkWZ+WTMsUHqZ9Xlt3hrxGNANFyNQfw==}
     dev: true
 
-  /@types/tar@6.1.6:
-    resolution: {integrity: sha512-HQ06kiiDXz9uqtmE9ksQUn1ovcPr1gGV9EgaCWo6FGYKD0onNBCetBzL0kfcS8Kbj1EFxJWY9jL2W4ZvvtGI8Q==}
+  /@types/tar@6.1.7:
+    resolution: {integrity: sha512-57ovoJf/lFhugSbDqDgpulTfm78uwO0Pa3EwgO3Op2IAIDZaDE4Z/orZ2yl25QRr8NQa1xjms9ElcoHx4pUedQ==}
     dependencies:
       '@types/node': 20.8.7
       minipass: 4.2.8
