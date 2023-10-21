@@ -187,7 +187,7 @@
     "@types/tar": "6.1.7",
     "@types/text-table": "0.2.4",
     "@types/ua-parser-js": "0.7.38",
-    "@types/uuid": "9.0.5",
+    "@types/uuid": "9.0.6",
     "@types/webpack-sources1": "npm:@types/webpack-sources@3.2.1",
     "@types/ws": "8.5.7",
     "@vercel/ncc": "0.38.0",
