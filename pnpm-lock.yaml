@@ -956,8 +956,8 @@ importers:
         specifier: 9.0.6
         version: 9.0.6
       '@types/webpack-sources1':
-        specifier: npm:@types/webpack-sources@3.2.1
-        version: /@types/webpack-sources@3.2.1
+        specifier: npm:@types/webpack-sources@3.2.2
+        version: /@types/webpack-sources@3.2.2
       '@types/ws':
         specifier: 8.5.7
         version: 8.5.7
@@ -6977,8 +6977,8 @@ packages:
     resolution: {integrity: sha512-yzivVVAvMhDeboopQ49JNZ+9aCQV5jy4KfUw2LLFJ08oNyNFnG2Il7p/giMQBcJi4FVVqcl2vBIEll6YrKrS/Q==}
     dev: true
 
-  /@types/webpack-sources@3.2.1:
-    resolution: {integrity: sha512-iLC3Fsx62ejm3ST3PQ8vBMC54Rb3EoCprZjeJGI5q+9QjfDLGt9jeg/k245qz1G9AQnORGk0vqPicJFPT1QODQ==}
+  /@types/webpack-sources@3.2.2:
+    resolution: {integrity: sha512-acCzhuVe+UJy8abiSFQWXELhhNMZjQjQKpLNEi1pKGgKXZj0ul614ATcx4kkhunPost6Xw+aCq8y8cn1/WwAiA==}
     dependencies:
       '@types/node': 20.8.7
       '@types/source-list-map': 0.1.2
