@@ -959,8 +959,8 @@ importers:
         specifier: npm:@types/webpack-sources@3.2.2
         version: /@types/webpack-sources@3.2.2
       '@types/ws':
-        specifier: 8.5.7
-        version: 8.5.7
+        specifier: 8.5.8
+        version: 8.5.8
       '@vercel/ncc':
         specifier: 0.38.0
         version: 0.38.0
@@ -6987,6 +6987,12 @@ packages:
 
   /@types/ws@8.5.7:
     resolution: {integrity: sha512-6UrLjiDUvn40CMrAubXuIVtj2PEfKDffJS7ychvnPU44j+KVeXmdHHTgqcM/dxLUTHxlXHiFM8Skmb8ozGdTnQ==}
+    dependencies:
+      '@types/node': 20.8.7
+    dev: true
+
+  /@types/ws@8.5.8:
+    resolution: {integrity: sha512-flUksGIQCnJd6sZ1l5dqCEG/ksaoAg/eUwiLAGTJQcfgvZJKF++Ta4bJA6A5aPSJmsr+xlseHn4KLgVlNnvPTg==}
     dependencies:
       '@types/node': 20.8.7
     dev: true
