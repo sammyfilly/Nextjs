@@ -199,7 +199,7 @@
     "react-server-dom-webpack-experimental": "npm:react-server-dom-webpack@0.0.1",
     "react-ssr-prepass": "1.5.0",
     "react-virtualized": "9.22.5",
-    "relay-compiler": "15.0.0",
+    "relay-compiler": "16.0.0",
     "relay-runtime": "15.0.0",
     "release": "6.3.1",
     "request-promise-core": "1.1.4",
