@@ -253,7 +253,7 @@
     "lru-cache": "10.0.1",
     "micromatch": "4.0.5",
     "mini-css-extract-plugin": "2.7.6",
-    "msw": "^1.2.2",
+    "msw": "^2.0.0",
     "nanoid": "5.0.2",
     "native-url": "0.3.4",
     "neo-async": "2.6.2",
