@@ -1588,8 +1588,8 @@ importers:
         specifier: ^18.2.0
         version: 18.2.0
       third-party-capital:
-        specifier: 1.0.22
-        version: 1.0.22
+        specifier: 1.0.23
+        version: 1.0.23
     devDependencies:
       next:
         specifier: 13.4.17
@@ -22718,8 +22718,8 @@ packages:
       any-promise: 1.3.0
     dev: true
 
-  /third-party-capital@1.0.22:
-    resolution: {integrity: sha512-P5rizLsWEl+/bMnXrsWbyiTaKutVgXYpQNQKvegaC9rbFEniL/VNul6ZrHQpMfL7C8XTqH3ykKTXfOUF8futTw==}
+  /third-party-capital@1.0.23:
+    resolution: {integrity: sha512-ZVO5l6jXSjSiWIs4LjtZljTb899P2jmn5roh92gu9X8WxcxzEK12sgJmXn7pZVtH5/JGYQcgIBe0Jwbuo8KGUA==}
     dev: false
 
   /through2@0.4.2:
