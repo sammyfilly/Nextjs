@@ -41,7 +41,7 @@ jobs:
     environment: release-${{ github.event.inputs.releaseType }}
     steps:
       - name: Setup node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         if: ${{ steps.docs-change.outputs.docsChange == 'nope' }}
         with:
           node-version: 18
