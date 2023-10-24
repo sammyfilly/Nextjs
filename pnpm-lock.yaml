@@ -803,8 +803,8 @@ importers:
         specifier: 2.4.1
         version: 2.4.1
       '@edge-runtime/primitives':
-        specifier: 4.0.3
-        version: 4.0.3
+        specifier: 4.0.4
+        version: 4.0.4
       '@hapi/accept':
         specifier: 6.0.3
         version: 6.0.3
@@ -3872,6 +3872,11 @@ packages:
 
   /@edge-runtime/primitives@4.0.3:
     resolution: {integrity: sha512-1qldmcIwxxi69Hg6cmWB5erpyd+4GXUk7zCTBNh2EQJUvYbt5G46vtNyAtr5LbuHgM0gEYvAzdiFt2k2elsTsg==}
+    engines: {node: '>=16'}
+    dev: true
+
+  /@edge-runtime/primitives@4.0.4:
+    resolution: {integrity: sha512-ktlFVHheT3mXz++atzAB13p/+VLMLiinWvn68/wfpLjsat/LuCccOGuNIe8gLPdVbucvw6N8TTn39iRVwz4gxA==}
     engines: {node: '>=16'}
     dev: true
 
