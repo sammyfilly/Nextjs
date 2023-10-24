@@ -803,8 +803,8 @@ importers:
         specifier: 2.4.1
         version: 2.4.1
       '@edge-runtime/primitives':
-        specifier: 4.0.3
-        version: 4.0.3
+        specifier: 4.0.4
+        version: 4.0.4
       '@hapi/accept':
         specifier: 6.0.3
         version: 6.0.3
