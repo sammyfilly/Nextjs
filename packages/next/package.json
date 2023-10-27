@@ -192,7 +192,7 @@
     "@types/ws": "8.5.8",
     "@vercel/ncc": "0.38.1",
     "@vercel/nft": "0.24.3",
-    "acorn": "8.10.0",
+    "acorn": "8.11.1",
     "ajv": "8.12.0",
     "amphtml-validator": "1.0.35",
     "anser": "2.1.1",
