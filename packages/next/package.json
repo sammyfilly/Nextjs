@@ -162,7 +162,7 @@
     "@types/babel__traverse": "7.20.4",
     "@types/bytes": "3.1.4",
     "@types/ci-info": "2.0.0",
-    "@types/compression": "1.7.4",
+    "@types/compression": "1.7.5",
     "@types/content-disposition": "0.5.7",
     "@types/content-type": "1.1.7",
     "@types/cookie": "0.5.3",
