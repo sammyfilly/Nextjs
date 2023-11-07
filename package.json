@@ -87,7 +87,7 @@
     "@testing-library/react": "14.0.0",
     "@types/cheerio": "0.22.34",
     "@types/cookie": "0.5.3",
-    "@types/cross-spawn": "6.0.4",
+    "@types/cross-spawn": "6.0.5",
     "@types/fs-extra": "11.0.3",
     "@types/glob": "8.1.0",
     "@types/html-validator": "5.0.5",
