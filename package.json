@@ -90,7 +90,7 @@
     "@types/cross-spawn": "6.0.5",
     "@types/fs-extra": "11.0.4",
     "@types/glob": "8.1.0",
-    "@types/html-validator": "5.0.5",
+    "@types/html-validator": "5.0.6",
     "@types/http-proxy": "1.17.13",
     "@types/jest": "29.5.7",
     "@types/node": "20.8.10",
