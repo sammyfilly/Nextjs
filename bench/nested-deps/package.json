@@ -9,8 +9,8 @@
     "build-nocache": "rimraf .next && yarn build"
   },
   "devDependencies": {
-    "@babel/types": "7.23.0",
-    "@babel/generator": "7.23.0",
+    "@babel/types": "7.23.3",
+    "@babel/generator": "7.23.3",
     "random-seed": "0.3.0",
     "cross-env": "^7.0.3",
     "pretty-ms": "^8.0.0",
