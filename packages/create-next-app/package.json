@@ -42,7 +42,7 @@
     "commander": "11.1.0",
     "conf": "12.0.0",
     "cross-spawn": "7.0.3",
-    "fast-glob": "3.3.1",
+    "fast-glob": "3.3.2",
     "got": "13.0.0",
     "picocolors": "1.0.0",
     "prettier-plugin-tailwindcss": "0.5.6",
