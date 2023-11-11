@@ -95,8 +95,8 @@
     "@types/jest": "29.5.8",
     "@types/node": "20.8.10",
     "@types/node-fetch": "2.6.9",
-    "@types/react": "18.2.34",
-    "@types/react-dom": "18.2.14",
+    "@types/react": "18.2.37",
+    "@types/react-dom": "18.2.15",
     "@types/relay-runtime": "14.1.17",
     "@types/selenium-webdriver": "4.1.20",
     "@types/sharp": "0.31.1",
@@ -239,8 +239,8 @@
     "@babel/parser": "7.23.3",
     "@babel/types": "7.23.3",
     "@babel/traverse": "7.23.3",
-    "@types/react": "18.2.34",
-    "@types/react-dom": "18.2.14"
+    "@types/react": "18.2.37",
+    "@types/react-dom": "18.2.15"
   },
   "engines": {
     "node": ">=16.14.0",
