@@ -226,7 +226,7 @@
     "unfetch": "5.0.0",
     "wait-port": "1.1.0",
     "webpack": "5.89.0",
-    "webpack-bundle-analyzer": "4.9.1",
+    "webpack-bundle-analyzer": "4.10.0",
     "whatwg-fetch": "3.6.19",
     "ws": "8.14.2"
   },
