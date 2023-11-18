@@ -126,7 +126,7 @@
     "dd-trace": "4.19.0",
     "es5-ext": "0.10.62",
     "escape-string-regexp": "5.0.0",
-    "eslint": "8.53.0",
+    "eslint": "8.54.0",
     "eslint-config-next": "workspace:*",
     "eslint-plugin-eslint-plugin": "5.1.1",
     "eslint-plugin-import": "2.29.0",
