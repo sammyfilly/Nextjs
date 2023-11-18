@@ -228,7 +228,7 @@
     "edge-runtime": "2.5.7",
     "events": "3.3.0",
     "find-cache-dir": "5.0.0",
-    "find-up": "6.3.0",
+    "find-up": "7.0.0",
     "fresh": "0.5.2",
     "get-orientation": "1.1.2",
     "glob": "10.3.10",
