@@ -166,7 +166,7 @@
     "@types/content-disposition": "0.5.8",
     "@types/content-type": "1.1.8",
     "@types/cookie": "0.5.4",
-    "@types/cross-spawn": "6.0.5",
+    "@types/cross-spawn": "6.0.6",
     "@types/debug": "4.1.12",
     "@types/express-serve-static-core": "4.17.41",
     "@types/fresh": "0.5.2",
