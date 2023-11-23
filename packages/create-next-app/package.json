@@ -33,7 +33,7 @@
     "@types/ci-info": "2.0.0",
     "@types/cross-spawn": "6.0.6",
     "@types/node": "^20.2.5",
-    "@types/prompts": "2.4.8",
+    "@types/prompts": "2.4.9",
     "@types/tar": "6.1.9",
     "@types/validate-npm-package-name": "4.0.2",
     "@vercel/ncc": "0.38.1",
