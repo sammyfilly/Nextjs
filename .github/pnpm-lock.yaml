@@ -22,8 +22,8 @@ importers:
         specifier: 0.38.1
         version: 0.38.1
       typescript:
-        specifier: 5.3.2
-        version: 5.3.2
+        specifier: 5.3.3
+        version: 5.3.3
 
   actions/issue-validator:
     dependencies:
@@ -38,8 +38,8 @@ importers:
         specifier: 0.38.1
         version: 0.38.1
       typescript:
-        specifier: 5.3.2
-        version: 5.3.2
+        specifier: 5.3.3
+        version: 5.3.3
 
   actions/minus-one:
     dependencies:
@@ -73,8 +73,8 @@ importers:
         specifier: 0.38.1
         version: 0.38.1
       typescript:
-        specifier: 5.3.2
-        version: 5.3.2
+        specifier: 5.3.3
+        version: 5.3.3
 
   actions/next-stats-action:
     dependencies:
@@ -116,8 +116,8 @@ importers:
         version: 7.5.4
     devDependencies:
       typescript:
-        specifier: 5.3.2
-        version: 5.3.2
+        specifier: 5.3.3
+        version: 5.3.3
 
   actions/pr-approved-open:
     dependencies:
@@ -172,8 +172,8 @@ importers:
         specifier: 0.38.1
         version: 0.38.1
       typescript:
-        specifier: 5.3.2
-        version: 5.3.2
+        specifier: 5.3.3
+        version: 5.3.3
 
 packages:
 
@@ -1368,8 +1368,8 @@ packages:
     engines: {node: '>=0.6.11 <=0.7.0 || >=0.7.3'}
     dev: false
 
-  /typescript@5.3.2:
-    resolution: {integrity: sha512-6l+RyNy7oAHDfxC4FzSJcz9vnjTKxrLpDG5M2Vu4SHRVNg6xzqZp6LYSR9zjqQTu8DU/f5xwxUdADOkbrIX2gQ==}
+  /typescript@5.3.3:
+    resolution: {integrity: sha512-pXWcraxM0uxAS+tN0AG/BF2TyqmHO014Z070UsJ+pFvYuRSq8KH8DmWpnbXe0pEPDHXZV3FcAbJkijJ5oNEnWw==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
