@@ -58,10 +58,10 @@
     "update-google-fonts": "node ./scripts/update-google-fonts.js"
   },
   "devDependencies": {
-    "@babel/core": "7.23.5",
+    "@babel/core": "7.23.6",
     "@babel/eslint-parser": "7.23.3",
-    "@babel/generator": "7.23.5",
-    "@babel/parser": "7.23.5",
+    "@babel/generator": "7.23.6",
+    "@babel/parser": "7.23.6",
     "@babel/plugin-proposal-object-rest-spread": "7.20.7",
     "@babel/preset-flow": "7.23.3",
     "@babel/preset-react": "7.23.3",
@@ -235,10 +235,10 @@
     "browserslist": "4.22.2",
     "caniuse-lite": "1.0.30001568",
     "@types/node": "20.10.4",
-    "@babel/core": "7.23.5",
-    "@babel/parser": "7.23.5",
-    "@babel/types": "7.23.5",
-    "@babel/traverse": "7.23.5",
+    "@babel/core": "7.23.6",
+    "@babel/parser": "7.23.6",
+    "@babel/types": "7.23.6",
+    "@babel/traverse": "7.23.6",
     "@types/react": "18.2.43",
     "@types/react-dom": "18.2.17"
   },
