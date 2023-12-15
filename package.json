@@ -129,7 +129,7 @@
     "eslint": "8.55.0",
     "eslint-config-next": "workspace:*",
     "eslint-plugin-eslint-plugin": "5.2.1",
-    "eslint-plugin-import": "2.29.0",
+    "eslint-plugin-import": "2.29.1",
     "eslint-plugin-jest": "27.6.0",
     "eslint-plugin-jsdoc": "46.9.0",
     "eslint-plugin-react": "7.33.2",
