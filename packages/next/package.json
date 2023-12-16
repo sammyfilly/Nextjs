@@ -279,7 +279,7 @@
     "raw-body": "2.5.2",
     "react-is": "18.2.0",
     "react-refresh": "0.14.0",
-    "regenerator-runtime": "0.14.0",
+    "regenerator-runtime": "0.14.1",
     "sass-loader": "13.3.2",
     "schema-utils2": "npm:schema-utils@4.2.0",
     "schema-utils3": "npm:schema-utils@4.2.0",
