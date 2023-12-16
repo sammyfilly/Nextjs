@@ -227,7 +227,7 @@
     "wait-port": "1.1.0",
     "webpack": "5.89.0",
     "webpack-bundle-analyzer": "4.10.1",
-    "whatwg-fetch": "3.6.19",
+    "whatwg-fetch": "3.6.20",
     "ws": "8.15.0"
   },
   "resolutions": {
