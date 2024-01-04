@@ -105,7 +105,7 @@
     "@typescript-eslint/eslint-plugin": "6.17.0",
     "@typescript-eslint/parser": "6.17.0",
     "@vercel/fetch": "7.0.0",
-    "@vercel/og": "0.6.1",
+    "@vercel/og": "0.6.2",
     "@zeit/next-typescript": "1.1.2-canary.0",
     "abort-controller": "3.0.0",
     "alex": "11.0.1",
