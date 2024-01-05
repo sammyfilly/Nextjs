@@ -224,7 +224,7 @@
     "data-uri-to-buffer": "6.0.1",
     "debug": "4.3.4",
     "devalue": "4.3.2",
-    "domain-browser": "5.7.0",
+    "domain-browser": "4.23.0",
     "edge-runtime": "2.5.7",
     "events": "3.3.0",
     "find-cache-dir": "5.0.0",
