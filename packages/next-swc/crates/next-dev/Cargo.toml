@@ -98,7 +98,7 @@ nix = "0.27.1"
 turbopack-binding = { workspace = true, features = [
   "__turbo_tasks_build"
 ]}
-vergen = { version = "8.2.7", default-features = false, features = [
+vergen = { version = "8.2.8", default-features = false, features = [
   "cargo",
   "build",
 ] }
