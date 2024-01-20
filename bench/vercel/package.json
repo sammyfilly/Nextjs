@@ -13,7 +13,7 @@
     "@szmarczak/http-timer": "5.0.1",
     "asciichart": "1.5.25",
     "commander": "11.1.0",
-    "dotenv": "16.3.1",
+    "dotenv": "16.3.2",
     "downsample-lttb": "0.0.1",
     "listr2": "7.0.2",
     "p-queue": "7.4.1",
