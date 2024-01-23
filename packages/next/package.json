@@ -137,7 +137,7 @@
     "@capsizecss/metrics": "1.2.0",
     "@edge-runtime/cookies": "4.0.3",
     "@edge-runtime/ponyfill": "2.4.2",
-    "@edge-runtime/primitives": "4.0.5",
+    "@edge-runtime/primitives": "4.0.6",
     "@hapi/accept": "6.0.3",
     "@jest/transform": "29.7.0",
     "@jest/types": "29.6.3",
