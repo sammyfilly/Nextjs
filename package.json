@@ -209,7 +209,7 @@
     "scheduler-builtin": "npm:scheduler@0.24.0-next-fecc288b7-20221025",
     "scheduler-experimental-builtin": "npm:scheduler@0.23.0",
     "seedrandom": "3.0.5",
-    "selenium-webdriver": "4.16.0",
+    "selenium-webdriver": "4.17.0",
     "semver": "7.5.4",
     "shell-quote": "1.8.1",
     "strip-ansi": "7.1.0",
