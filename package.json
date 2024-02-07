@@ -96,7 +96,7 @@
     "@types/node": "20.11.16",
     "@types/node-fetch": "2.6.11",
     "@types/react": "18.2.55",
-    "@types/react-dom": "18.2.18",
+    "@types/react-dom": "18.2.19",
     "@types/relay-runtime": "14.1.23",
     "@types/selenium-webdriver": "4.1.21",
     "@types/sharp": "0.31.1",
@@ -240,7 +240,7 @@
     "@babel/types": "7.23.9",
     "@babel/traverse": "7.23.9",
     "@types/react": "18.2.55",
-    "@types/react-dom": "18.2.18"
+    "@types/react-dom": "18.2.19"
   },
   "engines": {
     "node": ">=16.14.0",
