@@ -141,7 +141,7 @@
     "@hapi/accept": "6.0.3",
     "@jest/transform": "29.7.0",
     "@jest/types": "29.6.3",
-    "@mswjs/interceptors": "0.26.3",
+    "@mswjs/interceptors": "0.26.4",
     "@napi-rs/cli": "2.18.0",
     "@napi-rs/triples": "1.2.0",
     "@next/polyfill-module": "13.4.17",
