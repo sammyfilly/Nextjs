@@ -95,7 +95,7 @@
     "@types/jest": "29.5.12",
     "@types/node": "20.11.19",
     "@types/node-fetch": "2.6.11",
-    "@types/react": "18.2.55",
+    "@types/react": "18.2.56",
     "@types/react-dom": "18.2.19",
     "@types/relay-runtime": "14.1.23",
     "@types/selenium-webdriver": "4.1.21",
@@ -239,7 +239,7 @@
     "@babel/parser": "7.23.9",
     "@babel/types": "7.23.9",
     "@babel/traverse": "7.23.9",
-    "@types/react": "18.2.55",
+    "@types/react": "18.2.56",
     "@types/react-dom": "18.2.19"
   },
   "engines": {
