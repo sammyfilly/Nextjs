@@ -92,7 +92,7 @@ turbopack-binding = { workspace = true, features = [
 url = { workspace = true }
 
 [target.'cfg(unix)'.dev-dependencies]
-nix = "0.27.1"
+nix = "0.28.0"
 
 [build-dependencies]
 turbopack-binding = { workspace = true, features = [
