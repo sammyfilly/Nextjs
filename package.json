@@ -124,7 +124,7 @@
     "cross-env": "7.0.3",
     "cross-spawn": "7.0.3",
     "dd-trace": "4.28.0",
-    "es5-ext": "0.10.62",
+    "es5-ext": "0.10.63",
     "escape-string-regexp": "5.0.0",
     "eslint": "8.56.0",
     "eslint-config-next": "workspace:*",
