@@ -87,8 +87,8 @@ importers:
         specifier: workspace:*
         version: link:packages/third-parties
       '@opentelemetry/api':
-        specifier: 1.7.0
-        version: 1.7.0
+        specifier: 1.8.0
+        version: 1.8.0
       '@svgr/webpack':
         specifier: 8.1.0
         version: 8.1.0(typescript@5.3.3)
@@ -349,7 +349,7 @@ importers:
         version: 5.0.6
       next:
         specifier: workspace:*
-        version: 14.1.1(@babel/core@7.24.0)(@opentelemetry/api@1.7.0)(react-dom@18.2.0)(react@18.2.0)(sass@1.71.1)
+        version: 14.1.1(@babel/core@7.24.0)(@opentelemetry/api@1.8.0)(react-dom@18.2.0)(react@18.2.0)(sass@1.71.1)
       node-fetch:
         specifier: 3.3.2
         version: 3.3.2
@@ -649,7 +649,7 @@ importers:
         version: 8.57.0
       eslint-import-resolver-node:
         specifier: ^0.3.6
-        version: 0.3.6
+        version: 0.3.9
       eslint-import-resolver-typescript:
         specifier: ^3.5.2
         version: 3.5.2(eslint-plugin-import@2.26.0)(eslint@8.57.0)
@@ -839,8 +839,8 @@ importers:
         specifier: 13.4.17
         version: link:../next-swc
       '@opentelemetry/api':
-        specifier: 1.7.0
-        version: 1.7.0
+        specifier: 1.8.0
+        version: 1.8.0
       '@playwright/test':
         specifier: ^1.35.1
         version: 1.35.1
@@ -1444,7 +1444,7 @@ importers:
         version: 1.5.1
       next:
         specifier: '*'
-        version: 14.1.1(@babel/core@7.24.0)(@opentelemetry/api@1.7.0)(react-dom@18.2.0)(react@18.2.0)(sass@1.71.1)
+        version: 14.1.1(@babel/core@7.24.0)(@opentelemetry/api@1.8.0)(react-dom@18.2.0)(react@18.2.0)(sass@1.71.1)
       platform:
         specifier: 1.3.6
         version: 1.3.6
@@ -1517,7 +1517,7 @@ importers:
         version: 4.3.0
       next:
         specifier: '*'
-        version: 14.1.1(@babel/core@7.24.0)(@opentelemetry/api@1.7.0)(react-dom@18.2.0)(react@18.2.0)(sass@1.71.1)
+        version: 14.1.1(@babel/core@7.24.0)(@opentelemetry/api@1.8.0)(react-dom@18.2.0)(react@18.2.0)(sass@1.71.1)
       postcss:
         specifier: 8.4.14
         version: 8.4.14
@@ -1593,7 +1593,7 @@ importers:
     devDependencies:
       next:
         specifier: 13.5.0
-        version: 14.1.1(@babel/core@7.24.0)(@opentelemetry/api@1.7.0)(react-dom@18.2.0)(react@18.2.0)(sass@1.71.1)
+        version: 13.5.0(@babel/core@7.24.0)(@opentelemetry/api@1.8.0)(react-dom@18.2.0)(react@18.2.0)(sass@1.71.1)
       outdent:
         specifier: 0.8.0
         version: 0.8.0
@@ -5337,7 +5337,6 @@ packages:
 
   /@next/env@13.5.0:
     resolution: {integrity: sha512-mxhf/BskjPURT+qEjNP7wBvqre2q6OXEIbydF8BrH+duSSJQnB4/vzzuJDoahYwTXiUaXpouAnMWHZdG0HU62g==}
-    dev: false
 
   /@next/env@14.1.1:
     resolution: {integrity: sha512-7CnQyD5G8shHxQIIg3c7/pSeYFeMhsNbpU/bmvH7ZnDql7mNRgg8O2JZrhrc/soFnfBnKP4/xXNiiSIPn2w8gA==}
@@ -5361,7 +5360,6 @@ packages:
     cpu: [arm64]
     os: [darwin]
     requiresBuild: true
-    dev: false
     optional: true
 
   /@next/swc-darwin-arm64@14.1.1:
@@ -5378,7 +5376,6 @@ packages:
     cpu: [x64]
     os: [darwin]
     requiresBuild: true
-    dev: false
     optional: true
 
   /@next/swc-darwin-x64@14.1.1:
@@ -5395,7 +5392,6 @@ packages:
     cpu: [arm64]
     os: [linux]
     requiresBuild: true
-    dev: false
     optional: true
 
   /@next/swc-linux-arm64-gnu@14.1.1:
@@ -5412,7 +5408,6 @@ packages:
     cpu: [arm64]
     os: [linux]
     requiresBuild: true
-    dev: false
     optional: true
 
   /@next/swc-linux-arm64-musl@14.1.1:
@@ -5429,7 +5424,6 @@ packages:
     cpu: [x64]
     os: [linux]
     requiresBuild: true
-    dev: false
     optional: true
 
   /@next/swc-linux-x64-gnu@14.1.1:
@@ -5446,7 +5440,6 @@ packages:
     cpu: [x64]
     os: [linux]
     requiresBuild: true
-    dev: false
     optional: true
 
   /@next/swc-linux-x64-musl@14.1.1:
@@ -5463,7 +5456,6 @@ packages:
     cpu: [arm64]
     os: [win32]
     requiresBuild: true
-    dev: false
     optional: true
 
   /@next/swc-win32-arm64-msvc@14.1.1:
@@ -5480,7 +5472,6 @@ packages:
     cpu: [ia32]
     os: [win32]
     requiresBuild: true
-    dev: false
     optional: true
 
   /@next/swc-win32-ia32-msvc@14.1.1:
@@ -5497,7 +5488,6 @@ packages:
     cpu: [x64]
     os: [win32]
     requiresBuild: true
-    dev: false
     optional: true
 
   /@next/swc-win32-x64-msvc@14.1.1:
@@ -6161,17 +6151,17 @@ packages:
     engines: {node: '>=8.0.0'}
     dev: false
 
-  /@opentelemetry/api@1.7.0:
-    resolution: {integrity: sha512-AdY5wvN0P2vXBi3b29hxZgSFvdhdxPB9+f0B6s//P9Q8nibRWeA3cHm8UmLpio9ABigkVHJ5NMPk+Mz8VCCyrw==}
+  /@opentelemetry/api@1.8.0:
+    resolution: {integrity: sha512-I/s6F7yKUDdtMsoBWXJe8Qz40Tui5vsuKCWJEWVL+5q9sSWRzzx6v2KeNsOBEwd94j0eWkpWCH4yB6rZg9Mf0w==}
     engines: {node: '>=8.0.0'}
 
-  /@opentelemetry/core@1.22.0(@opentelemetry/api@1.7.0):
+  /@opentelemetry/core@1.22.0(@opentelemetry/api@1.8.0):
     resolution: {integrity: sha512-0VoAlT6x+Xzik1v9goJ3pZ2ppi6+xd3aUfg4brfrLkDBHRIVjMP0eBHrKrhB+NKcDyMAg8fAbGL3Npg/F6AwWA==}
     engines: {node: '>=14'}
     peerDependencies:
       '@opentelemetry/api': '>=1.0.0 <1.9.0'
     dependencies:
-      '@opentelemetry/api': 1.7.0
+      '@opentelemetry/api': 1.8.0
       '@opentelemetry/semantic-conventions': 1.22.0
     dev: true
 
@@ -11146,8 +11136,8 @@ packages:
       '@datadog/native-metrics': 2.0.0
       '@datadog/pprof': 5.0.0
       '@datadog/sketches-js': 2.1.0
-      '@opentelemetry/api': 1.7.0
-      '@opentelemetry/core': 1.22.0(@opentelemetry/api@1.7.0)
+      '@opentelemetry/api': 1.8.0
+      '@opentelemetry/core': 1.22.0(@opentelemetry/api@1.8.0)
       crypto-randomuuid: 1.0.0
       dc-polyfill: 0.1.4
       ignore: 5.3.1
@@ -12127,15 +12117,6 @@ packages:
     engines: {node: '>=12'}
     dev: true
 
-  /eslint-import-resolver-node@0.3.6:
-    resolution: {integrity: sha512-0En0w03NRVMn9Uiyn8YRPDKvWjxCWkslUEhGNTdGx15RvPJYQ+lbOlqrlNI2vEAs4pDYK4f/HN2TbDmk5TP0iw==}
-    dependencies:
-      debug: 3.2.7
-      resolve: 1.22.0
-    transitivePeerDependencies:
-      - supports-color
-    dev: false
-
   /eslint-import-resolver-node@0.3.9:
     resolution: {integrity: sha512-WFj2isz22JahUv+B788TlO3N6zL3nNJGU8CcZbPZvVEkBPaJdCV4vy5wyghty5ROFbCRnm132v8BScu5/1BQ8g==}
     dependencies:
@@ -12144,7 +12125,6 @@ packages:
       resolve: 1.22.8
     transitivePeerDependencies:
       - supports-color
-    dev: true
 
   /eslint-import-resolver-typescript@3.5.2(eslint-plugin-import@2.26.0)(eslint@8.57.0):
     resolution: {integrity: sha512-zX4ebnnyXiykjhcBvKIf5TNvt8K7yX6bllTRZ14MiurKPjDpCAZujlszTdB8pcNXhZcOf+god4s9SjQa5GnytQ==}
@@ -12166,7 +12146,7 @@ packages:
       - supports-color
     dev: false
 
-  /eslint-module-utils@2.7.3(@typescript-eslint/parser@6.1.0)(eslint-import-resolver-node@0.3.6)(eslint-import-resolver-typescript@3.5.2):
+  /eslint-module-utils@2.7.3(@typescript-eslint/parser@6.1.0)(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.5.2):
     resolution: {integrity: sha512-088JEC7O3lDZM9xGe0RerkOMd0EjFl+Yvd1jPWIkMT5u3H9+HC34mWWPnqPrN13gieT9pBOO+Qt07Nb/6TresQ==}
     engines: {node: '>=4'}
     peerDependencies:
@@ -12186,7 +12166,7 @@ packages:
     dependencies:
       '@typescript-eslint/parser': 6.1.0(eslint@8.57.0)(typescript@5.3.3)
       debug: 3.2.7
-      eslint-import-resolver-node: 0.3.6
+      eslint-import-resolver-node: 0.3.9
       eslint-import-resolver-typescript: 3.5.2(eslint-plugin-import@2.26.0)(eslint@8.57.0)
       find-up: 2.1.0
     transitivePeerDependencies:
@@ -12249,8 +12229,8 @@ packages:
       debug: 2.6.9
       doctrine: 2.1.0
       eslint: 8.57.0
-      eslint-import-resolver-node: 0.3.6
-      eslint-module-utils: 2.7.3(@typescript-eslint/parser@6.1.0)(eslint-import-resolver-node@0.3.6)(eslint-import-resolver-typescript@3.5.2)
+      eslint-import-resolver-node: 0.3.9
+      eslint-module-utils: 2.7.3(@typescript-eslint/parser@6.1.0)(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.5.2)
       has: 1.0.3
       is-core-module: 2.9.0
       is-glob: 4.0.3
@@ -14226,12 +14206,6 @@ packages:
       minimalistic-assert: 1.0.1
     dev: true
 
-  /hasown@2.0.0:
-    resolution: {integrity: sha512-vUptKVTpIJhcczKBbgnS+RtcuYMB8+oNzPK2/Hp3hanz8JmpATdmmgLgSaadVREkDm+e2giHwY3ZRkyjSIDDFA==}
-    engines: {node: '>= 0.4'}
-    dependencies:
-      function-bind: 1.1.2
-
   /hasown@2.0.1:
     resolution: {integrity: sha512-1/th4MHjnwncwXsIW6QMzlvYL9kG5e/CpVvLRZe4XPa8TOUNbCELqmvhDmnkNsAjwaG4+I8gJJL0JBvTTLO9qA==}
     engines: {node: '>= 0.4'}
@@ -15158,7 +15132,7 @@ packages:
   /is-core-module@2.13.1:
     resolution: {integrity: sha512-hHrIjvZsftOsvKSn2TRYl63zvxsgE0K+0mYMoH6gD4omR5IWB2KynivBQczo3+wF1cCkjzvptnI9Q0sPU66ilw==}
     dependencies:
-      hasown: 2.0.0
+      hasown: 2.0.1
 
   /is-core-module@2.9.0:
     resolution: {integrity: sha512-+5FPy5PnwmO3lvfMb0AsoPaBG+5KHUI0wYFXOtYPnVVVspTFUuMZNfNaNVRt3FZadstu2c8x23vykRW/NBoU6A==}
@@ -19003,7 +18977,49 @@ packages:
       - babel-plugin-macros
     dev: false
 
-  /next@14.1.1(@babel/core@7.24.0)(@opentelemetry/api@1.7.0)(react-dom@18.2.0)(react@18.2.0)(sass@1.71.1):
+  /next@13.5.0(@babel/core@7.24.0)(@opentelemetry/api@1.8.0)(react-dom@18.2.0)(react@18.2.0)(sass@1.71.1):
+    resolution: {integrity: sha512-mhguN5JPZXhhrD/nNcezXgKoxN8GT8xZvvGhUQV2ETiaNm+KHRWT1rCbrF5FlbG2XCcLRKOmOe3D5YQgXmJrDQ==}
+    engines: {node: '>=16.14.0'}
+    hasBin: true
+    peerDependencies:
+      '@opentelemetry/api': ^1.1.0
+      react: ^18.2.0
+      react-dom: ^18.2.0
+      sass: ^1.3.0
+    peerDependenciesMeta:
+      '@opentelemetry/api':
+        optional: true
+      sass:
+        optional: true
+    dependencies:
+      '@next/env': 13.5.0
+      '@opentelemetry/api': 1.8.0
+      '@swc/helpers': 0.5.2
+      busboy: 1.6.0
+      caniuse-lite: 1.0.30001591
+      postcss: 8.4.14
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+      sass: 1.71.1
+      styled-jsx: 5.1.1(@babel/core@7.24.0)(react@18.2.0)
+      watchpack: 2.4.0
+      zod: 3.21.4
+    optionalDependencies:
+      '@next/swc-darwin-arm64': 13.5.0
+      '@next/swc-darwin-x64': 13.5.0
+      '@next/swc-linux-arm64-gnu': 13.5.0
+      '@next/swc-linux-arm64-musl': 13.5.0
+      '@next/swc-linux-x64-gnu': 13.5.0
+      '@next/swc-linux-x64-musl': 13.5.0
+      '@next/swc-win32-arm64-msvc': 13.5.0
+      '@next/swc-win32-ia32-msvc': 13.5.0
+      '@next/swc-win32-x64-msvc': 13.5.0
+    transitivePeerDependencies:
+      - '@babel/core'
+      - babel-plugin-macros
+    dev: true
+
+  /next@14.1.1(@babel/core@7.24.0)(@opentelemetry/api@1.8.0)(react-dom@18.2.0)(react@18.2.0)(sass@1.71.1):
     resolution: {integrity: sha512-McrGJqlGSHeaz2yTRPkEucxQKe5Zq7uPwyeHNmJaZNY4wx9E9QdxmTp310agFRoMuIYgQrCrT3petg13fSVOww==}
     engines: {node: '>=18.17.0'}
     hasBin: true
@@ -19019,7 +19035,7 @@ packages:
         optional: true
     dependencies:
       '@next/env': 14.1.1
-      '@opentelemetry/api': 1.7.0
+      '@opentelemetry/api': 1.8.0
       '@swc/helpers': 0.5.2
       busboy: 1.6.0
       caniuse-lite: 1.0.30001591
@@ -22959,7 +22975,7 @@ packages:
     resolution: {integrity: sha512-Hhtrw0nLeSrFQ7phPp4OOcVjLPIeMnRlr5mcnVuMe7M/7eBn98A3hmFRLoFo3DLZkivSYwhRUJTyPyWAk56WLw==}
     hasBin: true
     dependencies:
-      is-core-module: 2.13.1
+      is-core-module: 2.9.0
       path-parse: 1.0.7
       supports-preserve-symlinks-flag: 1.0.0
     dev: false
@@ -26577,7 +26593,6 @@ packages:
 
   /zod@3.21.4:
     resolution: {integrity: sha512-m46AKbrzKVzOzs/DZgVnG5H55N1sv1M8qZU3A8RIKbs3mrACDNeIOeilDymVb2HdmP8uwshOCF4uJ8uM9rCqJw==}
-    dev: false
 
   /zod@3.22.4:
     resolution: {integrity: sha512-iC+8Io04lddc+mVqQ9AZ7OQ2MrUKGN+oIQyq1vemgt46jwCwLfhq7/pwnBnNXXXZb8VTVLKwp9EDkx+ryxIWmg==}
