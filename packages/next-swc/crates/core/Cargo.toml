@@ -40,4 +40,4 @@ turbopack-binding = { workspace = true, features = [
   "__swc_testing",
 ] }
 
-walkdir = "2.4.0"
+walkdir = "2.5.0"
