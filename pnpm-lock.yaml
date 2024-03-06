@@ -1233,7 +1233,7 @@ importers:
         version: 0.14.1
       sass-loader:
         specifier: 13.3.3
-        version: 13.3.3(sass@1.54.0)(webpack@5.90.3)
+        version: 13.3.3(sass@1.71.1)(webpack@5.90.3)
       schema-utils2:
         specifier: npm:schema-utils@4.2.0
         version: /schema-utils@4.2.0
@@ -1444,7 +1444,7 @@ importers:
         version: 1.5.1
       next:
         specifier: '*'
-        version: 13.5.0(@babel/core@7.24.0)(@opentelemetry/api@1.8.0)(react-dom@18.2.0)(react@18.2.0)(sass@1.71.1)
+        version: 13.5.6(@babel/core@7.24.0)(@opentelemetry/api@1.8.0)(react-dom@18.2.0)(react@18.2.0)(sass@1.71.1)
       platform:
         specifier: 1.3.6
         version: 1.3.6
@@ -1517,7 +1517,7 @@ importers:
         version: 4.3.0
       next:
         specifier: '*'
-        version: 13.5.0(@babel/core@7.24.0)(@opentelemetry/api@1.8.0)(react-dom@18.2.0)(react@18.2.0)(sass@1.71.1)
+        version: 13.5.6(@babel/core@7.24.0)(@opentelemetry/api@1.8.0)(react-dom@18.2.0)(react@18.2.0)(sass@1.71.1)
       postcss:
         specifier: 8.4.14
         version: 8.4.14
@@ -1593,7 +1593,7 @@ importers:
     devDependencies:
       next:
         specifier: 13.5.0
-        version: 13.5.0(@babel/core@7.24.0)(@opentelemetry/api@1.8.0)(react-dom@18.2.0)(react@18.2.0)(sass@1.71.1)
+        version: 13.5.6(@babel/core@7.24.0)(@opentelemetry/api@1.8.0)(react-dom@18.2.0)(react@18.2.0)(sass@1.71.1)
       outdent:
         specifier: 0.8.0
         version: 0.8.0
@@ -5153,13 +5153,13 @@ packages:
 
   /@next/env@13.5.0:
     resolution: {integrity: sha512-mxhf/BskjPURT+qEjNP7wBvqre2q6OXEIbydF8BrH+duSSJQnB4/vzzuJDoahYwTXiUaXpouAnMWHZdG0HU62g==}
+    dev: false
 
   /@next/env@13.5.6:
     resolution: {integrity: sha512-Yac/bV5sBGkkEXmAX5FWPS9Mmo2rthrOPRQQNfycJPkjUAUclomCPH7QFVCDQ4Mp2k2K1SSM6m0zrxYrOwtFQw==}
-    dev: true
 
-  /@next/react-refresh-utils@13.4.17(react-refresh@0.12.0)(webpack@5.90.3):
-    resolution: {integrity: sha512-AFGHz7Kk9sykLhmMNHzHcYy888PI2hF9DEMOJD2d+ynA7ulAThiC/RAHFn7Q/1Bmju5iUIb3MB7e/eHiVv6/lw==}
+  /@next/react-refresh-utils@13.5.6(react-refresh@0.12.0)(webpack@5.90.3):
+    resolution: {integrity: sha512-/BC8aeXzQULJsTndujxzKjckCdRPPrJBC7DAamWNZ5F/8reRknUGZ2s5416U//nFSp19WDVT8QiAc1HYru+4Ew==}
     peerDependencies:
       react-refresh: 0.12.0
       webpack: 5.90.3
@@ -5177,6 +5177,7 @@ packages:
     cpu: [arm64]
     os: [darwin]
     requiresBuild: true
+    dev: false
     optional: true
 
   /@next/swc-darwin-arm64@13.5.6:
@@ -5185,7 +5186,6 @@ packages:
     cpu: [arm64]
     os: [darwin]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@next/swc-darwin-x64@13.5.0:
@@ -5194,6 +5194,7 @@ packages:
     cpu: [x64]
     os: [darwin]
     requiresBuild: true
+    dev: false
     optional: true
 
   /@next/swc-darwin-x64@13.5.6:
@@ -5202,7 +5203,6 @@ packages:
     cpu: [x64]
     os: [darwin]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@next/swc-linux-arm64-gnu@13.5.0:
@@ -5211,6 +5211,7 @@ packages:
     cpu: [arm64]
     os: [linux]
     requiresBuild: true
+    dev: false
     optional: true
 
   /@next/swc-linux-arm64-gnu@13.5.6:
@@ -5219,7 +5220,6 @@ packages:
     cpu: [arm64]
     os: [linux]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@next/swc-linux-arm64-musl@13.5.0:
@@ -5228,6 +5228,7 @@ packages:
     cpu: [arm64]
     os: [linux]
     requiresBuild: true
+    dev: false
     optional: true
 
   /@next/swc-linux-arm64-musl@13.5.6:
@@ -5236,7 +5237,6 @@ packages:
     cpu: [arm64]
     os: [linux]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@next/swc-linux-x64-gnu@13.5.0:
@@ -5245,6 +5245,7 @@ packages:
     cpu: [x64]
     os: [linux]
     requiresBuild: true
+    dev: false
     optional: true
 
   /@next/swc-linux-x64-gnu@13.5.6:
@@ -5253,7 +5254,6 @@ packages:
     cpu: [x64]
     os: [linux]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@next/swc-linux-x64-musl@13.5.0:
@@ -5262,6 +5262,7 @@ packages:
     cpu: [x64]
     os: [linux]
     requiresBuild: true
+    dev: false
     optional: true
 
   /@next/swc-linux-x64-musl@13.5.6:
@@ -5270,7 +5271,6 @@ packages:
     cpu: [x64]
     os: [linux]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@next/swc-win32-arm64-msvc@13.5.0:
@@ -5279,6 +5279,7 @@ packages:
     cpu: [arm64]
     os: [win32]
     requiresBuild: true
+    dev: false
     optional: true
 
   /@next/swc-win32-arm64-msvc@13.5.6:
@@ -5287,7 +5288,6 @@ packages:
     cpu: [arm64]
     os: [win32]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@next/swc-win32-ia32-msvc@13.5.0:
@@ -5296,6 +5296,7 @@ packages:
     cpu: [ia32]
     os: [win32]
     requiresBuild: true
+    dev: false
     optional: true
 
   /@next/swc-win32-ia32-msvc@13.5.6:
@@ -5304,7 +5305,6 @@ packages:
     cpu: [ia32]
     os: [win32]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@next/swc-win32-x64-msvc@13.5.0:
@@ -5313,6 +5313,7 @@ packages:
     cpu: [x64]
     os: [win32]
     requiresBuild: true
+    dev: false
     optional: true
 
   /@next/swc-win32-x64-msvc@13.5.6:
@@ -5321,7 +5322,6 @@ packages:
     cpu: [x64]
     os: [win32]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@nicolo-ribaudo/eslint-scope-5-internals@5.1.1-v1:
@@ -8592,7 +8592,7 @@ packages:
       chalk: 2.4.2
       normalize-range: 0.1.2
       num2fraction: 1.2.2
-      postcss: 7.0.39
+      postcss: 7.0.32
       postcss-value-parser: 4.2.0
     dev: true
 
@@ -14360,6 +14360,7 @@ packages:
 
   /immutable@4.1.0:
     resolution: {integrity: sha512-oNkuqVTA8jqG1Q6c+UglTOD1xhC1BtjKI7XkCXRkZHrN5m18/XsnUp8Q89GkQO/z+0WjonSvl0FLhDYftp46nQ==}
+    dev: false
 
   /immutable@4.3.5:
     resolution: {integrity: sha512-8eabxkth9gZatlwl5TBuJnCsoTADlL6ftEr7A4qgdaTsPyreilDSnUk57SO+jfKcNtxPa22U5KK6DSeAYhpBJw==}
@@ -18572,6 +18573,7 @@ packages:
     transitivePeerDependencies:
       - '@babel/core'
       - babel-plugin-macros
+    dev: false
 
   /next@13.5.6(@babel/core@7.24.0)(@opentelemetry/api@1.8.0)(react-dom@18.2.0)(react@18.2.0)(sass@1.71.1):
     resolution: {integrity: sha512-Y2wTcTbO4WwEsVb4A8VSnOsG1I9ok+h74q0ZdxkwM3EODqrs4pasq7O0iUxbcS9VtWMicG7f3+HAj0r1+NtKSw==}
@@ -18612,7 +18614,6 @@ packages:
     transitivePeerDependencies:
       - '@babel/core'
       - babel-plugin-macros
-    dev: true
 
   /nice-napi@1.0.2:
     resolution: {integrity: sha512-px/KnJAJZf5RuBGcfD+Sp2pAKq0ytz8j+1NehvgIGFkvtvFrDM3T8E4x/JJODXK9WZow8RRGrbA9QQ3hs+pDhA==}
@@ -20486,7 +20487,7 @@ packages:
     resolution: {integrity: sha512-zS59pAk3deu6dVHyrGqmC3oDXBdNdajk4k1RyxeVXCrcEDBUBHoIhE4QTsmhxgzXxsaqFDAkUZfmMa5f/N/79w==}
     dependencies:
       camelcase-css: 2.0.1
-      postcss: 7.0.39
+      postcss: 7.0.32
     dev: true
 
   /postcss-js@4.0.1(postcss@8.4.35):
@@ -20759,7 +20760,7 @@ packages:
   /postcss-nested@4.2.1:
     resolution: {integrity: sha512-AMayXX8tS0HCp4O4lolp4ygj9wBn32DJWXvG6gCv+ZvJrEa00GUxJcJEEzMh87BIe6FrWdYkpR2cuyqHKrxmXw==}
     dependencies:
-      postcss: 7.0.39
+      postcss: 7.0.32
       postcss-selector-parser: 6.0.10
     dev: true
 
@@ -21343,7 +21344,6 @@ packages:
       nanoid: 3.3.7
       picocolors: 1.0.0
       source-map-js: 1.0.2
-    dev: true
 
   /postcss@8.4.35:
     resolution: {integrity: sha512-u5U8qYpBCpN13BsiEB0CbR1Hhh4Gc0zLFuedrHJKMctHCHAGrMdG0PRM/KErzAL3CU6/eckEtmHNB3x6e3c0vA==}
@@ -22761,7 +22761,7 @@ packages:
       fs-extra: 10.1.0
       resolve: 1.22.8
       rollup: 2.35.1
-      tslib: 2.6.2
+      tslib: 2.5.3
       typescript: 4.9.5
     dev: true
 
@@ -22866,7 +22866,7 @@ packages:
   /safer-buffer@2.1.2:
     resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
 
-  /sass-loader@13.3.3(sass@1.54.0)(webpack@5.90.3):
+  /sass-loader@13.3.3(sass@1.71.1)(webpack@5.90.3):
     resolution: {integrity: sha512-mt5YN2F1MOZr3d/wBRcZxeFgwgkH44wVc2zohO2YF6JiOMkiXe4BYRZpSu2sO1g71mo/j16txzUhsKZlqjVGzA==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
@@ -22886,7 +22886,7 @@ packages:
         optional: true
     dependencies:
       neo-async: 2.6.2
-      sass: 1.54.0
+      sass: 1.71.1
       webpack: 5.90.3(@swc/core@1.4.5)
     dev: true
 
@@ -22898,6 +22898,7 @@ packages:
       chokidar: 3.5.3
       immutable: 4.1.0
       source-map-js: 1.0.2
+    dev: false
 
   /sass@1.71.1:
     resolution: {integrity: sha512-wovtnV2PxzteLlfNzbgm1tFXPLoZILYAMJtvoXXkD7/+1uP41eKkIt1ypWq5/q2uT94qHjXehEYfmjKOvjL9sg==}
@@ -26013,6 +26014,7 @@ packages:
 
   /zod@3.21.4:
     resolution: {integrity: sha512-m46AKbrzKVzOzs/DZgVnG5H55N1sv1M8qZU3A8RIKbs3mrACDNeIOeilDymVb2HdmP8uwshOCF4uJ8uM9rCqJw==}
+    dev: false
 
   /zod@3.22.4:
     resolution: {integrity: sha512-iC+8Io04lddc+mVqQ9AZ7OQ2MrUKGN+oIQyq1vemgt46jwCwLfhq7/pwnBnNXXXZb8VTVLKwp9EDkx+ryxIWmg==}
@@ -26027,7 +26029,7 @@ packages:
     name: '@vercel/turbopack-ecmascript-runtime'
     version: 0.0.0
     dependencies:
-      '@next/react-refresh-utils': 13.4.17(react-refresh@0.12.0)(webpack@5.90.3)
+      '@next/react-refresh-utils': 13.5.6(react-refresh@0.12.0)(webpack@5.90.3)
       '@types/node': 20.11.24
     transitivePeerDependencies:
       - react-refresh
