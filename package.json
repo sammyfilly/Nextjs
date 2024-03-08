@@ -120,7 +120,7 @@
     "cors": "2.8.5",
     "coveralls": "3.1.1",
     "create-next-app": "workspace:*",
-    "critters": "0.0.21",
+    "critters": "0.0.22",
     "cross-env": "7.0.3",
     "cross-spawn": "7.0.3",
     "dd-trace": "5.5.0",
