@@ -185,7 +185,7 @@
     "postcss-trolling": "0.1.7",
     "prettier": "3.2.5",
     "pretty-bytes": "6.1.1",
-    "pretty-ms": "8.0.0",
+    "pretty-ms": "9.0.0",
     "random-seed": "0.3.0",
     "react": "18.2.0",
     "react-17": "npm:react@18.2.0",
