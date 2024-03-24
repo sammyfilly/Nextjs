@@ -178,7 +178,7 @@
     "playwright-chromium": "1.42.1",
     "playwright-core": "1.42.1",
     "plop": "4.0.1",
-    "postcss": "8.4.36",
+    "postcss": "8.4.38",
     "postcss-nested": "6.0.1",
     "postcss-pseudoelements": "5.0.0",
     "postcss-short-size": "4.0.0",
