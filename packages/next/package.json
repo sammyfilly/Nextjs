@@ -231,7 +231,7 @@
     "find-up": "7.0.0",
     "fresh": "0.5.2",
     "get-orientation": "1.1.2",
-    "glob": "10.3.10",
+    "glob": "10.3.12",
     "gzip-size": "7.0.0",
     "http-proxy": "1.18.1",
     "http-proxy-agent": "7.0.2",
