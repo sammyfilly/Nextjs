@@ -16,7 +16,7 @@
     "semver": "7.6.0"
   },
   "devDependencies": {
-    "typescript": "5.4.2"
+    "typescript": "5.4.3"
   },
   "engines": {
     "node": ">=16.8.0",
