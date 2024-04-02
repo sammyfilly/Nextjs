@@ -194,7 +194,7 @@
     "@vercel/nft": "0.26.4",
     "acorn": "8.11.3",
     "ajv": "8.12.0",
-    "amphtml-validator": "1.0.36",
+    "amphtml-validator": "1.0.38",
     "anser": "2.1.1",
     "arg": "5.0.2",
     "assert": "2.1.0",
