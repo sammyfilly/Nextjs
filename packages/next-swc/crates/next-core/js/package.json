@@ -26,7 +26,7 @@
     "@types/node": "^20.8.3",
     "@types/platform": "^1.3.4",
     "@types/react": "18.2.74",
-    "@types/react-dom": "18.2.23",
+    "@types/react-dom": "18.2.24",
     "@vercel/ncc": "^0.38.0",
     "find-up": "^7.0.0"
   }
