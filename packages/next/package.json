@@ -303,7 +303,7 @@
     "timers-browserify": "2.0.12",
     "tty-browserify": "0.0.1",
     "ua-parser-js": "1.0.37",
-    "undici": "6.9.0",
+    "undici": "6.11.1",
     "unistore": "3.5.2",
     "util": "0.12.5",
     "uuid": "9.0.1",
