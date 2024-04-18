@@ -21,7 +21,7 @@
     "typescript": "tsec --noEmit -p tsconfig.json"
   },
   "dependencies": {
-    "third-party-capital": "1.0.26"
+    "third-party-capital": "1.0.28"
   },
   "devDependencies": {
     "next": "13.5.0",
