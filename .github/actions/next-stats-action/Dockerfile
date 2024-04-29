@@ -1,4 +1,4 @@
-FROM ubuntu:22.04
+FROM ubuntu:24.04
 
 LABEL com.github.actions.name="Next.js PR Stats"
 LABEL com.github.actions.description="Compares stats of a PR with the main branch"
