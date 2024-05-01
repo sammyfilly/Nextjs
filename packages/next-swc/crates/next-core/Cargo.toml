@@ -12,7 +12,7 @@ bench = false
 anyhow = { workspace = true }
 async-recursion = { workspace = true }
 async-trait = { workspace = true }
-base64 = "0.22.0"
+base64 = "0.22.1"
 const_format = "0.2.32"
 once_cell = { workspace = true }
 qstring = { workspace = true }
