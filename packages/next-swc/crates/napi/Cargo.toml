@@ -31,7 +31,7 @@ __internal_dhat-ad-hoc = ["dhat"]
 
 [dependencies]
 anyhow = "1.0.82"
-backtrace = "0.3"
+backtrace = "0.3.71"
 fxhash = "0.2.1"
 dhat = { workspace = true, optional = true }
 napi = { version = "2", default-features = false, features = [
