@@ -11,7 +11,7 @@ plugin = ["turbopack-binding/__swc_core_binding_napi_plugin"]
 chrono = "0.4.38"
 convert_case = "0.6.0"
 easy-error = "1.0.0"
-either = "1"
+either = "1.11.0"
 fxhash = "0.2.1"
 hex = "0.4.3"
 once_cell = { workspace = true }
