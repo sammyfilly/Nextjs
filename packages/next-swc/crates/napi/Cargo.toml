@@ -40,7 +40,7 @@ napi = { version = "2.16.4", default-features = false, features = [
   "tokio_rt",
   "error_anyhow",
 ] }
-napi-derive = "2"
+napi-derive = "2.16.3"
 next-swc = { version = "0.0.0", path = "../core" }
 next-dev = { workspace = true }
 next-api = { workspace = true }
