@@ -142,7 +142,7 @@
     "@jest/transform": "29.7.0",
     "@jest/types": "29.6.3",
     "@mswjs/interceptors": "0.29.1",
-    "@napi-rs/cli": "2.18.2",
+    "@napi-rs/cli": "2.18.3",
     "@napi-rs/triples": "1.2.0",
     "@next/polyfill-module": "13.4.17",
     "@next/polyfill-nomodule": "13.4.17",
