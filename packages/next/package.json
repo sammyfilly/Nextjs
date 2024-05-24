@@ -251,7 +251,7 @@
     "loader-utils3": "npm:loader-utils@3.2.1",
     "lodash.curry": "4.1.1",
     "lru-cache": "10.2.2",
-    "micromatch": "4.0.5",
+    "micromatch": "4.0.7",
     "mini-css-extract-plugin": "2.9.0",
     "msw": "^2.0.0",
     "nanoid": "5.0.7",
