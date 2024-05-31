@@ -222,7 +222,7 @@
     "css.escape": "1.5.1",
     "cssnano-preset-default": "7.0.1",
     "data-uri-to-buffer": "6.0.2",
-    "debug": "4.3.4",
+    "debug": "4.3.5",
     "devalue": "4.3.3",
     "domain-browser": "5.7.0",
     "edge-runtime": "2.5.10",
