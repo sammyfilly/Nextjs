@@ -248,7 +248,7 @@
     "jsonwebtoken": "9.0.2",
     "loader-runner": "4.3.0",
     "loader-utils2": "npm:loader-utils@3.2.2",
-    "loader-utils3": "npm:loader-utils@3.2.1",
+    "loader-utils3": "npm:loader-utils@3.2.2",
     "lodash.curry": "4.1.1",
     "lru-cache": "10.2.2",
     "micromatch": "4.0.7",
