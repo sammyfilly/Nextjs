@@ -228,7 +228,7 @@
     "webpack": "5.92.0",
     "webpack-bundle-analyzer": "4.10.2",
     "whatwg-fetch": "3.6.20",
-    "ws": "8.17.0"
+    "ws": "8.17.1"
   },
   "resolutions": {
     "webpack": "5.92.0",
