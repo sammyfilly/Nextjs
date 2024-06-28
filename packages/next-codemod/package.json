@@ -11,7 +11,7 @@
     "cheerio": "1.0.0-rc.12",
     "execa": "9.3.0",
     "globby": "14.0.1",
-    "inquirer": "9.2.23",
+    "inquirer": "9.3.1",
     "is-git-clean": "1.1.0",
     "jscodeshift": "0.16.0",
     "meow": "13.2.0",
