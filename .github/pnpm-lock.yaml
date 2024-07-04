@@ -129,7 +129,7 @@ importers:
         version: 6.0.0
       '@slack/web-api':
         specifier: ^7.0.0
-        version: 7.2.0
+        version: 7.3.1
     devDependencies:
       '@vercel/ncc':
         specifier: 0.38.1
@@ -277,8 +277,8 @@ packages:
     resolution: {integrity: sha512-yFewzUomYZ2BYaGJidPuIgjoYj5wqPDmi7DLSaGIkf+rCi4YZ2Z3DaiYIbz7qb/PL2NmamWjCvB7e9ArI5HkKg==}
     engines: {node: '>= 12.13.0', npm: '>= 6.12.0'}
 
-  '@slack/web-api@7.2.0':
-    resolution: {integrity: sha512-Dicpm9h/M9gZXHVlsDurUxQOzhh5QDZ6jahnsYRl9ZLAD58SPfgZdlS5a6Rz3zs82RnYWhNVjMW+pMLysetgRw==}
+  '@slack/web-api@7.3.1':
+    resolution: {integrity: sha512-n2KfnlqjaPJ5y98nU5Nn0UwTIxafLwQSQIOLpsQXKGYDF24S/ap5Ebv+ifVMtY+vIJBqj1q2+l3W9bpFHeiJ2A==}
     engines: {node: '>= 18', npm: '>= 8.6.0'}
 
   '@types/debug@4.1.12':
@@ -1016,7 +1016,7 @@ snapshots:
 
   '@slack/types@2.12.0': {}
 
-  '@slack/web-api@7.2.0':
+  '@slack/web-api@7.3.1':
     dependencies:
       '@slack/logger': 4.0.0
       '@slack/types': 2.12.0
