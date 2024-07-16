@@ -225,13 +225,13 @@
     "typescript": "5.5.3",
     "unfetch": "5.0.0",
     "wait-port": "1.1.0",
-    "webpack": "5.92.1",
+    "webpack": "5.93.0",
     "webpack-bundle-analyzer": "4.10.2",
     "whatwg-fetch": "3.6.20",
     "ws": "8.18.0"
   },
   "resolutions": {
-    "webpack": "5.92.1",
+    "webpack": "5.93.0",
     "browserslist": "4.23.2",
     "caniuse-lite": "1.0.30001642",
     "@types/node": "20.14.10",
