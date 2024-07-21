@@ -179,7 +179,7 @@
     "playwright-core": "1.45.1",
     "plop": "4.0.1",
     "postcss": "8.4.39",
-    "postcss-nested": "6.0.1",
+    "postcss-nested": "6.2.0",
     "postcss-pseudoelements": "5.0.0",
     "postcss-short-size": "4.0.0",
     "postcss-trolling": "0.1.7",
