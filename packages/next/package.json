@@ -225,7 +225,7 @@
     "debug": "4.3.6",
     "devalue": "5.0.0",
     "domain-browser": "5.7.0",
-    "edge-runtime": "3.0.1",
+    "edge-runtime": "2.5.10",
     "events": "3.3.0",
     "find-cache-dir": "5.0.0",
     "find-up": "7.0.0",
