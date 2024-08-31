@@ -84,7 +84,7 @@
     "@swc/cli": "0.4.0",
     "@swc/core": "1.7.22",
     "@swc/helpers": "0.5.12",
-    "@testing-library/react": "16.0.0",
+    "@testing-library/react": "16.0.1",
     "@types/cheerio": "0.22.35",
     "@types/cookie": "0.6.0",
     "@types/cross-spawn": "6.0.6",
