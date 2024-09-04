@@ -191,7 +191,7 @@
     "@types/webpack-sources1": "npm:@types/webpack-sources@3.2.3",
     "@types/ws": "8.5.12",
     "@vercel/ncc": "0.38.1",
-    "@vercel/nft": "0.27.3",
+    "@vercel/nft": "0.27.4",
     "acorn": "8.12.1",
     "ajv": "8.17.1",
     "amphtml-validator": "1.0.38",
