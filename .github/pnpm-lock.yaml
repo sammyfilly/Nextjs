@@ -22,8 +22,8 @@ importers:
         specifier: 0.38.1
         version: 0.38.1
       typescript:
-        specifier: 5.5.4
-        version: 5.5.4
+        specifier: 5.6.2
+        version: 5.6.2
 
   actions/issue-validator:
     dependencies:
@@ -38,8 +38,8 @@ importers:
         specifier: 0.38.1
         version: 0.38.1
       typescript:
-        specifier: 5.5.4
-        version: 5.5.4
+        specifier: 5.6.2
+        version: 5.6.2
 
   actions/minus-one:
     dependencies:
@@ -73,8 +73,8 @@ importers:
         specifier: 0.38.1
         version: 0.38.1
       typescript:
-        specifier: 5.5.4
-        version: 5.5.4
+        specifier: 5.6.2
+        version: 5.6.2
 
   actions/next-stats-action:
     dependencies:
@@ -116,8 +116,8 @@ importers:
         version: 7.6.3
     devDependencies:
       typescript:
-        specifier: 5.5.4
-        version: 5.5.4
+        specifier: 5.6.2
+        version: 5.6.2
 
   actions/pr-approved-open:
     dependencies:
@@ -172,8 +172,8 @@ importers:
         specifier: 0.38.1
         version: 0.38.1
       typescript:
-        specifier: 5.5.4
-        version: 5.5.4
+        specifier: 5.6.2
+        version: 5.6.2
 
 packages:
 
@@ -456,6 +456,7 @@ packages:
   follow-redirects@1.15.8:
     resolution: {integrity: sha512-xgrmBhBToVKay1q2Tao5LI26B83UhrB/vM1avwVSDzt8rx3rO6AizBAaF46EgksTVr+rFTQaqZZ9MVBfUe4nig==}
     engines: {node: '>=4.0'}
+    deprecated: Browser detection issues fixed in v1.15.9
     peerDependencies:
       debug: '*'
     peerDependenciesMeta:
@@ -817,8 +818,8 @@ packages:
     resolution: {integrity: sha512-1h/Lnq9yajKY2PEbBadPXj3VxsDDu844OnaAo52UVmIzIvwwtBPIuNvkjuzBlTWpfJyUbG3ez0KSBibQkj4ojg==}
     engines: {node: '>=0.6.11 <=0.7.0 || >=0.7.3'}
 
-  typescript@5.5.4:
-    resolution: {integrity: sha512-Mtq29sKDAEYP7aljRgtPOpTvOfbwRWlS6dPRzwjdE+C0R4brX/GUyhHSecbHMFLNBLcJIPt9nl9yG5TZ1weH+Q==}
+  typescript@5.6.2:
+    resolution: {integrity: sha512-NW8ByodCSNCwZeghjN3o+JX5OFH0Ojg6sadjEKY4huZ52TqbJTJnDo5+Tw98lSy63NZvi4n+ez5m2u5d4PkZyw==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -1659,7 +1660,7 @@ snapshots:
 
   tunnel@0.0.6: {}
 
-  typescript@5.5.4: {}
+  typescript@5.6.2: {}
 
   undici-types@6.19.8: {}
 
