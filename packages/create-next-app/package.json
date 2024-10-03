@@ -29,7 +29,7 @@
     "lint-fix": "pnpm prettier -w --plugin prettier-plugin-tailwindcss 'templates/*-tw/{ts,js}/{app,pages}/**/*.{js,ts,tsx}'"
   },
   "devDependencies": {
-    "@types/async-retry": "1.4.8",
+    "@types/async-retry": "1.4.9",
     "@types/ci-info": "3.1.0",
     "@types/cross-spawn": "6.0.6",
     "@types/node": "^20.2.5",
