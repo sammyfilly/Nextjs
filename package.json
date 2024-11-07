@@ -197,7 +197,7 @@
     "react-experimental-builtin": "npm:react@18.3.1",
     "react-server-dom-webpack": "18.3.0-next-fecc288b7-20221025",
     "react-server-dom-webpack-experimental": "npm:react-server-dom-webpack@0.0.1",
-    "react-ssr-prepass": "1.5.0",
+    "react-ssr-prepass": "1.6.0",
     "react-virtualized": "9.22.5",
     "relay-compiler": "17.0.0",
     "relay-runtime": "16.2.0",
