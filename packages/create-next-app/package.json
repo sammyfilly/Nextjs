@@ -38,7 +38,7 @@
     "@types/validate-npm-package-name": "4.0.2",
     "@vercel/ncc": "0.38.2",
     "async-retry": "1.3.3",
-    "ci-info": "watson/ci-info#3e1488e98680f1f776785fe8708a157b7f00e568",
+    "ci-info": "watson/ci-info#7410985d097182417ca78765a9ec3c89fe4617e6",
     "commander": "12.1.0",
     "conf": "13.0.1",
     "cross-spawn": "7.0.5",
