@@ -9,7 +9,7 @@
     "build": "ncc -m -o . build src/index.mjs --license licenses.txt"
   },
   "devDependencies": {
-    "@vercel/ncc": "0.38.2"
+    "@vercel/ncc": "0.38.3"
   },
   "dependencies": {
     "@actions/core": "1.11.1",

@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "@types/github-slugger": "^2.0.0",
-    "@vercel/ncc": "0.38.2",
+    "@vercel/ncc": "0.38.3",
     "typescript": "5.6.3"
   },
   "dependencies": {
