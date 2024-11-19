@@ -217,7 +217,7 @@
     "content-disposition": "0.5.4",
     "content-type": "1.0.5",
     "cookie": "0.7.2",
-    "cross-spawn": "7.0.5",
+    "cross-spawn": "7.0.6",
     "crypto-browserify": "3.12.1",
     "css.escape": "1.5.1",
     "cssnano-preset-default": "7.0.6",
