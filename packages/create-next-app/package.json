@@ -41,7 +41,7 @@
     "ci-info": "watson/ci-info#ae7d0a9e6604a697c76679abebebcec1ab5d6159",
     "commander": "12.1.0",
     "conf": "13.0.1",
-    "cross-spawn": "7.0.5",
+    "cross-spawn": "7.0.6",
     "fast-glob": "3.3.2",
     "got": "14.4.4",
     "picocolors": "1.1.1",
