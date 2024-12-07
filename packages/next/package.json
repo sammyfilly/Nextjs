@@ -132,7 +132,7 @@
     "@babel/preset-react": "7.26.3",
     "@babel/preset-typescript": "7.26.0",
     "@babel/runtime": "7.26.0",
-    "@babel/traverse": "7.26.3",
+    "@babel/traverse": "7.26.4",
     "@babel/types": "7.26.3",
     "@capsizecss/metrics": "3.4.0",
     "@edge-runtime/cookies": "5.0.2",
