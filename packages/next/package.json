@@ -281,7 +281,7 @@
     "react-refresh": "0.16.0",
     "regenerator-runtime": "0.14.1",
     "sass-loader": "14.2.1",
-    "schema-utils2": "npm:schema-utils@4.2.0",
+    "schema-utils2": "npm:schema-utils@4.3.0",
     "schema-utils3": "npm:schema-utils@4.2.0",
     "semver": "7.6.3",
     "send": "0.19.1",
