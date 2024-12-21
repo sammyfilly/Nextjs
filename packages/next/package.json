@@ -302,7 +302,7 @@
     "text-table": "0.2.0",
     "timers-browserify": "2.0.12",
     "tty-browserify": "0.0.1",
-    "ua-parser-js": "1.0.39",
+    "ua-parser-js": "1.0.40",
     "undici": "6.21.0",
     "unistore": "3.5.2",
     "util": "0.12.5",
