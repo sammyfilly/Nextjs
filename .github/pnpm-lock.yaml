@@ -17,7 +17,7 @@ importers:
     devDependencies:
       '@types/node':
         specifier: ^22.0.0
-        version: 22.10.5
+        version: 22.10.6
       '@vercel/ncc':
         specifier: 0.38.3
         version: 0.38.3
@@ -68,7 +68,7 @@ importers:
     devDependencies:
       '@types/node':
         specifier: ^22.0.0
-        version: 22.10.5
+        version: 22.10.6
       '@vercel/ncc':
         specifier: 0.38.3
         version: 0.38.3
@@ -305,8 +305,8 @@ packages:
   '@types/ms@0.7.34':
     resolution: {integrity: sha512-nG96G3Wp6acyAgJqGasjODb+acrI7KltPiRxzHPXnP3NgI28bpQDRv53olbqGXbfcgF5aiiHmO3xpwEpS5Ld9g==}
 
-  '@types/node@22.10.5':
-    resolution: {integrity: sha512-F8Q+SeGimwOo86fiovQh8qiXfFEh2/ocYv7tU5pJ3EXMSSxk1Joj5wefpFK2fHTf/N6HKGSxIDBT9f3gCxXPkQ==}
+  '@types/node@22.10.6':
+    resolution: {integrity: sha512-qNiuwC4ZDAUNcY47xgaSuS92cjf8JbSUoaKS77bmLG1rU7MlATVSiw/IlrjtIyyskXBZ8KkNfjK/P5na7rgXbQ==}
 
   '@types/retry@0.12.0':
     resolution: {integrity: sha512-wWKOClTTiizcZhXnPY4wikVAwmdYHp8q6DmC+EJUzAMsycb7HB32Kh9RN4+0gExjmPmZSAQjgURXIGATPegAvA==}
@@ -1040,7 +1040,7 @@ snapshots:
 
   '@slack/logger@4.0.0':
     dependencies:
-      '@types/node': 22.10.5
+      '@types/node': 22.10.6
 
   '@slack/types@2.14.0': {}
 
@@ -1048,7 +1048,7 @@ snapshots:
     dependencies:
       '@slack/logger': 4.0.0
       '@slack/types': 2.14.0
-      '@types/node': 22.10.5
+      '@types/node': 22.10.6
       '@types/retry': 0.12.0
       axios: 1.7.9
       eventemitter3: 5.0.1
@@ -1079,7 +1079,7 @@ snapshots:
 
   '@types/ms@0.7.34': {}
 
-  '@types/node@22.10.5':
+  '@types/node@22.10.6':
     dependencies:
       undici-types: 6.20.0
 
